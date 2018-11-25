@@ -1,0 +1,16 @@
+export const primary = '#1a73e8'
+export const danger = '#e34160'
+
+export const white = '#ffffff'
+export const dark = '#555555'
+export const darker = '#383838'
+export const darkest = '#222222'
+export const black = '#000000'
+
+export const greyLightest = '#f5f5f5'
+export const greyLighter = '#dcdcdc'
+export const greyLight = '#d3d3d3'
+export const grey = '#c0c0c0'
+export const greyDark = '#a9a9a9'
+export const greyDarker = '#808080'
+export const greyDarkest = '#696969'
