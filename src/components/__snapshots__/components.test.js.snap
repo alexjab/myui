@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> Danger 1`] = `
+exports[`Story of <Button /> Danger 1`] = `
 .c0 {
   height: 32px;
   background-color: #e34160;
@@ -34,7 +34,7 @@ exports[`<Button /> Danger 1`] = `
 </button>
 `;
 
-exports[`<Button /> Danger inverted 1`] = `
+exports[`Story of <Button /> Danger inverted 1`] = `
 .c0 {
   height: 32px;
   background-color: #ffffff;
@@ -68,7 +68,7 @@ exports[`<Button /> Danger inverted 1`] = `
 </button>
 `;
 
-exports[`<Button /> Danger large 1`] = `
+exports[`Story of <Button /> Danger large 1`] = `
 .c0 {
   height: 40px;
   background-color: #e34160;
@@ -102,7 +102,7 @@ exports[`<Button /> Danger large 1`] = `
 </button>
 `;
 
-exports[`<Button /> Danger large inverted 1`] = `
+exports[`Story of <Button /> Danger large inverted 1`] = `
 .c0 {
   height: 40px;
   background-color: #ffffff;
@@ -136,7 +136,7 @@ exports[`<Button /> Danger large inverted 1`] = `
 </button>
 `;
 
-exports[`<Button /> Danger large outlined 1`] = `
+exports[`Story of <Button /> Danger large outlined 1`] = `
 .c0 {
   height: 40px;
   background-color: #ffffff;
@@ -170,7 +170,7 @@ exports[`<Button /> Danger large outlined 1`] = `
 </button>
 `;
 
-exports[`<Button /> Danger outlined 1`] = `
+exports[`Story of <Button /> Danger outlined 1`] = `
 .c0 {
   height: 32px;
   background-color: #ffffff;
@@ -204,7 +204,7 @@ exports[`<Button /> Danger outlined 1`] = `
 </button>
 `;
 
-exports[`<Button /> Disabled 1`] = `
+exports[`Story of <Button /> Disabled 1`] = `
 .c0 {
   height: 32px;
   background-color: #f5f5f5;
@@ -239,7 +239,7 @@ exports[`<Button /> Disabled 1`] = `
 </button>
 `;
 
-exports[`<Button /> Disabled inverted 1`] = `
+exports[`Story of <Button /> Disabled inverted 1`] = `
 .c0 {
   height: 32px;
   background-color: #f5f5f5;
@@ -274,7 +274,7 @@ exports[`<Button /> Disabled inverted 1`] = `
 </button>
 `;
 
-exports[`<Button /> Disabled large 1`] = `
+exports[`Story of <Button /> Disabled large 1`] = `
 .c0 {
   height: 40px;
   background-color: #f5f5f5;
@@ -309,7 +309,7 @@ exports[`<Button /> Disabled large 1`] = `
 </button>
 `;
 
-exports[`<Button /> Disabled outlined 1`] = `
+exports[`Story of <Button /> Disabled outlined 1`] = `
 .c0 {
   height: 32px;
   background-color: #f5f5f5;
@@ -344,7 +344,7 @@ exports[`<Button /> Disabled outlined 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary 1`] = `
+exports[`Story of <Button /> Primary 1`] = `
 .c0 {
   height: 32px;
   background-color: #1a73e8;
@@ -378,7 +378,7 @@ exports[`<Button /> Primary 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary inverted 1`] = `
+exports[`Story of <Button /> Primary inverted 1`] = `
 .c0 {
   height: 32px;
   background-color: #ffffff;
@@ -412,7 +412,7 @@ exports[`<Button /> Primary inverted 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary inverted disabled 1`] = `
+exports[`Story of <Button /> Primary inverted disabled 1`] = `
 .c0 {
   height: 32px;
   background-color: #f5f5f5;
@@ -447,7 +447,7 @@ exports[`<Button /> Primary inverted disabled 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary large 1`] = `
+exports[`Story of <Button /> Primary large 1`] = `
 .c0 {
   height: 40px;
   background-color: #1a73e8;
@@ -481,7 +481,7 @@ exports[`<Button /> Primary large 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary large inverted 1`] = `
+exports[`Story of <Button /> Primary large inverted 1`] = `
 .c0 {
   height: 40px;
   background-color: #ffffff;
@@ -515,7 +515,7 @@ exports[`<Button /> Primary large inverted 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary large outlined 1`] = `
+exports[`Story of <Button /> Primary large outlined 1`] = `
 .c0 {
   height: 40px;
   background-color: #ffffff;
@@ -549,7 +549,7 @@ exports[`<Button /> Primary large outlined 1`] = `
 </button>
 `;
 
-exports[`<Button /> Primary outlined 1`] = `
+exports[`Story of <Button /> Primary outlined 1`] = `
 .c0 {
   height: 32px;
   background-color: #ffffff;
@@ -583,7 +583,7 @@ exports[`<Button /> Primary outlined 1`] = `
 </button>
 `;
 
-exports[`<Core /> Black and white 1`] = `
+exports[`Story of <Core /> Black and white 1`] = `
 Array [
   .c0 {
   border-top: 1px solid #dcdcdc;
@@ -898,7 +898,7 @@ Array [
 ]
 `;
 
-exports[`<Core /> Colors 1`] = `
+exports[`Story of <Core /> Colors 1`] = `
 Array [
   .c0 {
   border-top: 1px solid #dcdcdc;
@@ -1027,7 +1027,7 @@ Array [
 ]
 `;
 
-exports[`<Core /> Greys 1`] = `
+exports[`Story of <Core /> Greys 1`] = `
 Array [
   .c0 {
   border-top: 1px solid #dcdcdc;
@@ -1466,7 +1466,7 @@ Array [
 ]
 `;
 
-exports[`<Table /> Table 1`] = `
+exports[`Story of <Table /> Table 1`] = `
 .c0 {
   width: 100%;
   border-collapse: collapse;
@@ -3214,7 +3214,7 @@ exports[`<Table /> Table 1`] = `
 </table>
 `;
 
-exports[`<Tabs /> Tabs 1`] = `
+exports[`Story of <Tabs /> Tabs 1`] = `
 .c0 {
   border-bottom: 1px solid #dcdcdc;
   display: -webkit-box;
