@@ -16,7 +16,7 @@ class BaseTabs extends React.Component {
   }
 
   render() {
-    const { children, className } = this.props
+    const { children, className, theme } = this.props
     const { selected } = this.state
 
     return (
@@ -26,6 +26,7 @@ class BaseTabs extends React.Component {
             index,
             isSelected: selected === index,
             selectTab: this.selectTab,
+            theme,
           })
         )}
       </div>

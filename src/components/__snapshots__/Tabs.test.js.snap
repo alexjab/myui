@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> Select a tab 1`] = `
+.c0 {
+  border-bottom: 1px solid #dcdcdc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  padding: 10px;
+  border-bottom: 3px solid #1a73e8;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  padding: 10px;
+  color: #a9a9a9;
+  border-bottom: none;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    #1 Tab
+  </div>
+  <div
+    className="c2"
+    onClick={[Function]}
+  >
+    #2 Tab
+  </div>
+</div>
+`;
+
+exports[`<Tabs /> Select a tab 2`] = `
+.c0 {
+  border-bottom: 1px solid #dcdcdc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  padding: 10px;
+  border-bottom: 3px solid #1a73e8;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 {
+  padding: 10px;
+  color: #a9a9a9;
+  border-bottom: none;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    #1 Tab
+  </div>
+  <div
+    className="c2"
+    onClick={[Function]}
+  >
+    #2 Tab
+  </div>
+</div>
+`;
