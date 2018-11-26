@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import defaultTheme from 'core/themes'
+import defaultTheme from '../core/themes'
 
 const DefaultTheme = ({ children }) => (
   <ThemeProvider theme={defaultTheme}>

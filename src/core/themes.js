@@ -1,4 +1,4 @@
-import * as colors from 'core/colors'
+import * as colors from './colors'
 
 const defaultTheme = {
   fontFamily: 'Inter UI, sans-serif',

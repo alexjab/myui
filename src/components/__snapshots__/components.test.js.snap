@@ -1,0 +1,3282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Danger 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #e34160;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #e54c69;
+}
+
+.c0:active {
+  background-color: #ea6d85;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Move to trash
+</button>
+`;
+
+exports[`<Button /> Danger inverted 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #ffffff;
+  color: #e34160;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #fceaed;
+}
+
+.c0:active {
+  background-color: #f8cfd7;
+  color: #e34160;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Move to trash
+</button>
+`;
+
+exports[`<Button /> Danger large 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #e34160;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #e54c69;
+}
+
+.c0:active {
+  background-color: #ea6d85;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Move to trash
+</button>
+`;
+
+exports[`<Button /> Danger large inverted 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #ffffff;
+  color: #e34160;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #fceaed;
+}
+
+.c0:active {
+  background-color: #f8cfd7;
+  color: #e34160;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Move to trash
+</button>
+`;
+
+exports[`<Button /> Danger large outlined 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #ffffff;
+  color: #e34160;
+  border: 1px solid #e34160;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #fdf3f5;
+}
+
+.c0:active {
+  background-color: #fbe5ea;
+  color: #e34160;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Move to trash
+</button>
+`;
+
+exports[`<Button /> Danger outlined 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #ffffff;
+  color: #e34160;
+  border: 1px solid #e34160;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #fdf3f5;
+}
+
+.c0:active {
+  background-color: #fbe5ea;
+  color: #e34160;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Move to trash
+</button>
+`;
+
+exports[`<Button /> Disabled 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #f5f5f5;
+  color: #808080;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #f5f5f5;
+  color: #808080;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Disabled inverted 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #f5f5f5;
+  color: #808080;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #f5f5f5;
+  color: #808080;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Disabled large 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #f5f5f5;
+  color: #808080;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #f5f5f5;
+  color: #808080;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Disabled outlined 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #f5f5f5;
+  color: #808080;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #f5f5f5;
+  color: #808080;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #267ae9;
+}
+
+.c0:active {
+  background-color: #488fed;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary inverted 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #ebf2fd;
+}
+
+.c0:active {
+  background-color: #d3e4fb;
+  color: #1a73e8;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary inverted disabled 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #f5f5f5;
+  color: #808080;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #f5f5f5;
+  color: #808080;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary large 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #267ae9;
+}
+
+.c0:active {
+  background-color: #488fed;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary large inverted 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #ebf2fd;
+}
+
+.c0:active {
+  background-color: #d3e4fb;
+  color: #1a73e8;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary large outlined 1`] = `
+.c0 {
+  height: 40px;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f4f8fe;
+}
+
+.c0:active {
+  background-color: #ebf2fd;
+  color: #1a73e8;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Button /> Primary outlined 1`] = `
+.c0 {
+  height: 32px;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f4f8fe;
+}
+
+.c0:active {
+  background-color: #ebf2fd;
+  color: #1a73e8;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
+exports[`<Core /> Black and white 1`] = `
+Array [
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#ffffff"
+    />
+    <div
+      className="c2"
+    >
+      #FFFFFF
+    </div>
+    <div
+      className="c3"
+    >
+      White
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #555555;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#555555"
+    />
+    <div
+      className="c2"
+    >
+      #555555
+    </div>
+    <div
+      className="c3"
+    >
+      Dark
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #383838;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#383838"
+    />
+    <div
+      className="c2"
+    >
+      #383838
+    </div>
+    <div
+      className="c3"
+    >
+      Darker
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #222222;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#222222"
+    />
+    <div
+      className="c2"
+    >
+      #222222
+    </div>
+    <div
+      className="c3"
+    >
+      Darkest
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#000000"
+    />
+    <div
+      className="c2"
+    >
+      #000000
+    </div>
+    <div
+      className="c3"
+    >
+      Black
+    </div>
+  </div>,
+]
+`;
+
+exports[`<Core /> Colors 1`] = `
+Array [
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #1a73e8;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#1a73e8"
+    />
+    <div
+      className="c2"
+    >
+      #1A73E8
+    </div>
+    <div
+      className="c3"
+    >
+      primary
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #e34160;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#e34160"
+    />
+    <div
+      className="c2"
+    >
+      #E34160
+    </div>
+    <div
+      className="c3"
+    >
+      danger
+    </div>
+  </div>,
+]
+`;
+
+exports[`<Core /> Greys 1`] = `
+Array [
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #f5f5f5;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#f5f5f5"
+    />
+    <div
+      className="c2"
+    >
+      #F5F5F5
+    </div>
+    <div
+      className="c3"
+    >
+      Grey lightest
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #dcdcdc;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#dcdcdc"
+    />
+    <div
+      className="c2"
+    >
+      #DCDCDC
+    </div>
+    <div
+      className="c3"
+    >
+      Grey lighter
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #d3d3d3;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#d3d3d3"
+    />
+    <div
+      className="c2"
+    >
+      #D3D3D3
+    </div>
+    <div
+      className="c3"
+    >
+      Grey light
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #c0c0c0;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#c0c0c0"
+    />
+    <div
+      className="c2"
+    >
+      #C0C0C0
+    </div>
+    <div
+      className="c3"
+    >
+      Grey
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #a9a9a9;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#a9a9a9"
+    />
+    <div
+      className="c2"
+    >
+      #A9A9A9
+    </div>
+    <div
+      className="c3"
+    >
+      Grey dark
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #808080;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#808080"
+    />
+    <div
+      className="c2"
+    >
+      #808080
+    </div>
+    <div
+      className="c3"
+    >
+      Grey darker
+    </div>
+  </div>,
+  .c0 {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c0:last-child {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #696969;
+}
+
+.c2 {
+  margin-top: 5px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.c3 {
+  margin-top: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#696969"
+    />
+    <div
+      className="c2"
+    >
+      #696969
+    </div>
+    <div
+      className="c3"
+    >
+      Grey darkest
+    </div>
+  </div>,
+]
+`;
+
+exports[`<Table /> Table 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c2 {
+  padding: 8px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.c1 {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 3px solid #dcdcdc;
+  font-weight: bold;
+}
+
+<table
+  className="c0"
+>
+  <thead
+    className=""
+  >
+    <tr
+      className=""
+    >
+      <th
+        className="c1"
+      >
+        Order date
+      </th>
+      <th
+        className="c1"
+      >
+        Region
+      </th>
+      <th
+        className="c1"
+      >
+        Rep
+      </th>
+      <th
+        className="c1"
+      >
+        Item
+      </th>
+      <th
+        className="c1"
+      >
+        Units
+      </th>
+      <th
+        className="c1"
+      >
+        Unit cost
+      </th>
+      <th
+        className="c1"
+      >
+        Total
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className=""
+  >
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        1/6/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        95
+      </td>
+      <td
+        className="c2"
+      >
+        1.99
+      </td>
+      <td
+        className="c2"
+      >
+        189.05
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        1/23/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Kivell
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        50
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        999.50
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        2/9/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Jardine
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        36
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        179.64
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        2/26/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Gill
+      </td>
+      <td
+        className="c2"
+      >
+        Pen
+      </td>
+      <td
+        className="c2"
+      >
+        27
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        539.73
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        3/15/2018
+      </td>
+      <td
+        className="c2"
+      >
+        West
+      </td>
+      <td
+        className="c2"
+      >
+        Sorvino
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        56
+      </td>
+      <td
+        className="c2"
+      >
+        2.99
+      </td>
+      <td
+        className="c2"
+      >
+        167.44
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        4/1/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        60
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        299.40
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        4/18/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Andrews
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        75
+      </td>
+      <td
+        className="c2"
+      >
+        1.99
+      </td>
+      <td
+        className="c2"
+      >
+        149.25
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        5/5/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Jardine
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        90
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        449.10
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        5/22/2018
+      </td>
+      <td
+        className="c2"
+      >
+        West
+      </td>
+      <td
+        className="c2"
+      >
+        Thompson
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        32
+      </td>
+      <td
+        className="c2"
+      >
+        1.99
+      </td>
+      <td
+        className="c2"
+      >
+        63.68
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        6/8/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        60
+      </td>
+      <td
+        className="c2"
+      >
+        8.99
+      </td>
+      <td
+        className="c2"
+      >
+        539.40
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        6/25/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Morgan
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        90
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        449.10
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        7/12/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Howard
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        29
+      </td>
+      <td
+        className="c2"
+      >
+        1.99
+      </td>
+      <td
+        className="c2"
+      >
+        57.71
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        7/29/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Parent
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        81
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        1,619.19
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        8/15/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        35
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        174.65
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        9/1/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Smith
+      </td>
+      <td
+        className="c2"
+      >
+        Desk
+      </td>
+      <td
+        className="c2"
+      >
+        2
+      </td>
+      <td
+        className="c2"
+      >
+        125.00
+      </td>
+      <td
+        className="c2"
+      >
+        250.00
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        9/18/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        16
+      </td>
+      <td
+        className="c2"
+      >
+        15.99
+      </td>
+      <td
+        className="c2"
+      >
+        255.84
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        10/5/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Morgan
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        28
+      </td>
+      <td
+        className="c2"
+      >
+        8.99
+      </td>
+      <td
+        className="c2"
+      >
+        251.72
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        10/22/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Pen
+      </td>
+      <td
+        className="c2"
+      >
+        64
+      </td>
+      <td
+        className="c2"
+      >
+        8.99
+      </td>
+      <td
+        className="c2"
+      >
+        575.36
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        11/8/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Parent
+      </td>
+      <td
+        className="c2"
+      >
+        Pen
+      </td>
+      <td
+        className="c2"
+      >
+        15
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        299.85
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        11/25/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Kivell
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        96
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        479.04
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        12/12/2018
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Smith
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        67
+      </td>
+      <td
+        className="c2"
+      >
+        1.29
+      </td>
+      <td
+        className="c2"
+      >
+        86.43
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        12/29/2018
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Parent
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        74
+      </td>
+      <td
+        className="c2"
+      >
+        15.99
+      </td>
+      <td
+        className="c2"
+      >
+        1,183.26
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        1/15/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Gill
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        46
+      </td>
+      <td
+        className="c2"
+      >
+        8.99
+      </td>
+      <td
+        className="c2"
+      >
+        413.54
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        2/1/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Smith
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        87
+      </td>
+      <td
+        className="c2"
+      >
+        15.00
+      </td>
+      <td
+        className="c2"
+      >
+        1,305.00
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        2/18/2019
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        4
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        19.96
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        3/7/2019
+      </td>
+      <td
+        className="c2"
+      >
+        West
+      </td>
+      <td
+        className="c2"
+      >
+        Sorvino
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        7
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        139.93
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        3/24/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Jardine
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        50
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        249.50
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        4/10/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Andrews
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        66
+      </td>
+      <td
+        className="c2"
+      >
+        1.99
+      </td>
+      <td
+        className="c2"
+      >
+        131.34
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        4/27/2019
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Howard
+      </td>
+      <td
+        className="c2"
+      >
+        Pen
+      </td>
+      <td
+        className="c2"
+      >
+        96
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        479.04
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        5/14/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Gill
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        53
+      </td>
+      <td
+        className="c2"
+      >
+        1.29
+      </td>
+      <td
+        className="c2"
+      >
+        68.37
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        5/31/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Gill
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        80
+      </td>
+      <td
+        className="c2"
+      >
+        8.99
+      </td>
+      <td
+        className="c2"
+      >
+        719.20
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        6/17/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Kivell
+      </td>
+      <td
+        className="c2"
+      >
+        Desk
+      </td>
+      <td
+        className="c2"
+      >
+        5
+      </td>
+      <td
+        className="c2"
+      >
+        125.00
+      </td>
+      <td
+        className="c2"
+      >
+        625.00
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        7/4/2019
+      </td>
+      <td
+        className="c2"
+      >
+        East
+      </td>
+      <td
+        className="c2"
+      >
+        Jones
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        62
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        309.38
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        7/21/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Morgan
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        55
+      </td>
+      <td
+        className="c2"
+      >
+        12.49
+      </td>
+      <td
+        className="c2"
+      >
+        686.95
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        8/7/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Kivell
+      </td>
+      <td
+        className="c2"
+      >
+        Pen Set
+      </td>
+      <td
+        className="c2"
+      >
+        42
+      </td>
+      <td
+        className="c2"
+      >
+        23.95
+      </td>
+      <td
+        className="c2"
+      >
+        1,005.90
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        8/24/2019
+      </td>
+      <td
+        className="c2"
+      >
+        West
+      </td>
+      <td
+        className="c2"
+      >
+        Sorvino
+      </td>
+      <td
+        className="c2"
+      >
+        Desk
+      </td>
+      <td
+        className="c2"
+      >
+        3
+      </td>
+      <td
+        className="c2"
+      >
+        275.00
+      </td>
+      <td
+        className="c2"
+      >
+        825.00
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        9/10/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Gill
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        7
+      </td>
+      <td
+        className="c2"
+      >
+        1.29
+      </td>
+      <td
+        className="c2"
+      >
+        9.03
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        9/27/2019
+      </td>
+      <td
+        className="c2"
+      >
+        West
+      </td>
+      <td
+        className="c2"
+      >
+        Sorvino
+      </td>
+      <td
+        className="c2"
+      >
+        Pen
+      </td>
+      <td
+        className="c2"
+      >
+        76
+      </td>
+      <td
+        className="c2"
+      >
+        1.99
+      </td>
+      <td
+        className="c2"
+      >
+        151.24
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        10/14/2019
+      </td>
+      <td
+        className="c2"
+      >
+        West
+      </td>
+      <td
+        className="c2"
+      >
+        Thompson
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        57
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        1,139.43
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        10/31/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Andrews
+      </td>
+      <td
+        className="c2"
+      >
+        Pencil
+      </td>
+      <td
+        className="c2"
+      >
+        14
+      </td>
+      <td
+        className="c2"
+      >
+        1.29
+      </td>
+      <td
+        className="c2"
+      >
+        18.06
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        11/17/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Jardine
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        11
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        54.89
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        12/4/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Jardine
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        94
+      </td>
+      <td
+        className="c2"
+      >
+        19.99
+      </td>
+      <td
+        className="c2"
+      >
+        1,879.06
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <td
+        className="c2"
+      >
+        12/21/2019
+      </td>
+      <td
+        className="c2"
+      >
+        Central
+      </td>
+      <td
+        className="c2"
+      >
+        Andrews
+      </td>
+      <td
+        className="c2"
+      >
+        Binder
+      </td>
+      <td
+        className="c2"
+      >
+        28
+      </td>
+      <td
+        className="c2"
+      >
+        4.99
+      </td>
+      <td
+        className="c2"
+      >
+        139.72
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<Tabs /> Tabs 1`] = `
+.c0 {
+  border-bottom: 1px solid #dcdcdc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  color: #808080;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.c1 {
+  padding: 10px;
+  border-bottom: 3px solid #1a73e8;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c3 {
+  padding: 10px;
+  color: #a9a9a9;
+  border-bottom: none;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    First entry
+    <span
+      className="c2"
+    >
+      199
+    </span>
+  </div>
+  <div
+    className="c3"
+    onClick={[Function]}
+  >
+    Second entry
+  </div>
+  <div
+    className="c3"
+    onClick={[Function]}
+  >
+    Third entry
+  </div>
+</div>
+`;
