@@ -2,7 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { lighten, desaturate } from 'polished'
 
+import defaultTheme from '../core/themes'
+
 const Button = styled.button`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${props => props.theme.fontSize};
+
   height: ${({ isLarge, isInverted, isOutlined }) => {
     return isLarge ? '40px' : '32px'
   }};
@@ -136,5 +141,9 @@ const Button = styled.button`
     }};
   }
 `
+
+Button.defaultProps = {
+  theme: defaultTheme,
+}
 
 export default Button
