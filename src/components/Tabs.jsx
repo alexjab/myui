@@ -35,6 +35,9 @@ class BaseTabs extends React.Component {
 }
 
 const Tabs = styled(BaseTabs)`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${props => props.theme.fontSize};
+
   border-bottom: 1px solid ${({ theme }) => theme.colorGreyLighter};
   display: flex;
 `
