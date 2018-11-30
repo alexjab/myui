@@ -1320,6 +1320,7 @@ const Button = styled.button`
   isDanger,
   isInverted,
   isOutlined,
+  isPrimary,
   theme
 }) => {
   if (disabled) {
@@ -1334,42 +1335,75 @@ const Button = styled.button`
     return theme.colorWhite;
   }
 
-  return isDanger ? theme.colorDanger : theme.colorPrimary;
+  if (isDanger) {
+    return theme.colorDanger;
+  }
+
+  if (isPrimary) {
+    return theme.colorPrimary;
+  }
+
+  return theme.colorWhite;
 }};
   color: ${({
   disabled,
   isDanger,
   isInverted,
   isOutlined,
+  isPrimary,
   theme
 }) => {
   if (disabled) {
-    return theme.colorGreyDarker;
+    return theme.colorGreyDark;
   }
 
   if (isInverted || isOutlined) {
-    return isDanger ? theme.colorDanger : theme.colorPrimary;
+    if (isDanger) {
+      return theme.colorDanger;
+    }
+
+    if (isPrimary) {
+      return theme.colorPrimary;
+    }
   }
 
-  return theme.colorWhite;
+  if (isDanger || isPrimary) {
+    return theme.colorWhite;
+  }
+
+  return theme.colorDark;
 }};
   border: ${({
   disabled,
   isDanger,
+  isInverted,
   isOutlined,
+  isPrimary,
   theme
 }) => {
   if (disabled) {
     if (isOutlined) {
-      return `1px solid ${theme.colorGreyDarker}`;
+      return `1px solid ${theme.colorGreyLight}`;
     }
+
+    return '1px solid transparent';
   }
 
   if (isOutlined) {
-    return `1px solid ${isDanger ? theme.colorDanger : theme.colorPrimary}`;
+    if (isDanger) {
+      return `1px solid ${theme.colorDanger}`;
+    }
+
+    if (isPrimary) {
+      return `1px solid ${theme.colorPrimary}`;
+    }
   }
 
-  return '1px solid transparent';
+  if (isPrimary || isDanger || isInverted) {
+    return '1px solid transparent';
+  }
+
+  return `1px solid ${theme.colorGrey}`;
 }};
   border-radius: 4px;
 
@@ -1392,6 +1426,7 @@ const Button = styled.button`
   isDanger,
   isInverted,
   isOutlined,
+  isPrimary,
   theme
 }) => {
   if (disabled) {
@@ -1399,14 +1434,36 @@ const Button = styled.button`
   }
 
   if (isInverted) {
-    return isDanger ? curriedLighten(0.38, theme.colorDanger) : curriedLighten(0.45, theme.colorPrimary);
+    if (isDanger) {
+      return curriedLighten(0.38, theme.colorDanger);
+    }
+
+    if (isPrimary) {
+      return curriedLighten(0.45, theme.colorPrimary);
+    }
   }
 
   if (isOutlined) {
-    return isDanger ? curriedLighten(0.4, theme.colorDanger) : curriedLighten(0.47, theme.colorPrimary);
+    if (isDanger) {
+      return curriedLighten(0.4, theme.colorDanger);
+    }
+
+    if (isPrimary) {
+      return curriedLighten(0.47, theme.colorPrimary);
+    }
+
+    return theme.colorGreyLightest;
   }
 
-  return isDanger ? curriedLighten(0.025, theme.colorDanger) : curriedLighten(0.025, theme.colorPrimary);
+  if (isDanger) {
+    return curriedLighten(0.025, theme.colorDanger);
+  }
+
+  if (isPrimary) {
+    return curriedLighten(0.025, theme.colorPrimary);
+  }
+
+  return theme.colorGreyLightest;
 }}};
   }
 
@@ -1416,6 +1473,7 @@ const Button = styled.button`
   isDanger,
   isInverted,
   isOutlined,
+  isPrimary,
   theme
 }) => {
   if (disabled) {
@@ -1423,31 +1481,62 @@ const Button = styled.button`
   }
 
   if (isInverted) {
-    return isDanger ? curriedLighten(0.32, theme.colorDanger) : curriedLighten(0.4, theme.colorPrimary);
+    if (isDanger) {
+      return curriedLighten(0.32, theme.colorDanger);
+    }
+
+    if (isPrimary) {
+      return curriedLighten(0.4, theme.colorPrimary);
+    }
   }
 
   if (isOutlined) {
-    return isDanger ? curriedLighten(0.37, theme.colorDanger) : curriedLighten(0.45, theme.colorPrimary);
+    if (isDanger) {
+      return curriedLighten(0.37, theme.colorDanger);
+    }
+
+    if (isPrimary) {
+      return curriedLighten(0.45, theme.colorPrimary);
+    }
   }
 
-  return isDanger ? curriedLighten(0.1, theme.colorDanger) : curriedLighten(0.1, theme.colorPrimary);
+  if (isDanger) {
+    return curriedLighten(0.1, theme.colorDanger);
+  }
+
+  if (isPrimary) {
+    return curriedLighten(0.1, theme.colorPrimary);
+  }
+
+  return theme.colorGreyLighter;
 }};
     color: ${({
   disabled,
   isDanger,
   isInverted,
   isOutlined,
+  isPrimary,
   theme
 }) => {
   if (disabled) {
-    return theme.colorGreyDarker;
+    return theme.colorGreyDark;
   }
 
   if (isInverted || isOutlined) {
-    return isDanger ? theme.colorDanger : theme.colorPrimary;
+    if (isDanger) {
+      return theme.colorDanger;
+    }
+
+    if (isPrimary) {
+      return theme.colorPrimary;
+    }
   }
 
-  return theme.colorWhite;
+  if (isPrimary || isDanger) {
+    return theme.colorWhite;
+  }
+
+  return theme.colorDark;
 }};
   }
 `;

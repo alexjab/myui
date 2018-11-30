@@ -21,7 +21,7 @@ class BaseTabs extends React.Component {
     super(...args);
 
     _defineProperty(this, "state", {
-      selected: 0
+      selected: this.props.defaultTab
     });
 
     _defineProperty(this, "selectTab", selected => {
@@ -59,7 +59,14 @@ class BaseTabs extends React.Component {
 
 }
 
+_defineProperty(BaseTabs, "defaultProps", {
+  defaultTab: 0
+});
+
 const Tabs = styled(BaseTabs)`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${props => props.theme.fontSize};
+
   border-bottom: 1px solid ${({
   theme
 }) => theme.colorGreyLighter};

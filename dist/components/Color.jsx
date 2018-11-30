@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${props => props.theme.fontSize};
+
   border-top: 1px solid ${({
   theme
 }) => theme.colorGreyLighter};

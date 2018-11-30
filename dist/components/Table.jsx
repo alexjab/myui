@@ -1,4 +1,4 @@
-import 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const primary = '#1a73e8';
@@ -77,5 +77,24 @@ Table.Body.defaultProps = {
 Table.defaultProps = {
   theme: defaultTheme
 };
+
+class TableAuto extends React.Component {
+  render() {
+    const {
+      headers,
+      rows
+    } = this.props;
+    return React.createElement(Table, null, headers ? React.createElement(Table.Head, null, React.createElement(Table.Row, null, headers.map((header, index) => React.createElement(Table.Header, {
+      key: index
+    }, header)))) : null, rows ? React.createElement(Table.Body, null, rows.map((row, rowIndex) => React.createElement(Table.Row, {
+      key: rowIndex
+    }, row.map((data, dataIndex) => React.createElement(Table.Data, {
+      key: dataIndex
+    }, data))))) : null);
+  }
+
+}
+
+Table.Auto = TableAuto;
 
 export default Table;

@@ -2,8 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 class BaseTabs extends React.Component {
+  static defaultProps = {
+    defaultTab: 0,
+  }
+
   state = {
-    selected: 0,
+    selected: this.props.defaultTab,
   }
 
   selectTab = selected => {

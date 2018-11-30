@@ -57,4 +57,38 @@ Table.defaultProps = {
   theme: defaultTheme,
 }
 
+class TableAuto extends React.Component {
+  render() {
+    const { headers, rows } = this.props
+
+    return (
+      <Table>
+        {headers ? (
+          <Table.Head>
+            <Table.Row>
+              {headers.map((header, index) => (
+                <Table.Header key={index}>{header}</Table.Header>
+              ))}
+            </Table.Row>
+          </Table.Head>
+        ) : null}
+
+        {rows ? (
+          <Table.Body>
+            {rows.map((row, rowIndex) => (
+              <Table.Row key={rowIndex}>
+                {row.map((data, dataIndex) => (
+                  <Table.Data key={dataIndex}>{data}</Table.Data>
+                ))}
+              </Table.Row>
+            ))}
+          </Table.Body>
+        ) : null}
+      </Table>
+    )
+  }
+}
+
+Table.Auto = TableAuto
+
 export default Table

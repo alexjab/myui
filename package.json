@@ -36,6 +36,7 @@
     "@storybook/addons": "4.0.9",
     "@storybook/react": "4.0.9",
     "babel-preset-react": "^6.24.1",
+    "feather-icons": "^4.9.0",
     "globby": "^8.0.1",
     "jest-styled-components": "6.3.1",
     "react": "16.6.3",

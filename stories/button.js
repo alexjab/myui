@@ -5,19 +5,11 @@ import Button from '../src/components/Button'
 
 export default [
   {
-    name: 'Primary',
+    name: 'Default',
     element: <Button onClick={action('onClick')}>Confirm changes</Button>,
   },
   {
-    name: 'Primary large',
-    element: (
-      <Button isLarge onClick={action('onClick')}>
-        Confirm changes
-      </Button>
-    ),
-  },
-  {
-    name: 'Primary inverted',
+    name: 'Default inverted',
     element: (
       <Button isInverted onClick={action('onClick')}>
         Confirm changes
@@ -25,23 +17,7 @@ export default [
     ),
   },
   {
-    name: 'Primary inverted disabled',
-    element: (
-      <Button isInverted disabled onClick={action('onClick')}>
-        Confirm changes
-      </Button>
-    ),
-  },
-  {
-    name: 'Primary large inverted',
-    element: (
-      <Button isLarge isInverted onClick={action('onClick')}>
-        Confirm changes
-      </Button>
-    ),
-  },
-  {
-    name: 'Primary outlined',
+    name: 'Default outlined',
     element: (
       <Button isOutlined onClick={action('onClick')}>
         Confirm changes
@@ -49,9 +25,57 @@ export default [
     ),
   },
   {
+    name: 'Primary',
+    element: (
+      <Button isPrimary onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary large',
+    element: (
+      <Button isPrimary isLarge onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary inverted',
+    element: (
+      <Button isPrimary isInverted onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary inverted disabled',
+    element: (
+      <Button isPrimary isInverted disabled onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary large inverted',
+    element: (
+      <Button isPrimary isLarge isInverted onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary outlined',
+    element: (
+      <Button isPrimary isOutlined onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
     name: 'Primary large outlined',
     element: (
-      <Button isLarge isOutlined onClick={action('onClick')}>
+      <Button isPrimary isLarge isOutlined onClick={action('onClick')}>
         Confirm changes
       </Button>
     ),
