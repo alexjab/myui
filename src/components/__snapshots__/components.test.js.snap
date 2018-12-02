@@ -2622,6 +2622,1116 @@ Array [
 ]
 `;
 
+exports[`Story of <Input /> Input 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c1 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+</div>
+`;
+
+exports[`Story of <Input /> Input fullwidth 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c1 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+</div>
+`;
+
+exports[`Story of <Input /> Input fullwidth with icon left 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c3 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <div
+    className="c1"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-alert-triangle\\"><path d=\\"M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z\\"></path><line x1=\\"12\\" y1=\\"9\\" x2=\\"12\\" y2=\\"13\\"></line><line x1=\\"12\\" y1=\\"17\\" x2=\\"12\\" y2=\\"17\\"></line></svg>",
+        }
+      }
+    />
+  </div>
+  <input
+    className="c3"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+</div>
+`;
+
+exports[`Story of <Input /> Input fullwidth with icon right 1`] = `
+.c3 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c1 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+  <div
+    className="c2"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c3"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-search\\"><circle cx=\\"11\\" cy=\\"11\\" r=\\"8\\"></circle><line x1=\\"21\\" y1=\\"21\\" x2=\\"16.65\\" y2=\\"16.65\\"></line></svg>",
+        }
+      }
+      onMouseDown={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Story of <Input /> Input fullwidth with icons left and right 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+
+.c4 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c3 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <div
+    className="c1"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-activity\\"><polyline points=\\"22 12 18 12 15 21 9 3 6 12 2 12\\"></polyline></svg>",
+        }
+      }
+    />
+  </div>
+  <input
+    className="c3"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+  <div
+    className="c4"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
+        }
+      }
+      onMouseDown={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Story of <Input /> Input large 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c1 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 36px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+</div>
+`;
+
+exports[`Story of <Input /> Input large with icon left 1`] = `
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c3 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 36px;
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <div
+    className="c1"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-alert-triangle\\"><path d=\\"M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z\\"></path><line x1=\\"12\\" y1=\\"9\\" x2=\\"12\\" y2=\\"13\\"></line><line x1=\\"12\\" y1=\\"17\\" x2=\\"12\\" y2=\\"17\\"></line></svg>",
+        }
+      }
+    />
+  </div>
+  <input
+    className="c3"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+</div>
+`;
+
+exports[`Story of <Input /> Input large with icon right 1`] = `
+.c3 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c1 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 36px;
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+  <div
+    className="c2"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c3"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-search\\"><circle cx=\\"11\\" cy=\\"11\\" r=\\"8\\"></circle><line x1=\\"21\\" y1=\\"21\\" x2=\\"16.65\\" y2=\\"16.65\\"></line></svg>",
+        }
+      }
+      onMouseDown={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Story of <Input /> Input large with icons left and right 1`] = `
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+
+.c4 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c3 {
+  font-family: Inter UI,sans-serif;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 36px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <div
+    className="c1"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-activity\\"><polyline points=\\"22 12 18 12 15 21 9 3 6 12 2 12\\"></polyline></svg>",
+        }
+      }
+    />
+  </div>
+  <input
+    className="c3"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+  <div
+    className="c4"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
+        }
+      }
+      onMouseDown={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Story of <Input /> Input with icon left 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c3 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <div
+    className="c1"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-alert-triangle\\"><path d=\\"M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z\\"></path><line x1=\\"12\\" y1=\\"9\\" x2=\\"12\\" y2=\\"13\\"></line><line x1=\\"12\\" y1=\\"17\\" x2=\\"12\\" y2=\\"17\\"></line></svg>",
+        }
+      }
+    />
+  </div>
+  <input
+    className="c3"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+</div>
+`;
+
+exports[`Story of <Input /> Input with icon right 1`] = `
+.c3 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c1 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <input
+    className="c1"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+  <div
+    className="c2"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c3"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-search\\"><circle cx=\\"11\\" cy=\\"11\\" r=\\"8\\"></circle><line x1=\\"21\\" y1=\\"21\\" x2=\\"16.65\\" y2=\\"16.65\\"></line></svg>",
+        }
+      }
+      onMouseDown={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Story of <Input /> Input with icons left and right 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+
+.c4 {
+  height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  color: #555555;
+}
+
+.c3 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <div
+    className="c1"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-activity\\"><polyline points=\\"22 12 18 12 15 21 9 3 6 12 2 12\\"></polyline></svg>",
+        }
+      }
+    />
+  </div>
+  <input
+    className="c3"
+    onChange={[Function]}
+    placeholder="This is an input"
+    value=""
+  />
+  <div
+    className="c4"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
+        }
+      }
+      onMouseDown={[Function]}
+    />
+  </div>
+</div>
+`;
+
 exports[`Story of <Table /> Table 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;

@@ -73,8 +73,8 @@ const StyledInput = styled.input`
     return isLarge ? '36px' : '28px'
   }};
 
-  margin-left: ${({ iconLeft }) => (iconLeft ? 0 : '6px')};
-  margin-right: ${({ iconRight }) => (iconRight ? 0 : '6px')};
+  margin-left: ${({ iconLeft }) => (iconLeft ? 0 : '8px')};
+  margin-right: ${({ iconRight }) => (iconRight ? 0 : '8px')};
 `
 
 class Input extends React.Component {
