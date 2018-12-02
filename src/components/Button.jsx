@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { lighten, desaturate } from 'polished'
+import { lighten } from 'polished'
 
 import defaultTheme from '../core/themes'
 
@@ -53,7 +53,8 @@ const BaseButton = ({
 
 const Button = styled(BaseButton)`
   font-family: ${props => props.theme.fontFamily};
-  font-size: ${props => props.theme.fontSize};
+  font-size: ${({ isLarge, theme }) =>
+    isLarge ? theme.largeFontSize : theme.fontSize};
 
   display: inline-flex;
   align-items: center;
