@@ -140,6 +140,22 @@ export default [
     ),
   },
   {
+    name: 'Primary outlined with icon right',
+    element: (
+      <Button isPrimary isOutlined onClick={action('onClick')} iconRight="chevron-down">
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary outlined with icon left',
+    element: (
+      <Button isPrimary isOutlined onClick={action('onClick')} iconLeft="layers">
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
     name: 'Primary large outlined',
     element: (
       <Button isPrimary isLarge isOutlined onClick={action('onClick')}>
