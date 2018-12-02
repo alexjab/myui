@@ -25,11 +25,78 @@ export default [
     ),
   },
   {
+    name: 'Default with iconLeft',
+    element: (
+      <Button iconLeft="arrow-left" onClick={action('onClick')}>
+        Go back
+      </Button>
+    ),
+  },
+  {
+    name: 'Default with iconRight',
+    element: (
+      <Button iconRight="arrow-right" onClick={action('onClick')}>
+        Go forward
+      </Button>
+    ),
+  },
+  {
+    name: 'Default large with iconLeft',
+    element: (
+      <Button isLarge iconLeft="arrow-left" onClick={action('onClick')}>
+        Go back
+      </Button>
+    ),
+  },
+  {
+    name: 'Default large with iconRight',
+    element: (
+      <Button isLarge iconRight="arrow-right" onClick={action('onClick')}>
+        Go forward
+      </Button>
+    ),
+  },
+  {
+    name: 'Default with only icon',
+    element: <Button iconRight="chevron-right" onClick={action('onClick')} />,
+  },
+  {
+    name: 'Default large with only icon',
+    element: (
+      <Button isLarge iconRight="chevron-right" onClick={action('onClick')} />
+    ),
+  },
+  {
     name: 'Primary',
     element: (
       <Button isPrimary onClick={action('onClick')}>
         Confirm changes
       </Button>
+    ),
+  },
+  {
+    name: 'Primary with icon',
+    element: (
+      <Button isPrimary iconRight="refresh-cw" onClick={action('onClick')}>
+        Refresh
+      </Button>
+    ),
+  },
+  {
+    name: 'Primary with only icon',
+    element: (
+      <Button isPrimary iconRight="chevron-right" onClick={action('onClick')} />
+    ),
+  },
+  {
+    name: 'Primary large with only icon',
+    element: (
+      <Button
+        isLarge
+        isPrimary
+        iconRight="chevron-right"
+        onClick={action('onClick')}
+      />
     ),
   },
   {

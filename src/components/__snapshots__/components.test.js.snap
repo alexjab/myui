@@ -4,6 +4,16 @@ exports[`Story of <Button /> Danger 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #e34160;
   color: #ffffff;
@@ -40,6 +50,16 @@ exports[`Story of <Button /> Danger inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #e34160;
@@ -76,6 +96,16 @@ exports[`Story of <Button /> Danger large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #e34160;
   color: #ffffff;
@@ -112,6 +142,16 @@ exports[`Story of <Button /> Danger large inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #ffffff;
   color: #e34160;
@@ -148,6 +188,16 @@ exports[`Story of <Button /> Danger large outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #ffffff;
   color: #e34160;
@@ -184,6 +234,16 @@ exports[`Story of <Button /> Danger outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #e34160;
@@ -220,6 +280,16 @@ exports[`Story of <Button /> Default 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #555555;
@@ -256,6 +326,16 @@ exports[`Story of <Button /> Default inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #555555;
@@ -288,10 +368,282 @@ exports[`Story of <Button /> Default inverted 1`] = `
 </button>
 `;
 
+exports[`Story of <Button /> Default large with iconLeft 1`] = `
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 4px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+  Go back
+</button>
+`;
+
+exports[`Story of <Button /> Default large with iconRight 1`] = `
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Go forward
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+</button>
+`;
+
+exports[`Story of <Button /> Default large with only icon 1`] = `
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-right\\"><polyline points=\\"9 18 15 12 9 6\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+</button>
+`;
+
 exports[`Story of <Button /> Default outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #555555;
@@ -324,10 +676,282 @@ exports[`Story of <Button /> Default outlined 1`] = `
 </button>
 `;
 
+exports[`Story of <Button /> Default with iconLeft 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 4px;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+  Go back
+</button>
+`;
+
+exports[`Story of <Button /> Default with iconRight 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Go forward
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+</button>
+`;
+
+exports[`Story of <Button /> Default with only icon 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-right\\"><polyline points=\\"9 18 15 12 9 6\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+</button>
+`;
+
 exports[`Story of <Button /> Disabled 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #f5f5f5;
   color: #a9a9a9;
@@ -365,6 +989,16 @@ exports[`Story of <Button /> Disabled inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #f5f5f5;
   color: #a9a9a9;
@@ -402,6 +1036,16 @@ exports[`Story of <Button /> Disabled large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #f5f5f5;
   color: #a9a9a9;
@@ -439,6 +1083,16 @@ exports[`Story of <Button /> Disabled outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #f5f5f5;
   color: #a9a9a9;
@@ -476,6 +1130,16 @@ exports[`Story of <Button /> Primary 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #1a73e8;
   color: #ffffff;
@@ -512,6 +1176,16 @@ exports[`Story of <Button /> Primary inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #1a73e8;
@@ -548,6 +1222,16 @@ exports[`Story of <Button /> Primary inverted disabled 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #f5f5f5;
   color: #a9a9a9;
@@ -585,6 +1269,16 @@ exports[`Story of <Button /> Primary large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #1a73e8;
   color: #ffffff;
@@ -621,6 +1315,16 @@ exports[`Story of <Button /> Primary large inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #ffffff;
   color: #1a73e8;
@@ -657,6 +1361,16 @@ exports[`Story of <Button /> Primary large outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 40px;
   background-color: #ffffff;
   color: #1a73e8;
@@ -689,10 +1403,107 @@ exports[`Story of <Button /> Primary large outlined 1`] = `
 </button>
 `;
 
+exports[`Story of <Button /> Primary large with only icon 1`] = `
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 40px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #267ae9;
+}
+
+.c0:active {
+  background-color: #488fed;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-right\\"><polyline points=\\"9 18 15 12 9 6\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+</button>
+`;
+
 exports[`Story of <Button /> Primary outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #1a73e8;
@@ -722,6 +1533,181 @@ exports[`Story of <Button /> Primary outlined 1`] = `
   onClick={[Function]}
 >
   Confirm changes
+</button>
+`;
+
+exports[`Story of <Button /> Primary with icon 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #267ae9;
+}
+
+.c0:active {
+  background-color: #488fed;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  Refresh
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
+        }
+      }
+    />
+  </span>
+</button>
+`;
+
+exports[`Story of <Button /> Primary with only icon 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #267ae9;
+}
+
+.c0:active {
+  background-color: #488fed;
+  color: #ffffff;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-right\\"><polyline points=\\"9 18 15 12 9 6\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
 </button>
 `;
 
@@ -5207,6 +6193,16 @@ Array [
   .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
   color: #555555;
