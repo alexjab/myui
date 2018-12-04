@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { darken, transparentize } from 'polished'
 
-import Icon from './Icon'
+import Icon from './Icon.jsx'
 
 const IconContainer = styled.div`
   height: ${({ isLarge }) => {

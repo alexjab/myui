@@ -4,7 +4,7 @@ import { lighten } from 'polished'
 
 import defaultTheme from '../core/themes'
 
-import Icon from './Icon'
+import Icon from './Icon.jsx'
 
 const ButtonIcon = styled.span`
   display: inline-flex;

@@ -10,6 +10,7 @@ import coreStories from './core'
 import iconStories from './icon'
 import infoGroupStories from './infoGroup'
 import inputStories from './input'
+import layoutStories from './layout'
 import tableStories from './table'
 import tabsStories from './tabs'
 
@@ -36,5 +37,6 @@ createStoriesOf('Button', buttonStories)
 createStoriesOf('Icon', iconStories)
 createStoriesOf('InfoGroup', infoGroupStories)
 createStoriesOf('Input', inputStories)
+createStoriesOf('Layout', layoutStories)
 createStoriesOf('Table', tableStories)
 createStoriesOf('Tabs', tabsStories)
