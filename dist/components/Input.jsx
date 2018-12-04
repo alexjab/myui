@@ -1,6 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
 
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
 function _extends() {
   _extends = Object.assign || function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -17,6 +32,24 @@ function _extends() {
   };
 
   return _extends.apply(this, arguments);
+}
+
+function _extends$1() {
+  _extends$1 = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends$1.apply(this, arguments);
 }
 
 function colorToInt(color) {
@@ -728,7 +761,7 @@ function curry(f) {
 
 function adjustHue(degree, color) {
   var hslColor = parseToHsl(color);
-  return toColorString(_extends({}, hslColor, {
+  return toColorString(_extends$1({}, hslColor, {
     hue: (hslColor.hue + parseFloat(degree)) % 360
   }));
 }
@@ -767,7 +800,7 @@ function guard(lowerBoundary, upperBoundary, value) {
 
 function darken(amount, color) {
   var hslColor = parseToHsl(color);
-  return toColorString(_extends({}, hslColor, {
+  return toColorString(_extends$1({}, hslColor, {
     lightness: guard(0, 1, hslColor.lightness - parseFloat(amount))
   }));
 }
@@ -803,7 +836,7 @@ curry(darken);
 
 function desaturate(amount, color) {
   var hslColor = parseToHsl(color);
-  return toColorString(_extends({}, hslColor, {
+  return toColorString(_extends$1({}, hslColor, {
     saturation: guard(0, 1, hslColor.saturation - parseFloat(amount))
   }));
 }
@@ -879,7 +912,7 @@ function getLuminance(color) {
 
 function lighten(amount, color) {
   var hslColor = parseToHsl(color);
-  return toColorString(_extends({}, hslColor, {
+  return toColorString(_extends$1({}, hslColor, {
     lightness: guard(0, 1, hslColor.lightness + parseFloat(amount))
   }));
 }
@@ -918,13 +951,13 @@ curry(lighten);
 function mix(weight, color, otherColor) {
   var parsedColor1 = parseToRgb(color);
 
-  var color1 = _extends({}, parsedColor1, {
+  var color1 = _extends$1({}, parsedColor1, {
     alpha: typeof parsedColor1.alpha === 'number' ? parsedColor1.alpha : 1
   });
 
   var parsedColor2 = parseToRgb(otherColor);
 
-  var color2 = _extends({}, parsedColor2, {
+  var color2 = _extends$1({}, parsedColor2, {
     alpha: typeof parsedColor2.alpha === 'number' ? parsedColor2.alpha : 1 // The formular is copied from the original Sass implementation:
     // http://sass-lang.com/documentation/Sass/Script/Functions.html#mix-instance_method
 
@@ -981,7 +1014,7 @@ function opacify(amount, color) {
   var parsedColor = parseToRgb(color);
   var alpha = typeof parsedColor.alpha === 'number' ? parsedColor.alpha : 1;
 
-  var colorWithAlpha = _extends({}, parsedColor, {
+  var colorWithAlpha = _extends$1({}, parsedColor, {
     alpha: guard(0, 1, (alpha * 100 + parseFloat(amount) * 100) / 100)
   });
 
@@ -1056,7 +1089,7 @@ curry(readableColor);
 
 function saturate(amount, color) {
   var hslColor = parseToHsl(color);
-  return toColorString(_extends({}, hslColor, {
+  return toColorString(_extends$1({}, hslColor, {
     saturation: guard(0, 1, hslColor.saturation + parseFloat(amount))
   }));
 }
@@ -1090,7 +1123,7 @@ curry(saturate);
  */
 
 function setHue(hue, color) {
-  return toColorString(_extends({}, parseToHsl(color), {
+  return toColorString(_extends$1({}, parseToHsl(color), {
     hue: parseFloat(hue)
   }));
 }
@@ -1124,7 +1157,7 @@ curry(setHue);
  */
 
 function setLightness(lightness, color) {
-  return toColorString(_extends({}, parseToHsl(color), {
+  return toColorString(_extends$1({}, parseToHsl(color), {
     lightness: parseFloat(lightness)
   }));
 }
@@ -1158,7 +1191,7 @@ curry(setLightness);
  */
 
 function setSaturation(saturation, color) {
-  return toColorString(_extends({}, parseToHsl(color), {
+  return toColorString(_extends$1({}, parseToHsl(color), {
     saturation: parseFloat(saturation)
   }));
 }
@@ -1261,7 +1294,7 @@ function transparentize(amount, color) {
   var parsedColor = parseToRgb(color);
   var alpha = typeof parsedColor.alpha === 'number' ? parsedColor.alpha : 1;
 
-  var colorWithAlpha = _extends({}, parsedColor, {
+  var colorWithAlpha = _extends$1({}, parsedColor, {
     alpha: guard(0, 1, (alpha * 100 - parseFloat(amount) * 100) / 100)
   });
 
@@ -1271,55 +1304,6 @@ function transparentize(amount, color) {
 var curriedTransparentize =
 /*#__PURE__*/
 curry(transparentize);
-
-const primary = '#1a73e8';
-const danger = '#e34160';
-const white = '#ffffff';
-const dark = '#555555';
-const black = '#000000';
-const greyLightest = '#f5f5f5';
-const greyLighter = '#dcdcdc';
-const greyLight = '#d3d3d3';
-const grey = '#c0c0c0';
-const greyDark = '#a9a9a9';
-const greyDarker = '#808080';
-const greyDarkest = '#696969';
-
-const defaultTheme = {
-  fontFamily: 'Inter UI, sans-serif',
-  fontSize: '12px',
-  largeFontSize: '14px',
-  colorPrimary: primary,
-  colorDanger: danger,
-  colorGreyDarkest: greyDarkest,
-  colorGreyDarker: greyDarker,
-  colorGreyDark: greyDark,
-  colorGrey: grey,
-  colorGreyLight: greyLight,
-  colorGreyLighter: greyLighter,
-  colorGreyLightest: greyLightest,
-  colorWhite: white,
-  colorBlack: black,
-  colorDark: dark
-};
-
-function _extends$1() {
-  _extends$1 = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends$1.apply(this, arguments);
-}
 
 var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -3056,7 +3040,7 @@ const Icon = ({
   size,
   ...props
 }) => {
-  return React.createElement("span", _extends$1({
+  return React.createElement("span", _extends({
     dangerouslySetInnerHTML: {
       __html: feather$1.icons[name].toSvg({
         width: size ? size : '20',
@@ -3074,315 +3058,240 @@ var Icon$1 = styled(Icon)`
   align-items: center;
 `;
 
-const ButtonIcon = styled.span`
+const IconContainer = styled.div`
+  height: ${({
+  isLarge
+}) => {
+  return isLarge ? '38px' : '30px';
+}};
   display: inline-flex;
   justify-content: center;
   align-items: center;
 
   padding-left: ${({
-  paddingLeft
-}) => paddingLeft};
+  iconLeft
+}) => iconLeft ? '6px' : '4px'};
   padding-right: ${({
-  paddingRight
-}) => paddingRight};
+  iconRight
+}) => iconRight ? '6px' : '4px'};
 `;
-
-const BaseButton = ({
-  children,
-  iconLeft,
-  iconRight,
-  isDanger,
-  isInverted,
-  isLarge,
-  isOutlined,
-  isPrimary,
-  theme,
-  ...props
-}) => {
-  let paddingRight = iconLeft && children ? '4px' : 0;
-  let paddingLeft = iconRight && children ? '4px' : 0;
-  return React.createElement("button", props, iconLeft ? React.createElement(ButtonIcon, {
-    paddingRight: paddingRight,
-    paddingLeft: paddingLeft
-  }, React.createElement(Icon$1, {
-    name: iconLeft,
-    size: isLarge ? '16px' : '14px'
-  })) : null, children, iconRight ? React.createElement(ButtonIcon, {
-    paddingLeft: paddingLeft,
-    paddingRight: paddingRight,
-    size: "16px"
-  }, React.createElement(Icon$1, {
-    name: iconRight,
-    size: isLarge ? '16px' : '14px'
-  })) : null);
-};
-
-const Button = styled(BaseButton)`
+const Container = styled.div`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${({
   isLarge,
   theme
 }) => isLarge ? theme.largeFontSize : theme.fontSize};
 
-  display: inline-flex;
+  display: ${({
+  isFullwidth,
+  theme
+}) => isFullwidth ? 'flex' : 'inline-flex'};
+  justify-content: flex-start;
   align-items: center;
 
-  padding-left: ${({
-  children,
-  isLarge
+  margin: 0;
+
+  border: 1px solid
+    ${({
+  isFocused,
+  theme,
+  value
 }) => {
-  if (isLarge) {
-    return children ? '18px' : '14px';
-  }
-
-  return children ? '14px' : '10px';
-}};
-  padding-right: ${({
-  children,
-  isLarge
-}) => {
-  if (isLarge) {
-    return children ? '18px' : '14px';
-  }
-
-  return children ? '14px' : '10px';
-}};
-
-  height: ${({
-  isLarge,
-  isInverted,
-  isOutlined
-}) => {
-  return isLarge ? '40px' : '32px';
-}};
-
-  background-color: ${({
-  disabled,
-  isDanger,
-  isInverted,
-  isOutlined,
-  isPrimary,
-  theme
-}) => {
-  if (disabled) {
-    return theme.colorGreyLightest;
-  }
-
-  if (isInverted) {
-    return theme.colorWhite;
-  }
-
-  if (isOutlined) {
-    return theme.colorWhite;
-  }
-
-  if (isDanger) {
-    return theme.colorDanger;
-  }
-
-  if (isPrimary) {
+  if (isFocused) {
     return theme.colorPrimary;
   }
 
-  return theme.colorWhite;
-}};
-  color: ${({
-  disabled,
-  isDanger,
-  isInverted,
-  isOutlined,
-  isPrimary,
-  theme
-}) => {
-  if (disabled) {
+  if (value) {
     return theme.colorGreyDark;
   }
 
-  if (isInverted || isOutlined) {
-    if (isDanger) {
-      return theme.colorDanger;
-    }
-
-    if (isPrimary) {
-      return theme.colorPrimary;
-    }
-  }
-
-  if (isDanger || isPrimary) {
-    return theme.colorWhite;
-  }
-
-  return theme.colorDark;
+  return 'transparent';
 }};
-  border: ${({
-  disabled,
-  isDanger,
-  isInverted,
-  isOutlined,
-  isPrimary,
+  box-shadow: ${({
+  isFocused,
   theme
 }) => {
-  if (disabled) {
-    if (isOutlined) {
-      return `1px solid ${theme.colorGreyLight}`;
-    }
-
-    return '1px solid transparent';
+  if (isFocused) {
+    return `0 0 10px ${curriedTransparentize(0.3, theme.colorPrimary)}`;
   }
 
-  if (isOutlined) {
-    if (isDanger) {
-      return `1px solid ${theme.colorDanger}`;
-    }
-
-    if (isPrimary) {
-      return `1px solid ${theme.colorPrimary}`;
-    }
+  return 'none';
+}};
+  background-color: ${({
+  isFocused,
+  theme,
+  value
+}) => {
+  if (isFocused || value) {
+    return 'transparent';
   }
 
-  if (isPrimary || isDanger || isInverted) {
-    return '1px solid transparent';
-  }
-
-  return `1px solid ${theme.colorGrey}`;
+  return curriedDarken(0.05, theme.colorGreyLightest);
 }};
   border-radius: 4px;
-
-  font-weight: 500;
+  color: ${({
+  theme
+}) => theme.colorDark};
+`;
+const StyledInput = styled.input`
+  font-family: ${props => props.theme.fontFamily};
   font-size: ${({
   isLarge,
   theme
 }) => isLarge ? theme.largeFontSize : theme.fontSize};
 
-  cursor: pointer;
+  position: relative;
+  width: 100%;
+  border: none;
   outline: none;
+  background: none;
 
-  &[disabled] {
-    cursor: not-allowed;
-  }
-
-  &:hover {
-    background-color: ${({
-  disabled,
-  isDanger,
-  isInverted,
-  isOutlined,
-  isPrimary,
-  theme
+  height: ${({
+  isLarge
 }) => {
-  if (disabled) {
-    return theme.colorGreyLightest;
-  }
-
-  if (isInverted) {
-    if (isDanger) {
-      return curriedLighten(0.38, theme.colorDanger);
-    }
-
-    if (isPrimary) {
-      return curriedLighten(0.45, theme.colorPrimary);
-    }
-  }
-
-  if (isOutlined) {
-    if (isDanger) {
-      return curriedLighten(0.4, theme.colorDanger);
-    }
-
-    if (isPrimary) {
-      return curriedLighten(0.47, theme.colorPrimary);
-    }
-
-    return theme.colorGreyLightest;
-  }
-
-  if (isDanger) {
-    return curriedLighten(0.025, theme.colorDanger);
-  }
-
-  if (isPrimary) {
-    return curriedLighten(0.025, theme.colorPrimary);
-  }
-
-  return theme.colorGreyLightest;
-}}};
-  }
-
-  &:active {
-    background-color: ${({
-  disabled,
-  isDanger,
-  isInverted,
-  isOutlined,
-  isPrimary,
-  theme
-}) => {
-  if (disabled) {
-    return theme.colorGreyLightest;
-  }
-
-  if (isInverted) {
-    if (isDanger) {
-      return curriedLighten(0.32, theme.colorDanger);
-    }
-
-    if (isPrimary) {
-      return curriedLighten(0.4, theme.colorPrimary);
-    }
-  }
-
-  if (isOutlined) {
-    if (isDanger) {
-      return curriedLighten(0.37, theme.colorDanger);
-    }
-
-    if (isPrimary) {
-      return curriedLighten(0.45, theme.colorPrimary);
-    }
-  }
-
-  if (isDanger) {
-    return curriedLighten(0.1, theme.colorDanger);
-  }
-
-  if (isPrimary) {
-    return curriedLighten(0.1, theme.colorPrimary);
-  }
-
-  return theme.colorGreyLighter;
+  return isLarge ? '36px' : '28px';
 }};
-    color: ${({
-  disabled,
-  isDanger,
-  isInverted,
-  isOutlined,
-  isPrimary,
-  theme
-}) => {
-  if (disabled) {
-    return theme.colorGreyDark;
-  }
 
-  if (isInverted || isOutlined) {
-    if (isDanger) {
-      return theme.colorDanger;
-    }
-
-    if (isPrimary) {
-      return theme.colorPrimary;
-    }
-  }
-
-  if (isPrimary || isDanger) {
-    return theme.colorWhite;
-  }
-
-  return theme.colorDark;
-}};
-  }
+  margin-left: ${({
+  iconLeft
+}) => iconLeft ? 0 : '8px'};
+  margin-right: ${({
+  iconRight
+}) => iconRight ? 0 : '8px'};
 `;
-Button.defaultProps = {
-  theme: defaultTheme
-};
 
-export default Button;
+class Input extends React.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", {
+      value: ''
+    });
+
+    _defineProperty(this, "handleChange", event => {
+      const value = event.target.value;
+      const {
+        value: valueProps,
+        onChange,
+        onChangeValue
+      } = this.props;
+
+      if (valueProps !== undefined) {
+        if (onChange) {
+          event.persist();
+          onChange(event);
+        }
+
+        if (onChangeValue) {
+          onChangeValue(value);
+        }
+
+        return;
+      }
+
+      this.setState({
+        value
+      }, () => {
+        if (onChange) {
+          event.persist();
+          onChange(event);
+        }
+
+        if (onChangeValue) {
+          onChangeValue(value);
+        }
+      });
+    });
+
+    _defineProperty(this, "handleFocus", event => {
+      const {
+        onFocus
+      } = this.props;
+      this.setState({
+        isFocused: true
+      }, () => {
+        if (onFocus) {
+          event.persist();
+          onFocus(event);
+        }
+      });
+    });
+
+    _defineProperty(this, "handleBlur", () => {
+      const {
+        onBlur
+      } = this.props;
+      this.setState({
+        isFocused: false
+      }, () => {
+        if (onBlur) {
+          event.persist();
+          onBlur(event);
+        }
+      });
+    });
+
+    _defineProperty(this, "setInputRef", ref => {
+      this.inputElement = ref;
+    });
+
+    _defineProperty(this, "focus", () => {
+      this.inputElement.focus();
+    });
+
+    _defineProperty(this, "handleMouseDown", event => {
+      event.preventDefault();
+      this.focus();
+    });
+  }
+
+  render() {
+    const {
+      iconLeft,
+      iconRight,
+      isFullwidth,
+      isLarge,
+      theme,
+      ...props
+    } = this.props;
+    const {
+      isFocused
+    } = this.state;
+    const value = this.state.value || this.props.value || '';
+    return React.createElement(Container, {
+      iconLeft: iconLeft,
+      iconRight: iconRight,
+      isFullwidth: isFullwidth,
+      isLarge: isLarge,
+      theme: theme,
+      value: value,
+      isFocused: isFocused,
+      onFocus: this.handleFocus,
+      onBlur: this.handleBlur
+    }, iconLeft ? React.createElement(IconContainer, {
+      iconLeft: iconLeft,
+      onMouseDown: this.handleMouseDown
+    }, React.createElement(Icon$1, {
+      name: iconLeft,
+      size: isLarge ? '16px' : '14px'
+    })) : null, React.createElement(StyledInput, _extends({}, props, {
+      ref: this.setInputRef,
+      iconLeft: iconLeft,
+      iconRight: iconRight,
+      isLarge: isLarge,
+      theme: theme,
+      value: value,
+      onChange: this.handleChange
+    })), iconRight ? React.createElement(IconContainer, {
+      iconRight: iconRight,
+      onMouseDown: this.handleMouseDown
+    }, React.createElement(Icon$1, {
+      name: iconRight,
+      size: isLarge ? '16px' : '14px',
+      onMouseDown: this.handleMouseDown
+    })) : null);
+  }
+
+}
+
+export default Input;
