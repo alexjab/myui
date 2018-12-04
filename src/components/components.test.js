@@ -6,6 +6,7 @@ import GlobalStyle from '../../src/components/GlobalStyle'
 
 import coreStories from '../../stories/core'
 import buttonStories from '../../stories/button'
+import infoGroupStories from '../../stories/infoGroup'
 import inputStories from '../../stories/input'
 import tableStories from '../../stories/table'
 import tabsStories from '../../stories/tabs'
@@ -30,5 +31,6 @@ function createComponentTest(description, stories) {
 createComponentTest('<Core />', coreStories)
 createComponentTest('<Button />', buttonStories)
 createComponentTest('<Input />', inputStories)
+createComponentTest('<InfoGroup />', infoGroupStories)
 createComponentTest('<Table />', tableStories)
 createComponentTest('<Tabs />', tabsStories)

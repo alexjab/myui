@@ -2797,6 +2797,234 @@ Array [
 ]
 `;
 
+exports[`Story of <InfoGroup /> Info group 1`] = `
+.c2 {
+  color: #a9a9a9;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.c0 {
+  border-spacing: 8px 16px;
+}
+
+.c1 th {
+  text-align: left;
+}
+
+.c1:not(:first-child) th {
+  padding-top: 20px;
+}
+
+<table
+  className="c0"
+  title=""
+>
+  <thead
+    className="c1"
+  >
+    <tr>
+      <th>
+        User Account Details
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="c2"
+      >
+        Name
+      </td>
+      <td>
+        Brody Senger
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Date of Birth
+      </td>
+      <td>
+        1979-10-28
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Street Address
+      </td>
+      <td>
+        56530 Treutel Ville
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        City, State Zip
+      </td>
+      <td>
+        Nealbury, ME 70770
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Country
+      </td>
+      <td>
+        United States of America
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Phone Number
+      </td>
+      <td>
+        742.999.XXXX
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Username
+      </td>
+      <td>
+        Brody_Senger87
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Password
+      </td>
+      <td>
+        58USigVlSk8oaZW
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Email
+      </td>
+      <td>
+        Brody45@yahoo.com
+      </td>
+    </tr>
+  </tbody>
+  <thead
+    className="c1"
+  >
+    <tr>
+      <th>
+        Company Details
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="c2"
+      >
+        Company Name
+      </td>
+      <td>
+        Christiansen and Sons
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Catch Phrase
+      </td>
+      <td>
+        Up-sized tertiary infrastructure
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        BS
+      </td>
+      <td>
+        B2B productize networks
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Catch Phrase Adjective
+      </td>
+      <td>
+        Multi-tiered
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Catchphrase Descriptor
+      </td>
+      <td>
+        stable
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        Catchphrase Noun
+      </td>
+      <td>
+        emulation
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        BS Adjective
+      </td>
+      <td>
+        one-to-one
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        BS Buzz
+      </td>
+      <td>
+        brand
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="c2"
+      >
+        BS Noun
+      </td>
+      <td>
+        e-commerce
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
 exports[`Story of <Input /> Input 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
