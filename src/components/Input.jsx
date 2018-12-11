@@ -12,8 +12,18 @@ const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  padding-left: ${({ iconLeft }) => (iconLeft ? '6px' : '4px')};
-  padding-right: ${({ iconRight }) => (iconRight ? '6px' : '4px')};
+  padding-left: ${({ iconLeft, isLarge }) => {
+    if (isLarge) {
+      return iconLeft ? '10px' : '8px'
+    }
+    return iconLeft ? '6px' : '4px'
+  }};
+  padding-right: ${({ iconRight, isLarge }) => {
+    if (isLarge) {
+      return iconRight ? '10px' : '8px'
+    }
+    return iconRight ? '6px' : '4px'
+  }};
 `
 
 const Container = styled.div`
@@ -73,8 +83,18 @@ const StyledInput = styled.input`
     return isLarge ? '36px' : '28px'
   }};
 
-  margin-left: ${({ iconLeft }) => (iconLeft ? 0 : '8px')};
-  margin-right: ${({ iconRight }) => (iconRight ? 0 : '8px')};
+  margin-left: ${({ iconLeft, isLarge }) => {
+    if (isLarge) {
+      return iconLeft ? 0 : '10px'
+    }
+    return iconLeft ? 0 : '8px'
+  }};
+  margin-right: ${({ iconRight, isLarge }) => {
+    if (isLarge) {
+      return iconRight ? 0 : '10px'
+    }
+    return iconRight ? 0 : '8px'
+  }};
 `
 
 class Input extends React.Component {
@@ -171,7 +191,11 @@ class Input extends React.Component {
         onBlur={this.handleBlur}
       >
         {iconLeft ? (
-          <IconContainer iconLeft={iconLeft} onMouseDown={this.handleMouseDown}>
+          <IconContainer
+            iconLeft={iconLeft}
+            isLarge={isLarge}
+            onMouseDown={this.handleMouseDown}
+          >
             <Icon name={iconLeft} size={isLarge ? '16px' : '14px'} />
           </IconContainer>
         ) : null}
@@ -189,6 +213,7 @@ class Input extends React.Component {
           <IconContainer
             iconRight={iconRight}
             onMouseDown={this.handleMouseDown}
+            isLarge={isLarge}
           >
             <Icon
               name={iconRight}

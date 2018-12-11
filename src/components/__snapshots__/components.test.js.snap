@@ -3729,8 +3729,8 @@ exports[`Story of <Input /> Input large 1`] = `
   outline: none;
   background: none;
   height: 36px;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 <div
@@ -3762,7 +3762,7 @@ exports[`Story of <Input /> Input large fullwidth with icon right 1`] = `
 }
 
 .c2 {
-  height: 30px;
+  height: 38px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3775,8 +3775,8 @@ exports[`Story of <Input /> Input large fullwidth with icon right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
-  padding-right: 6px;
+  padding-left: 8px;
+  padding-right: 10px;
 }
 
 .c0 {
@@ -3811,7 +3811,7 @@ exports[`Story of <Input /> Input large fullwidth with icon right 1`] = `
   outline: none;
   background: none;
   height: 36px;
-  margin-left: 8px;
+  margin-left: 10px;
   margin-right: 0;
 }
 
@@ -3858,7 +3858,7 @@ exports[`Story of <Input /> Input large with icon left 1`] = `
 }
 
 .c1 {
-  height: 30px;
+  height: 38px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3871,8 +3871,8 @@ exports[`Story of <Input /> Input large with icon left 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 6px;
-  padding-right: 4px;
+  padding-left: 10px;
+  padding-right: 8px;
 }
 
 .c0 {
@@ -3908,7 +3908,7 @@ exports[`Story of <Input /> Input large with icon left 1`] = `
   background: none;
   height: 36px;
   margin-left: 0;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 <div
@@ -3953,7 +3953,7 @@ exports[`Story of <Input /> Input large with icon right 1`] = `
 }
 
 .c2 {
-  height: 30px;
+  height: 38px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3966,8 +3966,8 @@ exports[`Story of <Input /> Input large with icon right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
-  padding-right: 6px;
+  padding-left: 8px;
+  padding-right: 10px;
 }
 
 .c0 {
@@ -4002,7 +4002,7 @@ exports[`Story of <Input /> Input large with icon right 1`] = `
   outline: none;
   background: none;
   height: 36px;
-  margin-left: 8px;
+  margin-left: 10px;
   margin-right: 0;
 }
 
@@ -4049,7 +4049,7 @@ exports[`Story of <Input /> Input large with icons left and right 1`] = `
 }
 
 .c1 {
-  height: 30px;
+  height: 38px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4062,12 +4062,12 @@ exports[`Story of <Input /> Input large with icons left and right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 6px;
-  padding-right: 4px;
+  padding-left: 10px;
+  padding-right: 8px;
 }
 
 .c4 {
-  height: 30px;
+  height: 38px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4080,8 +4080,8 @@ exports[`Story of <Input /> Input large with icons left and right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
-  padding-right: 6px;
+  padding-left: 8px;
+  padding-right: 10px;
 }
 
 .c0 {
