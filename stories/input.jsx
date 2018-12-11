@@ -59,11 +59,30 @@ export default [
   },
   {
     name: 'Input fullwidth with icon left',
-    element: <Input isFullwidth  placeholder="This is an input" iconLeft="alert-triangle" />,
+    element: (
+      <Input
+        isFullwidth
+        placeholder="This is an input"
+        iconLeft="alert-triangle"
+      />
+    ),
   },
   {
     name: 'Input fullwidth with icon right',
-    element: <Input isFullwidth  placeholder="This is an input" iconRight="search" />,
+    element: (
+      <Input isFullwidth placeholder="This is an input" iconRight="search" />
+    ),
+  },
+  {
+    name: 'Input large fullwidth with icon right',
+    element: (
+      <Input
+        isFullwidth
+        isLarge
+        placeholder="This is an input"
+        iconRight="search"
+      />
+    ),
   },
   {
     name: 'Input fullwidth with icons left and right',
