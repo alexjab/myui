@@ -41,6 +41,14 @@ export default [
     ),
   },
   {
+    name: 'Default with both icons',
+    element: (
+      <Button iconLeft="arrow-left" iconRight="arrow-right" onClick={action('onClick')}>
+        Go back
+      </Button>
+    ),
+  },
+  {
     name: 'Default large with iconLeft',
     element: (
       <Button isLarge iconLeft="arrow-left" onClick={action('onClick')}>

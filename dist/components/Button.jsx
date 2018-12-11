@@ -3081,10 +3081,10 @@ const ButtonIcon = styled.span`
 
   padding-left: ${({
   paddingLeft
-}) => paddingLeft};
+}) => paddingLeft || 0};
   padding-right: ${({
   paddingRight
-}) => paddingRight};
+}) => paddingRight || 0};
 `;
 
 const BaseButton = ({
@@ -3099,17 +3099,15 @@ const BaseButton = ({
   theme,
   ...props
 }) => {
-  let paddingRight = iconLeft && children ? '4px' : 0;
-  let paddingLeft = iconRight && children ? '4px' : 0;
+  let paddingIconLeft = iconLeft && children ? isLarge ? '18px' : '14px' : 0;
+  let paddingIconRight = iconRight && children ? isLarge ? '18px' : '14px' : 0;
   return React.createElement("button", props, iconLeft ? React.createElement(ButtonIcon, {
-    paddingRight: paddingRight,
-    paddingLeft: paddingLeft
+    paddingRight: paddingIconLeft
   }, React.createElement(Icon$1, {
     name: iconLeft,
     size: isLarge ? '16px' : '14px'
   })) : null, children, iconRight ? React.createElement(ButtonIcon, {
-    paddingLeft: paddingLeft,
-    paddingRight: paddingRight,
+    paddingLeft: paddingIconRight,
     size: "16px"
   }, React.createElement(Icon$1, {
     name: iconRight,
@@ -3147,6 +3145,10 @@ const Button = styled(BaseButton)`
 
   return children ? '14px' : '10px';
 }};
+
+  &:not(:first-child) {
+    margin-left: 5px;
+  }
 
   height: ${({
   isLarge,
@@ -3248,7 +3250,7 @@ const Button = styled(BaseButton)`
 }};
   border-radius: 4px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: ${({
   isLarge,
   theme

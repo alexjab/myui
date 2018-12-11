@@ -4,7 +4,7 @@ import commonJS from 'rollup-plugin-commonjs'
 import globby from 'globby'
 
 const multipleFilesConfigs = globby
-  .sync('./src/components/*.jsx')
+  .sync(['./src/{components,core}/*.{jsx,js}', '!**/*.test*'])
   .map(inputFile => ({
     input: inputFile,
     external: ['react', 'react-dom', 'styled-components'],

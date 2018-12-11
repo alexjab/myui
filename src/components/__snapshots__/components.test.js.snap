@@ -19,10 +19,14 @@ exports[`Story of <Button /> Danger 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -65,10 +69,14 @@ exports[`Story of <Button /> Danger inverted 1`] = `
   color: #e34160;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -111,10 +119,14 @@ exports[`Story of <Button /> Danger large 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -157,10 +169,14 @@ exports[`Story of <Button /> Danger large inverted 1`] = `
   color: #e34160;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -203,10 +219,14 @@ exports[`Story of <Button /> Danger large outlined 1`] = `
   color: #e34160;
   border: 1px solid #e34160;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -249,10 +269,14 @@ exports[`Story of <Button /> Danger outlined 1`] = `
   color: #e34160;
   border: 1px solid #e34160;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -295,10 +319,14 @@ exports[`Story of <Button /> Default 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -341,10 +369,14 @@ exports[`Story of <Button /> Default inverted 1`] = `
   color: #555555;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -395,7 +427,7 @@ exports[`Story of <Button /> Default large with iconLeft 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 4px;
+  padding-right: 18px;
 }
 
 .c0 {
@@ -416,10 +448,14 @@ exports[`Story of <Button /> Default large with iconLeft 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -481,7 +517,7 @@ exports[`Story of <Button /> Default large with iconRight 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
+  padding-left: 18px;
   padding-right: 0;
 }
 
@@ -503,10 +539,14 @@ exports[`Story of <Button /> Default large with iconRight 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -591,10 +631,14 @@ exports[`Story of <Button /> Default large with only icon 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -649,10 +693,14 @@ exports[`Story of <Button /> Default outlined 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -673,6 +721,127 @@ exports[`Story of <Button /> Default outlined 1`] = `
   onClick={[Function]}
 >
   Confirm changes
+</button>
+`;
+
+exports[`Story of <Button /> Default with both icons 1`] = `
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 14px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 0;
+}
+
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <span
+    className="c1"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
+  Go back
+  <span
+    className="c3"
+    size="16px"
+  >
+    <span
+      className="c2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
+        }
+      }
+    />
+  </span>
 </button>
 `;
 
@@ -703,7 +872,7 @@ exports[`Story of <Button /> Default with iconLeft 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 4px;
+  padding-right: 14px;
 }
 
 .c0 {
@@ -724,10 +893,14 @@ exports[`Story of <Button /> Default with iconLeft 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -789,7 +962,7 @@ exports[`Story of <Button /> Default with iconRight 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
+  padding-left: 14px;
   padding-right: 0;
 }
 
@@ -811,10 +984,14 @@ exports[`Story of <Button /> Default with iconRight 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -899,10 +1076,14 @@ exports[`Story of <Button /> Default with only icon 1`] = `
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -957,10 +1138,14 @@ exports[`Story of <Button /> Disabled 1`] = `
   color: #a9a9a9;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1004,10 +1189,14 @@ exports[`Story of <Button /> Disabled inverted 1`] = `
   color: #a9a9a9;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1051,10 +1240,14 @@ exports[`Story of <Button /> Disabled large 1`] = `
   color: #a9a9a9;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1098,10 +1291,14 @@ exports[`Story of <Button /> Disabled outlined 1`] = `
   color: #a9a9a9;
   border: 1px solid #d3d3d3;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1145,10 +1342,14 @@ exports[`Story of <Button /> Primary 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1191,10 +1392,14 @@ exports[`Story of <Button /> Primary inverted 1`] = `
   color: #1a73e8;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1237,10 +1442,14 @@ exports[`Story of <Button /> Primary inverted disabled 1`] = `
   color: #a9a9a9;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1284,10 +1493,14 @@ exports[`Story of <Button /> Primary large 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1330,10 +1543,14 @@ exports[`Story of <Button /> Primary large inverted 1`] = `
   color: #1a73e8;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1376,10 +1593,14 @@ exports[`Story of <Button /> Primary large outlined 1`] = `
   color: #1a73e8;
   border: 1px solid #1a73e8;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1451,10 +1672,14 @@ exports[`Story of <Button /> Primary large with only icon 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1509,10 +1734,14 @@ exports[`Story of <Button /> Primary outlined 1`] = `
   color: #1a73e8;
   border: 1px solid #1a73e8;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1563,7 +1792,7 @@ exports[`Story of <Button /> Primary outlined with icon left 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 4px;
+  padding-right: 14px;
 }
 
 .c0 {
@@ -1584,10 +1813,14 @@ exports[`Story of <Button /> Primary outlined with icon left 1`] = `
   color: #1a73e8;
   border: 1px solid #1a73e8;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1649,7 +1882,7 @@ exports[`Story of <Button /> Primary outlined with icon right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
+  padding-left: 14px;
   padding-right: 0;
 }
 
@@ -1671,10 +1904,14 @@ exports[`Story of <Button /> Primary outlined with icon right 1`] = `
   color: #1a73e8;
   border: 1px solid #1a73e8;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1737,7 +1974,7 @@ exports[`Story of <Button /> Primary with icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 4px;
+  padding-left: 14px;
   padding-right: 0;
 }
 
@@ -1759,10 +1996,14 @@ exports[`Story of <Button /> Primary with icon 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -1847,10 +2088,14 @@ exports[`Story of <Button /> Primary with only icon 1`] = `
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -2799,12 +3044,16 @@ Array [
 
 exports[`Story of <InfoGroup /> Info group 1`] = `
 .c2 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
   color: #a9a9a9;
   font-weight: bold;
   padding-right: 20px;
 }
 
 .c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
   border-spacing: 8px 16px;
 }
 
@@ -7637,7 +7886,38 @@ exports[`Story of <Table /> Table.Auto 1`] = `
 
 exports[`Story of <Tabs /> Select tab 1`] = `
 Array [
-  .c0 {
+  .c1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #1a73e8;
+  height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  color: #a9a9a9;
+  border-bottom: none;
+  height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
   border-bottom: 1px solid #dcdcdc;
@@ -7651,29 +7931,6 @@ Array [
   color: #808080;
   font-weight: 600;
   margin-left: 10px;
-}
-
-.c1 {
-  padding: 10px;
-  border-bottom: 3px solid #1a73e8;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.c3 {
-  padding: 10px;
-  color: #a9a9a9;
-  border-bottom: none;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 <div
@@ -7721,10 +7978,14 @@ Array [
   color: #555555;
   border: 1px solid #c0c0c0;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   cursor: pointer;
   outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
 }
 
 .c0[disabled] {
@@ -7752,6 +8013,37 @@ Array [
 `;
 
 exports[`Story of <Tabs /> Tabs 1`] = `
+.c1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #1a73e8;
+  height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  color: #a9a9a9;
+  border-bottom: none;
+  height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -7766,29 +8058,6 @@ exports[`Story of <Tabs /> Tabs 1`] = `
   color: #808080;
   font-weight: 600;
   margin-left: 10px;
-}
-
-.c1 {
-  padding: 10px;
-  border-bottom: 3px solid #1a73e8;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.c3 {
-  padding: 10px;
-  color: #a9a9a9;
-  border-bottom: none;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 <div
@@ -7821,6 +8090,37 @@ exports[`Story of <Tabs /> Tabs 1`] = `
 `;
 
 exports[`Story of <Tabs /> Tabs with default tab 1`] = `
+.c3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #1a73e8;
+  height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  color: #a9a9a9;
+  border-bottom: none;
+  height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -7835,29 +8135,6 @@ exports[`Story of <Tabs /> Tabs with default tab 1`] = `
   color: #808080;
   font-weight: 600;
   margin-left: 10px;
-}
-
-.c3 {
-  padding: 10px;
-  border-bottom: 3px solid #1a73e8;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.c1 {
-  padding: 10px;
-  color: #a9a9a9;
-  border-bottom: none;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 <div
@@ -7885,6 +8162,488 @@ exports[`Story of <Tabs /> Tabs with default tab 1`] = `
     onClick={[Function]}
   >
     Third entry
+  </div>
+</div>
+`;
+
+exports[`Story of <Toolbar /> Toolbar 1`] = `
+.c1 {
+  height: 20;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20\\" height=\\"20\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-up-circle\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"10\\"></circle><polyline points=\\"16 12 12 8 8 12\\"></polyline><line x1=\\"12\\" y1=\\"16\\" x2=\\"12\\" y2=\\"8\\"></line></svg>",
+      }
+    }
+  />
+  <span
+    className="c1"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20\\" height=\\"20\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down-circle\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"10\\"></circle><polyline points=\\"8 12 12 16 16 12\\"></polyline><line x1=\\"12\\" y1=\\"8\\" x2=\\"12\\" y2=\\"16\\"></line></svg>",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
+.c4 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 14px;
+}
+
+.c2 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c2:not(:first-child) {
+  margin-left: 5px;
+}
+
+.c2[disabled] {
+  cursor: not-allowed;
+}
+
+.c2:hover {
+  background-color: #f5f5f5;
+}
+
+.c2:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-right: 1px solid #d3d3d3;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-left: 1px solid #d3d3d3;
+}
+
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <button
+        className="c2"
+      >
+        <span
+          className="c3"
+        >
+          <span
+            className="c4"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
+              }
+            }
+          />
+        </span>
+        Back
+      </button>
+    </div>
+    <div
+      className="c5"
+    >
+      Center
+    </div>
+    <div
+      className="c6"
+    >
+      <button
+        className="c2"
+      >
+        <span
+          className="c3"
+        >
+          <span
+            className="c4"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
+              }
+            }
+          />
+        </span>
+        Forward
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Story of <Toolbar /> Toolbar with expanded column and fixed column 1`] = `
+.c4 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 14px;
+}
+
+.c2 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c2:not(:first-child) {
+  margin-left: 5px;
+}
+
+.c2[disabled] {
+  cursor: not-allowed;
+}
+
+.c2:hover {
+  background-color: #f5f5f5;
+}
+
+.c2:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-left: 1px solid #d3d3d3;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <button
+        className="c2"
+      >
+        <span
+          className="c3"
+        >
+          <span
+            className="c4"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
+              }
+            }
+          />
+        </span>
+        Back
+      </button>
+    </div>
+    <div
+      className="c5"
+    >
+      <button
+        className="c2"
+      >
+        <span
+          className="c3"
+        >
+          <span
+            className="c4"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
+              }
+            }
+          />
+        </span>
+        Forward
+      </button>
+    </div>
   </div>
 </div>
 `;

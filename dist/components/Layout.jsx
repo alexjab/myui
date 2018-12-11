@@ -36,44 +36,40 @@ const Row = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: ${({
-  hasSpaceBetween
-}) => hasSpaceBetween ? 'space-between' : 'flex-start'};
+  justifyContent
+}) => justifyContent};
+  align-items: ${({
+  alignItems
+}) => alignItems};
 
-  border-top: ${({
-  hasBorderTop,
-  theme
-}) => hasBorderTop ? `1px solid ${theme.colorGreyLighter}` : 'none'};
-  border-bottom: ${({
-  hasBorderBottom,
-  theme
-}) => hasBorderBottom ? `1px solid ${theme.colorGreyLighter}` : 'none'};
+  flex: ${({
+  flex
+}) => flex ? '1' : null};
 `;
 Row.defaultProps = {
-  hasBorderTop: false,
-  hasBorderBottom: false,
+  alignItems: 'flex-start',
+  flex: false,
+  justifyContent: 'flex-start',
   theme: defaultTheme
 };
 const Column = styled.div`
   display: flex;
   flex-direction: column;
-  align-self: ${({
-  isRight
-}) => isRight ? 'flex-end' : null};
+  justify-content: ${({
+  justifyContent
+}) => justifyContent};
+  align-items: ${({
+  alignItems
+}) => alignItems};
 
-  padding: 5px;
-
-  border-left: ${({
-  hasBorderLeft,
-  theme
-}) => hasBorderLeft ? `1px solid ${theme.colorGreyLighter}` : 'none'};
-  border-right: ${({
-  hasBorderRight,
-  theme
-}) => hasBorderRight ? `1px solid ${theme.colorGreyLighter}` : 'none'};
+  flex: ${({
+  flex
+}) => flex ? '1' : null};
 `;
 Column.defaultProps = {
-  hasBorderLeft: false,
-  hasBorderRight: false,
+  alignItems: 'flex-start',
+  flex: false,
+  justifyContent: 'flex-start',
   theme: defaultTheme
 };
 

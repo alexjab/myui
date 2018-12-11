@@ -11,11 +11,19 @@ class TabsWithSelectButton extends React.Component {
         <Tabs
           ref={ref => (this.tabs = ref)}
           onChangeSelected={action('onChangeSelected')}
-        >
-          <Tabs.Tab label="199">First entry</Tabs.Tab>
-          <Tabs.Tab>Second entry</Tabs.Tab>
-          <Tabs.Tab>Third entry</Tabs.Tab>
-        </Tabs>
+          tabs={[
+            {
+              title: 'First entry',
+              label: '199',
+            },
+            {
+              title: 'Second entry',
+            },
+            {
+              title: 'Third entry',
+            },
+          ]}
+        />
         <p>
           <Button onClick={() => this.tabs.selectTab(2)}>Select tab #3</Button>
         </p>
@@ -28,21 +36,42 @@ export default [
   {
     name: 'Tabs',
     element: (
-      <Tabs onChangeSelected={action('onChangeSelected')}>
-        <Tabs.Tab label="199">First entry</Tabs.Tab>
-        <Tabs.Tab>Second entry</Tabs.Tab>
-        <Tabs.Tab>Third entry</Tabs.Tab>
-      </Tabs>
+      <Tabs
+        onChangeSelected={action('onChangeSelected')}
+        tabs={[
+          {
+            title: 'First entry',
+            label: '199',
+          },
+          {
+            title: 'Second entry',
+          },
+          {
+            title: 'Third entry',
+          },
+        ]}
+      />
     ),
   },
   {
     name: 'Tabs with default tab',
     element: (
-      <Tabs defaultTab={1} onChangeSelected={action('onChangeSelected')}>
-        <Tabs.Tab label="199">First entry</Tabs.Tab>
-        <Tabs.Tab>Second entry</Tabs.Tab>
-        <Tabs.Tab>Third entry</Tabs.Tab>
-      </Tabs>
+      <Tabs
+        defaultTab={1}
+        onChangeSelected={action('onChangeSelected')}
+        tabs={[
+          {
+            title: 'First entry',
+            label: '199',
+          },
+          {
+            title: 'Second entry',
+          },
+          {
+            title: 'Third entry',
+          },
+        ]}
+      />
     ),
   },
   {

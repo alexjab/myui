@@ -1,15 +1,37 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import defaultTheme from '../core/themes'
+
 const KeyCell = styled.td`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${({ isLarge, theme }) =>
+    isLarge ? theme.largeFontSize : theme.fontSize};
+
   color: ${({ theme }) => theme.colorGreyDark};
   font-weight: bold;
   padding-right: 20px;
 `
 
+KeyCell.defaultProps = {
+  isLarge: false,
+  theme: defaultTheme,
+}
+
 const InfoGroup = styled.table`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${({ isLarge, theme }) =>
+    isLarge ? theme.largeFontSize : theme.fontSize};
+
   border-spacing: 8px 16px;
 `
+
+InfoGroup.defaultProps = {
+  fields: [],
+  isLarge: false,
+  theme: defaultTheme,
+  title: '',
+}
 
 const GroupHead = styled.thead`
   & th {
@@ -20,11 +42,6 @@ const GroupHead = styled.thead`
     padding-top: 20px;
   }
 `
-
-InfoGroup.defaultProps = {
-  title: '',
-  fields: [],
-}
 
 InfoGroup.Section = ({ fields, title }) => (
   <>

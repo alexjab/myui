@@ -11,8 +11,8 @@ const ButtonIcon = styled.span`
   justify-content: center;
   align-items: center;
 
-  padding-left: ${({ paddingLeft }) => paddingLeft};
-  padding-right: ${({ paddingRight }) => paddingRight};
+  padding-left: ${({ paddingLeft }) => paddingLeft || 0};
+  padding-right: ${({ paddingRight }) => paddingRight || 0};
 `
 
 const BaseButton = ({
@@ -27,23 +27,19 @@ const BaseButton = ({
   theme,
   ...props
 }) => {
-  let paddingRight = iconLeft && children ? '4px' : 0
-  let paddingLeft = iconRight && children ? '4px' : 0
+  let paddingIconLeft = iconLeft && children ? (isLarge ? '18px' : '14px') : 0
+  let paddingIconRight = iconRight && children ? (isLarge ? '18px' : '14px') : 0
 
   return (
     <button {...props}>
       {iconLeft ? (
-        <ButtonIcon paddingRight={paddingRight} paddingLeft={paddingLeft}>
+        <ButtonIcon paddingRight={paddingIconLeft}>
           <Icon name={iconLeft} size={isLarge ? '16px' : '14px'} />
         </ButtonIcon>
       ) : null}
       {children}
       {iconRight ? (
-        <ButtonIcon
-          paddingLeft={paddingLeft}
-          paddingRight={paddingRight}
-          size="16px"
-        >
+        <ButtonIcon paddingLeft={paddingIconRight} size="16px">
           <Icon name={iconRight} size={isLarge ? '16px' : '14px'} />
         </ButtonIcon>
       ) : null}
@@ -71,6 +67,10 @@ const Button = styled(BaseButton)`
     }
     return children ? '14px' : '10px'
   }};
+
+  &:not(:first-child) {
+    margin-left: 5px;
+  }
 
   height: ${({ isLarge, isInverted, isOutlined }) => {
     return isLarge ? '40px' : '32px'
@@ -167,7 +167,7 @@ const Button = styled(BaseButton)`
   }};
   border-radius: 4px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
 

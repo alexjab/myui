@@ -1,5 +1,3 @@
-import { createGlobalStyle } from 'styled-components';
-
 const primary = '#1a73e8';
 const danger = '#e34160';
 const white = '#ffffff';
@@ -31,14 +29,4 @@ const defaultTheme = {
   colorDark: dark
 };
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: ${props => props.theme.fontFamily};
-    font-size: ${props => props.theme.fontSize};
-  }
-`;
-GlobalStyle.defaultProps = {
-  theme: defaultTheme
-};
-
-export default GlobalStyle;
+export default defaultTheme;
