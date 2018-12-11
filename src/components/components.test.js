@@ -10,6 +10,7 @@ import infoGroupStories from '../../stories/infoGroup'
 import inputStories from '../../stories/input'
 import tableStories from '../../stories/table'
 import tabsStories from '../../stories/tabs'
+import tagStories from '../../stories/tag'
 import toolbarStories from '../../stories/toolbar'
 
 function createComponentTest(description, stories) {
@@ -35,4 +36,5 @@ createComponentTest('<Input />', inputStories)
 createComponentTest('<InfoGroup />', infoGroupStories)
 createComponentTest('<Table />', tableStories)
 createComponentTest('<Tabs />', tabsStories)
+createComponentTest('<Tag />', tagStories)
 createComponentTest('<Toolbar />', toolbarStories)

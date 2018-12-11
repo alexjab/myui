@@ -8166,6 +8166,56 @@ exports[`Story of <Tabs /> Tabs with default tab 1`] = `
 </div>
 `;
 
+exports[`Story of <Tag /> Default tag 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  color: #555555;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<div
+  className="c0"
+>
+  Default tag
+</div>
+`;
+
+exports[`Story of <Tag /> Primary tag 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<div
+  className="c0"
+>
+  Primary tag
+</div>
+`;
+
 exports[`Story of <Toolbar /> Toolbar 1`] = `
 .c1 {
   height: 20;

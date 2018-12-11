@@ -12,6 +12,7 @@ import infoGroupStories from './infoGroup'
 import inputStories from './input'
 import tableStories from './table'
 import tabsStories from './tabs'
+import tagStories from './tag'
 import toolbarStories from './toolbar'
 
 const GlobalDecorator = storyFn => (
@@ -39,4 +40,5 @@ createStoriesOf('InfoGroup', infoGroupStories)
 createStoriesOf('Input', inputStories)
 createStoriesOf('Table', tableStories)
 createStoriesOf('Tabs', tabsStories)
+createStoriesOf('Tag', tagStories)
 createStoriesOf('Toolbar', toolbarStories)
