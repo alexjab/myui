@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 const Table = styled.table`
   font-family: ${props => props.theme.fontFamily};
@@ -12,13 +12,13 @@ const Table = styled.table`
 `
 
 Table.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 Table.Row = styled.tr``
 
 Table.Row.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 Table.Data = styled.td`
@@ -27,7 +27,7 @@ Table.Data = styled.td`
 `
 
 Table.Data.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 Table.Header = styled.th`
@@ -38,23 +38,23 @@ Table.Header = styled.th`
 `
 
 Table.Header.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 Table.Head = styled.thead``
 
 Table.Head.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 Table.Body = styled.tbody``
 
 Table.Body.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 Table.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 class TableAuto extends React.Component {

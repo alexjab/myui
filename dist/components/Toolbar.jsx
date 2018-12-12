@@ -14,7 +14,7 @@ const greyDark = '#a9a9a9';
 const greyDarker = '#808080';
 const greyDarkest = '#696969';
 
-const defaultTheme = {
+const light = {
   fontFamily: 'Inter UI, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
@@ -92,7 +92,7 @@ Toolbar.defaultProps = {
   padding: 0,
   horizontalLayout: 'flex-start',
   isExpanded: false,
-  theme: defaultTheme,
+  theme: light,
   verticalLayout: 'stretch'
 };
 

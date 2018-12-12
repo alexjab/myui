@@ -1,3 +1,6 @@
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
+
 const primary = '#1a73e8';
 const danger = '#e34160';
 const white = '#ffffff';
@@ -48,4 +51,15 @@ const dark$1 = {
   colorDark: dark
 };
 
-export { light, dark$1 as dark };
+const ThemeProvider$1 = ({
+  children,
+  isDark
+}) => React.createElement(ThemeProvider, {
+  theme: isDark ? dark$1 : light
+}, React.createElement(React.Fragment, null, children));
+
+ThemeProvider$1.defaultProps = {
+  isDark: false
+};
+
+export default ThemeProvider$1;

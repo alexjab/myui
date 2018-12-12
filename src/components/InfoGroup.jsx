@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 const KeyCell = styled.td`
   font-family: ${props => props.theme.fontFamily};
@@ -15,7 +15,7 @@ const KeyCell = styled.td`
 
 KeyCell.defaultProps = {
   isLarge: false,
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 const InfoGroup = styled.table`
@@ -29,7 +29,7 @@ const InfoGroup = styled.table`
 InfoGroup.defaultProps = {
   fields: [],
   isLarge: false,
-  theme: defaultTheme,
+  theme: lightTheme,
   title: '',
 }
 

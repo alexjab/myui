@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { darken, transparentize } from 'polished'
 
+import { light as lightTheme } from '../core/themes'
+
 import Icon from './Icon.jsx'
 
 const IconContainer = styled.div`
@@ -98,6 +100,10 @@ const StyledInput = styled.input`
 `
 
 class Input extends React.Component {
+  static defaultProps = {
+    theme: lightTheme,
+  }
+
   state = {
     value: '',
   }

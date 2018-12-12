@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { light as lightTheme } from '../core/themes'
+
 const Container = styled.div`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${props => props.theme.fontSize};
@@ -43,14 +45,18 @@ const Name = styled.div`
   font-weight: 500;
 `
 
-const Color = ({ color, name }) => {
+const Color = ({ color, name, theme }) => {
   return (
-    <Container>
+    <Container theme={theme}>
       <ColorBlock color={color} />
-      <Label>{color.toUpperCase()}</Label>
-      <Name>{name || 'Unnamed color'}</Name>
+      <Label theme={theme}>{color.toUpperCase()}</Label>
+      <Name theme={theme}>{name || 'Unnamed color'}</Name>
     </Container>
   )
+}
+
+Color.defaultProps = {
+  theme: lightTheme,
 }
 
 export default Color

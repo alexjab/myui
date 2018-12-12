@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 class BaseTab extends React.Component {
   selectTab = () => {
@@ -41,7 +41,7 @@ const Tab = styled(BaseTab)`
 `
 
 Tab.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 class BaseTabs extends React.Component {
@@ -101,7 +101,7 @@ const Tabs = styled(BaseTabs)`
 
 Tabs.defaultProps = {
   hasBorder: true,
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 const Label = styled.span`
@@ -111,7 +111,7 @@ const Label = styled.span`
 `
 
 Label.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 export default Tabs

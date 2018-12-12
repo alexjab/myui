@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 const Toolbar = styled.div`
   display: flex;
@@ -38,7 +38,7 @@ Toolbar.defaultProps = {
   padding: 0,
   horizontalLayout: 'flex-start',
   isExpanded: false,
-  theme: defaultTheme,
+  theme: lightTheme,
   verticalLayout: 'stretch',
 }
 

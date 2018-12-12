@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
-import DefaultTheme from '../src/components/DefaultTheme'
+import ThemeProvider from '../src/components/ThemeProvider'
 import GlobalStyle from '../src/components/GlobalStyle'
 
 import buttonStories from './button'
@@ -16,11 +16,11 @@ import tagStories from './tag'
 import toolbarStories from './toolbar'
 
 const GlobalDecorator = storyFn => (
-  <DefaultTheme>
+  <ThemeProvider>
     {storyFn()}
 
     <GlobalStyle />
-  </DefaultTheme>
+  </ThemeProvider>
 )
 
 function createStoriesOf(nameOfStory, stories) {

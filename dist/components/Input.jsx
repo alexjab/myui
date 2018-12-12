@@ -1305,6 +1305,37 @@ var curriedTransparentize =
 /*#__PURE__*/
 curry(transparentize);
 
+const primary = '#1a73e8';
+const danger = '#e34160';
+const white = '#ffffff';
+const dark = '#555555';
+const black = '#000000';
+const greyLightest = '#f5f5f5';
+const greyLighter = '#dcdcdc';
+const greyLight = '#d3d3d3';
+const grey = '#c0c0c0';
+const greyDark = '#a9a9a9';
+const greyDarker = '#808080';
+const greyDarkest = '#696969';
+
+const light = {
+  fontFamily: 'Inter UI, sans-serif',
+  fontSize: '12px',
+  largeFontSize: '14px',
+  colorPrimary: primary,
+  colorDanger: danger,
+  colorGreyDarkest: greyDarkest,
+  colorGreyDarker: greyDarker,
+  colorGreyDark: greyDark,
+  colorGrey: grey,
+  colorGreyLight: greyLight,
+  colorGreyLighter: greyLighter,
+  colorGreyLightest: greyLightest,
+  colorWhite: white,
+  colorBlack: black,
+  colorDark: dark
+};
+
 var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
 function unwrapExports (x) {
@@ -3069,11 +3100,25 @@ const IconContainer = styled.div`
   align-items: center;
 
   padding-left: ${({
-  iconLeft
-}) => iconLeft ? '6px' : '4px'};
+  iconLeft,
+  isLarge
+}) => {
+  if (isLarge) {
+    return iconLeft ? '10px' : '8px';
+  }
+
+  return iconLeft ? '6px' : '4px';
+}};
   padding-right: ${({
-  iconRight
-}) => iconRight ? '6px' : '4px'};
+  iconRight,
+  isLarge
+}) => {
+  if (isLarge) {
+    return iconRight ? '10px' : '8px';
+  }
+
+  return iconRight ? '6px' : '4px';
+}};
 `;
 const Container = styled.div`
   font-family: ${props => props.theme.fontFamily};
@@ -3153,11 +3198,25 @@ const StyledInput = styled.input`
 }};
 
   margin-left: ${({
-  iconLeft
-}) => iconLeft ? 0 : '8px'};
+  iconLeft,
+  isLarge
+}) => {
+  if (isLarge) {
+    return iconLeft ? 0 : '10px';
+  }
+
+  return iconLeft ? 0 : '8px';
+}};
   margin-right: ${({
-  iconRight
-}) => iconRight ? 0 : '8px'};
+  iconRight,
+  isLarge
+}) => {
+  if (isLarge) {
+    return iconRight ? 0 : '10px';
+  }
+
+  return iconRight ? 0 : '8px';
+}};
 `;
 
 class Input extends React.Component {
@@ -3270,6 +3329,7 @@ class Input extends React.Component {
       onBlur: this.handleBlur
     }, iconLeft ? React.createElement(IconContainer, {
       iconLeft: iconLeft,
+      isLarge: isLarge,
       onMouseDown: this.handleMouseDown
     }, React.createElement(Icon$1, {
       name: iconLeft,
@@ -3284,7 +3344,8 @@ class Input extends React.Component {
       onChange: this.handleChange
     })), iconRight ? React.createElement(IconContainer, {
       iconRight: iconRight,
-      onMouseDown: this.handleMouseDown
+      onMouseDown: this.handleMouseDown,
+      isLarge: isLarge
     }, React.createElement(Icon$1, {
       name: iconRight,
       size: isLarge ? '16px' : '14px',
@@ -3293,5 +3354,9 @@ class Input extends React.Component {
   }
 
 }
+
+_defineProperty(Input, "defaultProps", {
+  theme: light
+});
 
 export default Input;

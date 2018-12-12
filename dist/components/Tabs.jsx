@@ -29,7 +29,7 @@ const greyDark = '#a9a9a9';
 const greyDarker = '#808080';
 const greyDarkest = '#696969';
 
-const defaultTheme = {
+const light = {
   fontFamily: 'Inter UI, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
@@ -96,7 +96,7 @@ const Tab = styled(BaseTab)`
   user-select: none;
 `;
 Tab.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 
 class BaseTabs extends React.Component {
@@ -167,7 +167,7 @@ const Tabs = styled(BaseTabs)`
 `;
 Tabs.defaultProps = {
   hasBorder: true,
-  theme: defaultTheme
+  theme: light
 };
 const Label = styled.span`
   color: ${({
@@ -177,7 +177,7 @@ const Label = styled.span`
   margin-left: 10px;
 `;
 Label.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 
 export default Tabs;

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { lighten } from 'polished'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 import Icon from './Icon.jsx'
 
@@ -299,7 +299,7 @@ const Button = styled(BaseButton)`
 `
 
 Button.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 export default Button

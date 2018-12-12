@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 const primary = '#1a73e8';
 const danger = '#e34160';
@@ -31,15 +31,42 @@ const light = {
   colorDark: dark
 };
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: ${props => props.theme.fontFamily};
-    font-size: ${props => props.theme.fontSize};
-    background-color: ${props => props.theme.backgroundColor};
+const Tag = styled.div`
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${({
+  isLarge,
+  theme
+}) => isLarge ? theme.largeFontSize : theme.fontSize};
+
+  display: inline-flex;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+
+  background-color: ${({
+  isPrimary,
+  theme
+}) => {
+  if (isPrimary) {
+    return theme.colorPrimary;
   }
+
+  return theme.colorGreyLightest;
+}};
+  color: ${({
+  isPrimary,
+  theme
+}) => {
+  if (isPrimary) {
+    return theme.colorWhite;
+  }
+
+  return theme.colorDark;
+}};
+
+  user-select: none;
 `;
-GlobalStyle.defaultProps = {
+Tag.defaultProps = {
   theme: light
 };
 
-export default GlobalStyle;
+export default Tag;

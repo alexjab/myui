@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 const Tag = styled.div`
   font-family: ${props => props.theme.fontFamily};
@@ -30,7 +30,7 @@ const Tag = styled.div`
 `
 
 Tag.defaultProps = {
-  theme: defaultTheme,
+  theme: lightTheme,
 }
 
 export default Tag

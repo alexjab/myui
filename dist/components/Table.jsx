@@ -14,7 +14,7 @@ const greyDark = '#a9a9a9';
 const greyDarker = '#808080';
 const greyDarkest = '#696969';
 
-const defaultTheme = {
+const light = {
   fontFamily: 'Inter UI, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
@@ -40,11 +40,11 @@ const Table = styled.table`
   border-collapse: collapse;
 `;
 Table.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 Table.Row = styled.tr``;
 Table.Row.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 Table.Data = styled.td`
   padding: 8px;
@@ -53,7 +53,7 @@ Table.Data = styled.td`
 }) => theme.colorGreyLighter};
 `;
 Table.Data.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 Table.Header = styled.th`
   padding: 8px;
@@ -64,18 +64,18 @@ Table.Header = styled.th`
   font-weight: bold;
 `;
 Table.Header.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 Table.Head = styled.thead``;
 Table.Head.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 Table.Body = styled.tbody``;
 Table.Body.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 Table.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 
 class TableAuto extends React.Component {

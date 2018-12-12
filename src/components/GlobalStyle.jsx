@@ -1,16 +1,17 @@
 import { createGlobalStyle } from 'styled-components'
 
-import defaultTheme from '../core/themes'
+import { light as lightTheme } from '../core/themes'
 
 const GlobalStyle = createGlobalStyle`
   body {
     font-family: ${props => props.theme.fontFamily};
     font-size: ${props => props.theme.fontSize};
+    background-color: ${props => props.theme.backgroundColor};
   }
 `
 
 GlobalStyle.defaultProps = {
-  theme: defaultTheme
+  theme: lightTheme,
 }
 
 export default GlobalStyle

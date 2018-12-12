@@ -1285,7 +1285,7 @@ const greyDark = '#a9a9a9';
 const greyDarker = '#808080';
 const greyDarkest = '#696969';
 
-const defaultTheme = {
+const light = {
   fontFamily: 'Inter UI, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
@@ -3384,7 +3384,7 @@ const Button = styled(BaseButton)`
   }
 `;
 Button.defaultProps = {
-  theme: defaultTheme
+  theme: light
 };
 
 export default Button;

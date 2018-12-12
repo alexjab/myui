@@ -14,7 +14,7 @@ const greyDark = '#a9a9a9';
 const greyDarker = '#808080';
 const greyDarkest = '#696969';
 
-const defaultTheme = {
+const light = {
   fontFamily: 'Inter UI, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
@@ -47,7 +47,7 @@ const KeyCell = styled.td`
 `;
 KeyCell.defaultProps = {
   isLarge: false,
-  theme: defaultTheme
+  theme: light
 };
 const InfoGroup = styled.table`
   font-family: ${props => props.theme.fontFamily};
@@ -61,7 +61,7 @@ const InfoGroup = styled.table`
 InfoGroup.defaultProps = {
   fields: [],
   isLarge: false,
-  theme: defaultTheme,
+  theme: light,
   title: ''
 };
 const GroupHead = styled.thead`

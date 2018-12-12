@@ -1,7 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import DefaultTheme from '../../src/components/DefaultTheme'
 import GlobalStyle from '../../src/components/GlobalStyle'
 
 import coreStories from '../../stories/core'
@@ -18,10 +17,10 @@ function createComponentTest(description, stories) {
     for (const story of stories) {
       it(story.name, () => {
         const tree = renderer.create(
-          <DefaultTheme>
+          <>
             {story.element}
             <GlobalStyle suppressMultiMountWarning />
-          </DefaultTheme>
+          </>
         )
 
         expect(tree).toMatchSnapshot()
