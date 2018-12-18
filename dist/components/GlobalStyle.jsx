@@ -37,6 +37,13 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${props => props.theme.fontSize};
     background-color: ${props => props.theme.backgroundColor};
   }
+
+  a {
+    font-weight: 500;
+    color: ${({
+  theme
+}) => theme.colorPrimary}
+  }
 `;
 GlobalStyle.defaultProps = {
   theme: light
