@@ -7,8 +7,8 @@ const Icon = ({ name, size, ...props }) => {
     <span
       dangerouslySetInnerHTML={{
         __html: feather.icons[name].toSvg({
-          width: size ? size : '20',
-          height: size ? size : '20',
+          width: size ? size : '20px',
+          height: size ? size : '20px',
         }),
       }}
       {...props}
@@ -17,7 +17,7 @@ const Icon = ({ name, size, ...props }) => {
 }
 
 export default styled(Icon)`
-  height: ${({ size }) => (size ? size : '20')};
+  height: ${({ size }) => (size ? size : '20px')};
   display: inline-flex;
   align-items: center;
 `
