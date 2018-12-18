@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 import { light as lightTheme } from '../core/themes'
 
+import Icon from './Icon.jsx'
+
 const Table = styled.table`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${props => props.theme.fontSize};
@@ -30,12 +32,38 @@ Table.Data.defaultProps = {
   theme: lightTheme,
 }
 
-Table.Header = styled.th`
+const TableHeader = styled.th`
   padding: 8px;
   text-align: left;
   border-bottom: 3px solid ${({ theme }) => theme.colorGreyLighter};
   font-weight: bold;
 `
+
+const TableHeaderLevel = styled.div`
+  display: inline-flex;
+  align-items: center;
+`
+
+const TableHeaderIcon = styled.div`
+  margin-left: 5px;
+  display: inline-flex;
+  align-items: center;
+`
+
+Table.Header = ({ children, isSortable, ...rest }) => {
+  return (
+    <TableHeader {...rest}>
+      <TableHeaderLevel>
+        {children}
+        {isSortable ? (
+          <TableHeaderIcon>
+            <Icon name="arrow-down" size="1em" />
+          </TableHeaderIcon>
+        ) : null}
+      </TableHeaderLevel>
+    </TableHeader>
+  )
+}
 
 Table.Header.defaultProps = {
   theme: lightTheme,
@@ -67,7 +95,9 @@ class TableAuto extends React.Component {
           <Table.Head>
             <Table.Row>
               {headers.map((header, index) => (
-                <Table.Header key={index}>{header}</Table.Header>
+                <Table.Header key={index} isSortable={header.isSortable}>
+                  {header.title}
+                </Table.Header>
               ))}
             </Table.Row>
           </Table.Head>

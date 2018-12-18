@@ -10,12 +10,12 @@ export default [
       <Table>
         <Table.Head>
           <Table.Row>
-            <Table.Header>Order date</Table.Header>
-            <Table.Header>Region</Table.Header>
+            <Table.Header isSortable>Order date</Table.Header>
+            <Table.Header isSortable>Region</Table.Header>
             <Table.Header>Rep</Table.Header>
             <Table.Header>Item</Table.Header>
-            <Table.Header>Units</Table.Header>
-            <Table.Header>Unit cost</Table.Header>
+            <Table.Header isSortable>Units</Table.Header>
+            <Table.Header isSortable>Unit cost</Table.Header>
             <Table.Header>Total</Table.Header>
           </Table.Row>
         </Table.Head>
@@ -416,13 +416,13 @@ export default [
     element: (
       <Table.Auto
         headers={[
-          'Order date',
-          'Region',
-          'Rep',
-          'Item',
-          'Units',
-          'Unit cost',
-          'Total',
+          { title: 'Order date', isSortable: true },
+          { title: 'Region', isSortable: true },
+          { title: 'Rep' },
+          { title: 'Item' },
+          { title: 'Units', isSortable: true },
+          { title: 'Unit cost', isSortable: true },
+          { title: 'Total' },
         ]}
         rows={[
           ['1/6/2018', 'East', 'Jones', 'Pencil', '95', '1.99', '189.05'],
