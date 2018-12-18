@@ -46,23 +46,6 @@ const Toolbar = styled.div`
   isExpanded
 }) => isExpanded ? '1' : null};
 
-  padding-top: ${({
-  padding,
-  paddingTop
-}) => paddingTop || padding};
-  padding-right: ${({
-  padding,
-  paddingRight
-}) => paddingRight || padding};
-  padding-bottom: ${({
-  padding,
-  paddingBottom
-}) => paddingBottom || padding};
-  padding-left: ${({
-  padding,
-  paddingLeft
-}) => paddingLeft || padding};
-
   border-top: ${({
   hasBorderTop,
   theme
@@ -85,11 +68,6 @@ Toolbar.defaultProps = {
   hasBorderRight: false,
   hasBorderBottom: false,
   hasBorderLeft: false,
-  paddingTop: 0,
-  paddingLeft: 0,
-  paddingRight: 0,
-  paddingBottom: 0,
-  padding: 0,
   horizontalLayout: 'flex-start',
   isExpanded: false,
   theme: light,

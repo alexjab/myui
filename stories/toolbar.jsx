@@ -4,6 +4,7 @@ import { action } from '@storybook/addon-actions'
 import Button from '../src/components/Button'
 import Icon from '../src/components/Icon'
 import Toolbar from '../src/components/Toolbar'
+import Padder from '../src/components/Padder'
 
 export default [
   {
@@ -20,22 +21,22 @@ export default [
     element: (
       <div style={{ width: '100%' }}>
         <Toolbar horizontalLayout="space-between" hasBorderTop hasBorderBottom>
-          <Toolbar hasBorderRight padding="5px">
-            <Button iconLeft="arrow-left">Back</Button>
+          <Toolbar hasBorderRight padding={5}>
+            <Padder padding={5}>
+              <Button iconLeft="arrow-left">Back</Button>
+            </Padder>
           </Toolbar>
 
-          <Toolbar
-            hasBorderLeft
-            hasBorderRight
-            verticalLayout="center"
-            paddingLeft="20px"
-            paddingRight="20px"
-          >
-            Center
+          <Toolbar hasBorderLeft hasBorderRight verticalLayout="center">
+            <Padder left={20} right={20}>
+              Center
+            </Padder>
           </Toolbar>
 
-          <Toolbar hasBorderLeft padding="5px">
-            <Button iconLeft="arrow-right">Forward</Button>
+          <Toolbar hasBorderLeft>
+            <Padder padding={5}>
+              <Button iconLeft="arrow-right">Forward</Button>
+            </Padder>
           </Toolbar>
         </Toolbar>
       </div>
@@ -46,12 +47,16 @@ export default [
     element: (
       <div style={{ width: '100%' }}>
         <Toolbar hasBorderTop hasBorderBottom>
-          <Toolbar padding="5px" isExpanded>
-            <Button iconLeft="arrow-left">Back</Button>
+          <Toolbar padding={5} isExpanded>
+            <Padder>
+              <Button iconLeft="arrow-left">Back</Button>
+            </Padder>
           </Toolbar>
 
-          <Toolbar hasBorderLeft padding="5px">
-            <Button iconLeft="arrow-right">Forward</Button>
+          <Toolbar hasBorderLeft padding={5}>
+            <Padder>
+              <Button iconLeft="arrow-right">Forward</Button>
+            </Padder>
           </Toolbar>
         </Toolbar>
       </div>
