@@ -1757,8 +1757,8 @@ const Icon = ({
   return React.createElement("span", _extends({
     dangerouslySetInnerHTML: {
       __html: feather$1.icons[name].toSvg({
-        width: size ? size : '20',
-        height: size ? size : '20'
+        width: size ? size : '20px',
+        height: size ? size : '20px'
       })
     }
   }, props));
@@ -1767,7 +1767,7 @@ const Icon = ({
 var Icon$1 = styled(Icon)`
   height: ${({
   size
-}) => size ? size : '20'};
+}) => size ? size : '20px'};
   display: inline-flex;
   align-items: center;
 `;
