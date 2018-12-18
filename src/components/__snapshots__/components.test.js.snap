@@ -3293,7 +3293,7 @@ exports[`Story of <Input /> Input 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3345,7 +3345,7 @@ exports[`Story of <Input /> Input fullwidth 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3427,7 +3427,7 @@ exports[`Story of <Input /> Input fullwidth with icon left 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3522,7 +3522,7 @@ exports[`Story of <Input /> Input fullwidth with icon right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3636,7 +3636,7 @@ exports[`Story of <Input /> Input fullwidth with icons left and right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3715,7 +3715,7 @@ exports[`Story of <Input /> Input large 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3797,7 +3797,7 @@ exports[`Story of <Input /> Input large fullwidth with icon right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3893,7 +3893,7 @@ exports[`Story of <Input /> Input large with icon left 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -3988,7 +3988,7 @@ exports[`Story of <Input /> Input large with icon right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -4102,7 +4102,7 @@ exports[`Story of <Input /> Input large with icons left and right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -4211,7 +4211,7 @@ exports[`Story of <Input /> Input with icon left 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -4306,7 +4306,7 @@ exports[`Story of <Input /> Input with icon right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }
@@ -4420,7 +4420,7 @@ exports[`Story of <Input /> Input with icons left and right 1`] = `
   margin: 0;
   border: 1px solid transparent;
   box-shadow: none;
-  background-color: #e8e8e8;
+  background-color: #ededed;
   border-radius: 4px;
   color: #555555;
 }

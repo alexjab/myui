@@ -3171,7 +3171,7 @@ const Container = styled.div`
     return 'transparent';
   }
 
-  return curriedDarken(0.05, theme.colorGreyLightest);
+  return curriedDarken(0.03, theme.colorGreyLightest);
 }};
   border-radius: 4px;
   color: ${({

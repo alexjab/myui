@@ -64,7 +64,7 @@ const Container = styled.div`
       return 'transparent'
     }
 
-    return darken(0.05, theme.colorGreyLightest)
+    return darken(0.03, theme.colorGreyLightest)
   }};
   border-radius: 4px;
   color: ${({ theme }) => theme.colorDark};
