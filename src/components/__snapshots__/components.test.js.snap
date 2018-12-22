@@ -2131,6 +2131,492 @@ exports[`Story of <Button /> Primary with only icon 1`] = `
 </button>
 `;
 
+exports[`Story of <Card /> Card 1`] = `
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c1 {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+<div
+  style={
+    Object {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "50px",
+      "width": "500px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed mauris egestas purus aliquet malesuada. Pellentesque efficitur massa eget ipsum consequat tempus. Nunc felis dolor, accumsan quis orci at, consequat consequat ligula. Ut ut rutrum magna. Praesent vitae nisi ligula. Pellentesque tempus hendrerit rhoncus. Morbi pulvinar, elit nec commodo egestas, massa velit egestas urna, non dapibus nunc erat id nisi. Duis fermentum tortor eget mauris congue, sit amet sodales tellus feugiat. Aliquam erat volutpat.
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Story of <Card /> Card on a dark background 1`] = `
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c2 {
+  border-top: 1px solid #dcdcdc;
+}
+
+.c1 {
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.c3 {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "whitesmoke",
+      "marginTop": "0",
+      "padding": "50px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <div
+        className="c1"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed mauris egestas purus aliquet malesuada. Pellentesque efficitur massa eget ipsum consequat tempus. Nunc felis dolor, accumsan quis orci at, consequat consequat ligula. Ut ut rutrum magna.
+      </div>
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      >
+        Praesent vitae nisi ligula. Pellentesque tempus hendrerit rhoncus. Morbi pulvinar, elit nec commodo egestas, massa velit egestas urna, non dapibus nunc erat id nisi. Duis fermentum tortor eget mauris congue, sit amet sodales tellus feugiat. Aliquam erat volutpat.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Story of <Card /> Card with separator 1`] = `
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c2 {
+  border-top: 1px solid #dcdcdc;
+}
+
+.c1 {
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.c3 {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+}
+
+<div
+  style={
+    Object {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "50px",
+      "width": "500px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed mauris egestas purus aliquet malesuada. Pellentesque efficitur massa eget ipsum consequat tempus. Nunc felis dolor, accumsan quis orci at, consequat consequat ligula. Ut ut rutrum magna.
+    </div>
+    <div
+      className="c2"
+    />
+    <div
+      className="c3"
+    >
+      Praesent vitae nisi ligula. Pellentesque tempus hendrerit rhoncus. Morbi pulvinar, elit nec commodo egestas, massa velit egestas urna, non dapibus nunc erat id nisi. Duis fermentum tortor eget mauris congue, sit amet sodales tellus feugiat. Aliquam erat volutpat.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Story of <Card /> Card with title and table 1`] = `
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c3 {
+  border-top: 1px solid #dcdcdc;
+}
+
+.c1 {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.c4 {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.c9 {
+  height: 1em;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c10 {
+  padding: 8px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.c6 {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 3px solid #dcdcdc;
+  font-weight: bold;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  margin-left: 5px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+<div
+  style={
+    Object {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "50px",
+      "width": "500px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h1
+        className="c2"
+      >
+        Card title
+      </h1>
+    </div>
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <table
+        className="c5"
+      >
+        <thead
+          className=""
+        >
+          <tr
+            className=""
+          >
+            <th
+              className="c6"
+            >
+              <div
+                className="c7"
+              >
+                Order date
+                <div
+                  className="c8"
+                >
+                  <span
+                    className="c9"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </th>
+            <th
+              className="c6"
+            >
+              <div
+                className="c7"
+              >
+                Item
+              </div>
+            </th>
+            <th
+              className="c6"
+            >
+              <div
+                className="c7"
+              >
+                Units
+                <div
+                  className="c8"
+                >
+                  <span
+                    className="c9"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </th>
+            <th
+              className="c6"
+            >
+              <div
+                className="c7"
+              >
+                Unit cost
+                <div
+                  className="c8"
+                >
+                  <span
+                    className="c9"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </th>
+            <th
+              className="c6"
+            >
+              <div
+                className="c7"
+              >
+                Total
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className=""
+        >
+          <tr
+            className=""
+          >
+            <td
+              className="c10"
+            >
+              1/6/2018
+            </td>
+            <td
+              className="c10"
+            >
+              Pencil
+            </td>
+            <td
+              className="c10"
+            >
+              95
+            </td>
+            <td
+              className="c10"
+            >
+              1.99
+            </td>
+            <td
+              className="c10"
+            >
+              189.05
+            </td>
+          </tr>
+          <tr
+            className=""
+          >
+            <td
+              className="c10"
+            >
+              1/23/2018
+            </td>
+            <td
+              className="c10"
+            >
+              Binder
+            </td>
+            <td
+              className="c10"
+            >
+              50
+            </td>
+            <td
+              className="c10"
+            >
+              19.99
+            </td>
+            <td
+              className="c10"
+            >
+              999.50
+            </td>
+          </tr>
+          <tr
+            className=""
+          >
+            <td
+              className="c10"
+            >
+              2/9/2018
+            </td>
+            <td
+              className="c10"
+            >
+              Pencil
+            </td>
+            <td
+              className="c10"
+            >
+              36
+            </td>
+            <td
+              className="c10"
+            >
+              4.99
+            </td>
+            <td
+              className="c10"
+            >
+              179.64
+            </td>
+          </tr>
+          <tr
+            className=""
+          >
+            <td
+              className="c10"
+            >
+              2/26/2018
+            </td>
+            <td
+              className="c10"
+            >
+              Pen
+            </td>
+            <td
+              className="c10"
+            >
+              27
+            </td>
+            <td
+              className="c10"
+            >
+              19.99
+            </td>
+            <td
+              className="c10"
+            >
+              539.73
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Story of <Core /> Black and white 1`] = `
 Array [
   .c0 {
@@ -8588,6 +9074,20 @@ exports[`Story of <Toolbar /> Toolbar 1`] = `
 `;
 
 exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
+.c2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.c7 {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
 .c5 {
   height: 14px;
   display: -webkit-inline-box;
@@ -8736,20 +9236,6 @@ exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
   border-left: 1px solid #d3d3d3;
 }
 
-.c2 {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-
-.c7 {
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-}
-
 <div
   style={
     Object {
@@ -8824,6 +9310,13 @@ exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
 `;
 
 exports[`Story of <Toolbar /> Toolbar with expanded column and fixed column 1`] = `
+.c2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
 .c5 {
   height: 14px;
   display: -webkit-inline-box;
@@ -8952,13 +9445,6 @@ exports[`Story of <Toolbar /> Toolbar with expanded column and fixed column 1`] 
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-}
-
-.c2 {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
 }
 
 <div

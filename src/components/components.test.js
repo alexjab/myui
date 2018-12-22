@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer'
 import GlobalStyle from '../../src/components/GlobalStyle'
 
 import coreStories from '../../stories/core'
+import cardStories from '../../stories/card'
 import buttonStories from '../../stories/button'
 import infoGroupStories from '../../stories/infoGroup'
 import inputStories from '../../stories/input'
@@ -30,6 +31,7 @@ function createComponentTest(description, stories) {
 }
 
 createComponentTest('<Core />', coreStories)
+createComponentTest('<Card />', cardStories)
 createComponentTest('<Button />', buttonStories)
 createComponentTest('<Input />', inputStories)
 createComponentTest('<InfoGroup />', infoGroupStories)

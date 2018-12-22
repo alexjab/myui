@@ -28,7 +28,7 @@ export default [
           </Toolbar>
 
           <Toolbar hasBorderLeft hasBorderRight verticalLayout="center">
-            <Padder left={20} right={20}>
+            <Padder left={20} right={20} padding={5}>
               Center
             </Padder>
           </Toolbar>
@@ -48,13 +48,13 @@ export default [
       <div style={{ width: '100%' }}>
         <Toolbar hasBorderTop hasBorderBottom>
           <Toolbar padding={5} isExpanded>
-            <Padder>
+            <Padder padding={5}>
               <Button iconLeft="arrow-left">Back</Button>
             </Padder>
           </Toolbar>
 
           <Toolbar hasBorderLeft padding={5}>
-            <Padder>
+            <Padder padding={5}>
               <Button iconLeft="arrow-right">Forward</Button>
             </Padder>
           </Toolbar>

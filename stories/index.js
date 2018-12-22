@@ -6,6 +6,7 @@ import ThemeProvider from '../src/components/ThemeProvider'
 import GlobalStyle from '../src/components/GlobalStyle'
 
 import buttonStories from './button'
+import cardStories from './card'
 import coreStories from './core'
 import iconStories from './icon'
 import infoGroupStories from './infoGroup'
@@ -35,6 +36,7 @@ function createStoriesOf(nameOfStory, stories) {
 }
 
 createStoriesOf('Core', coreStories)
+createStoriesOf('Card', cardStories)
 createStoriesOf('Button', buttonStories)
 createStoriesOf('Icon', iconStories)
 createStoriesOf('InfoGroup', infoGroupStories)
