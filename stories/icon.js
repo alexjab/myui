@@ -7,7 +7,7 @@ export default [
   {
     name: 'Icon',
     element: Object.keys(feather.icons).map(name => (
-      <Icon name={name} title={name} />
+      <Icon key={name} name={name} title={name} />
     )),
   },
   {

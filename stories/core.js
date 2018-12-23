@@ -1,5 +1,4 @@
 import React from 'react'
-import { action } from '@storybook/addon-actions'
 
 import * as colors from '../src/core/colors'
 import Color from '../src/components/Color'
