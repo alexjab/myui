@@ -21,20 +21,20 @@ export default [
     element: (
       <div style={{ width: '100%' }}>
         <Toolbar horizontalLayout="space-between" hasBorderTop hasBorderBottom>
-          <Toolbar hasBorderRight padding={5}>
-            <Padder padding={5}>
+          <Toolbar hasBorderRight>
+            <Padder padding="5px">
               <Button iconLeft="arrow-left">Back</Button>
             </Padder>
           </Toolbar>
 
           <Toolbar hasBorderLeft hasBorderRight verticalLayout="center">
-            <Padder left={20} right={20} padding={5}>
+            <Padder left="20px" right="20px" padding="5px">
               Center
             </Padder>
           </Toolbar>
 
           <Toolbar hasBorderLeft>
-            <Padder padding={5}>
+            <Padder padding="5px">
               <Button iconLeft="arrow-right">Forward</Button>
             </Padder>
           </Toolbar>
@@ -47,14 +47,14 @@ export default [
     element: (
       <div style={{ width: '100%' }}>
         <Toolbar hasBorderTop hasBorderBottom>
-          <Toolbar padding={5} isExpanded>
-            <Padder padding={5}>
+          <Toolbar isExpanded>
+            <Padder padding="5px">
               <Button iconLeft="arrow-left">Back</Button>
             </Padder>
           </Toolbar>
 
-          <Toolbar hasBorderLeft padding={5}>
-            <Padder padding={5}>
+          <Toolbar hasBorderLeft>
+            <Padder padding="5px">
               <Button iconLeft="arrow-right">Forward</Button>
             </Padder>
           </Toolbar>

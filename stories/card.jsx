@@ -18,7 +18,7 @@ export default [
         }}
       >
         <Card>
-          <Padder padding={15}>
+          <Padder padding="15px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed
             mauris egestas purus aliquet malesuada. Pellentesque efficitur massa
             eget ipsum consequat tempus. Nunc felis dolor, accumsan quis orci
@@ -44,14 +44,14 @@ export default [
         }}
       >
         <Card>
-          <Padder padding={15} bottom={10} top={12}>
+          <Padder padding="15px" bottom="10px" top="12px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed
             mauris egestas purus aliquet malesuada. Pellentesque efficitur massa
             eget ipsum consequat tempus. Nunc felis dolor, accumsan quis orci
             at, consequat consequat ligula. Ut ut rutrum magna.
           </Padder>
           <Card.Separator />
-          <Padder padding={15} top={10} bottom={12}>
+          <Padder padding="15px" top="10px" bottom="12px">
             Praesent vitae nisi ligula. Pellentesque tempus hendrerit rhoncus.
             Morbi pulvinar, elit nec commodo egestas, massa velit egestas urna,
             non dapibus nunc erat id nisi. Duis fermentum tortor eget mauris
@@ -79,14 +79,14 @@ export default [
           }}
         >
           <Card>
-            <Padder padding={15} bottom={10} top={12}>
+            <Padder padding="15px" bottom="10px" top="12px">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed
               mauris egestas purus aliquet malesuada. Pellentesque efficitur
               massa eget ipsum consequat tempus. Nunc felis dolor, accumsan quis
               orci at, consequat consequat ligula. Ut ut rutrum magna.
             </Padder>
             <Card.Separator />
-            <Padder padding={15} top={10} bottom={12}>
+            <Padder padding="15px" top="10px" bottom="12px">
               Praesent vitae nisi ligula. Pellentesque tempus hendrerit rhoncus.
               Morbi pulvinar, elit nec commodo egestas, massa velit egestas
               urna, non dapibus nunc erat id nisi. Duis fermentum tortor eget
@@ -110,7 +110,7 @@ export default [
         }}
       >
         <Card>
-          <Padder padding={15} top={10} bottom={10}>
+          <Padder padding="15px" top="10px" bottom="10px">
             <H1>Card title</H1>
           </Padder>
           <Card.Separator />
