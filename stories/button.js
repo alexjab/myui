@@ -43,7 +43,11 @@ export default [
   {
     name: 'Default with both icons',
     element: (
-      <Button iconLeft="arrow-left" iconRight="arrow-right" onClick={action('onClick')}>
+      <Button
+        iconLeft="arrow-left"
+        iconRight="arrow-right"
+        onClick={action('onClick')}
+      >
         Go back
       </Button>
     ),
@@ -150,7 +154,12 @@ export default [
   {
     name: 'Primary outlined with icon right',
     element: (
-      <Button isPrimary isOutlined onClick={action('onClick')} iconRight="chevron-down">
+      <Button
+        isPrimary
+        isOutlined
+        onClick={action('onClick')}
+        iconRight="chevron-down"
+      >
         Confirm changes
       </Button>
     ),
@@ -158,7 +167,12 @@ export default [
   {
     name: 'Primary outlined with icon left',
     element: (
-      <Button isPrimary isOutlined onClick={action('onClick')} iconLeft="layers">
+      <Button
+        isPrimary
+        isOutlined
+        onClick={action('onClick')}
+        iconLeft="layers"
+      >
         Confirm changes
       </Button>
     ),

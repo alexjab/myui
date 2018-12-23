@@ -7,8 +7,7 @@ const Padder = styled.div`
     right !== undefined ? right : padding};
   padding-bottom: ${({ padding, bottom }) =>
     bottom !== undefined ? bottom : padding};
-  padding-left: ${({ padding, left }) =>
-    left !== undefined ? left : padding};
+  padding-left: ${({ padding, left }) => (left !== undefined ? left : padding)};
 `
 
 Padder.defaultProps = {
