@@ -48,7 +48,7 @@ const TableHeaderIcon = styled.div`
 class TableHeader extends React.Component {
   onSort = () => {
     if (this.props.isSortable) {
-      this.props.onSort(this.props.index)
+      this.props.onSort(this.props.rowKey)
     }
   }
 
@@ -99,16 +99,20 @@ class Table extends React.Component {
     }
   }
 
-  onSort = index => {
+  onSort = sortByKey => {
     this.setState(
       ({ sortBy, sortOrder }) => {
-        const newSortBy = index !== sortBy ? index : sortBy
+        const newSortBy = sortByKey !== sortBy ? sortByKey : sortBy
 
         let newSortOrder = null
-        if (sortOrder === 'desc') {
-          newSortOrder = 'asc'
-        } else if (sortOrder === null) {
+        if (sortBy && sortBy !== sortByKey) {
           newSortOrder = 'desc'
+        } else {
+          if (sortOrder === 'desc') {
+            newSortOrder = 'asc'
+          } else if (sortOrder === null) {
+            newSortOrder = 'desc'
+          }
         }
 
         return {
@@ -118,7 +122,7 @@ class Table extends React.Component {
       },
       () => {
         if (this.props.onSort) {
-          this.props.onSort(index, this.state.sortOrder)
+          this.props.onSort(this.state.sortBy, this.state.sortOrder)
         }
       }
     )
@@ -133,13 +137,13 @@ class Table extends React.Component {
         {headers ? (
           <thead>
             <tr>
-              {headers.map((header, index) => (
+              {headers.map(header => (
                 <TableHeader
-                  key={index}
-                  index={index}
+                  key={header.key}
+                  rowKey={header.key}
                   isSortable={header.isSortable}
                   onSort={this.onSort}
-                  sortOrder={sortBy === index ? sortOrder : null}
+                  sortOrder={sortBy === header.key ? sortOrder : null}
                 >
                   {header.title}
                 </TableHeader>
@@ -150,10 +154,10 @@ class Table extends React.Component {
 
         {rows ? (
           <tbody>
-            {rows.map((row, rowIndex) => (
-              <tr key={rowIndex}>
-                {row.map((data, dataIndex) => (
-                  <TableData key={dataIndex}>{data}</TableData>
+            {rows.map((row, index) => (
+              <tr key={index}>
+                {headers.map(header => (
+                  <TableData key={header.key}>{row[header.key]}</TableData>
                 ))}
               </tr>
             ))}
