@@ -43,6 +43,7 @@ const TableHeaderIcon = styled.div`
   margin-left: 5px;
   display: inline-flex;
   align-items: center;
+  color: ${({ theme }) => theme.colorGreyDarkest};
 `
 
 class TableHeader extends React.Component {
@@ -53,14 +54,10 @@ class TableHeader extends React.Component {
   }
 
   render() {
-    const { children, isSortable, sortOrder, ...rest } = this.props
+    const { children, isSortable, sortOrder } = this.props
 
     return (
-      <TableHeaderContainer
-        isSortable={isSortable}
-        {...rest}
-        onClick={this.onSort}
-      >
+      <TableHeaderContainer isSortable={isSortable} onClick={this.onSort}>
         <TableHeaderLevel>
           {children}
 

@@ -2312,58 +2312,11 @@ exports[`Story of <Card /> Card with title and table 1`] = `
   padding-left: 0px;
 }
 
-.c9 {
-  height: 1em;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c5 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
   width: 100%;
   border-collapse: collapse;
-}
-
-.c10 {
-  padding: 8px;
-  border-bottom: 1px solid #dcdcdc;
-}
-
-.c6 {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 3px solid #dcdcdc;
-  font-weight: bold;
-}
-
-.c7 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c8 {
-  margin-left: 5px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .c2 {
@@ -2401,217 +2354,7 @@ exports[`Story of <Card /> Card with title and table 1`] = `
     >
       <table
         className="c5"
-      >
-        <thead
-          className=""
-        >
-          <tr
-            className=""
-          >
-            <th
-              className="c6"
-            >
-              <div
-                className="c7"
-              >
-                Order date
-                <div
-                  className="c8"
-                >
-                  <span
-                    className="c9"
-                    dangerouslySetInnerHTML={
-                      Object {
-                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </th>
-            <th
-              className="c6"
-            >
-              <div
-                className="c7"
-              >
-                Item
-              </div>
-            </th>
-            <th
-              className="c6"
-            >
-              <div
-                className="c7"
-              >
-                Units
-                <div
-                  className="c8"
-                >
-                  <span
-                    className="c9"
-                    dangerouslySetInnerHTML={
-                      Object {
-                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </th>
-            <th
-              className="c6"
-            >
-              <div
-                className="c7"
-              >
-                Unit cost
-                <div
-                  className="c8"
-                >
-                  <span
-                    className="c9"
-                    dangerouslySetInnerHTML={
-                      Object {
-                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </th>
-            <th
-              className="c6"
-            >
-              <div
-                className="c7"
-              >
-                Total
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          className=""
-        >
-          <tr
-            className=""
-          >
-            <td
-              className="c10"
-            >
-              1/6/2018
-            </td>
-            <td
-              className="c10"
-            >
-              Pencil
-            </td>
-            <td
-              className="c10"
-            >
-              95
-            </td>
-            <td
-              className="c10"
-            >
-              1.99
-            </td>
-            <td
-              className="c10"
-            >
-              189.05
-            </td>
-          </tr>
-          <tr
-            className=""
-          >
-            <td
-              className="c10"
-            >
-              1/23/2018
-            </td>
-            <td
-              className="c10"
-            >
-              Binder
-            </td>
-            <td
-              className="c10"
-            >
-              50
-            </td>
-            <td
-              className="c10"
-            >
-              19.99
-            </td>
-            <td
-              className="c10"
-            >
-              999.50
-            </td>
-          </tr>
-          <tr
-            className=""
-          >
-            <td
-              className="c10"
-            >
-              2/9/2018
-            </td>
-            <td
-              className="c10"
-            >
-              Pencil
-            </td>
-            <td
-              className="c10"
-            >
-              36
-            </td>
-            <td
-              className="c10"
-            >
-              4.99
-            </td>
-            <td
-              className="c10"
-            >
-              179.64
-            </td>
-          </tr>
-          <tr
-            className=""
-          >
-            <td
-              className="c10"
-            >
-              2/26/2018
-            </td>
-            <td
-              className="c10"
-            >
-              Pen
-            </td>
-            <td
-              className="c10"
-            >
-              27
-            </td>
-            <td
-              className="c10"
-            >
-              19.99
-            </td>
-            <td
-              className="c10"
-            >
-              539.73
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      />
     </div>
   </div>
 </div>
@@ -4966,19 +4709,7 @@ exports[`Story of <Input /> Input with icons left and right 1`] = `
 </div>
 `;
 
-exports[`Story of <Table /> Table 1`] = `
-.c4 {
-  height: 1em;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
+exports[`Story of <Table /> Table (with sortable fields) 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -4986,16 +4717,24 @@ exports[`Story of <Table /> Table 1`] = `
   border-collapse: collapse;
 }
 
-.c5 {
+.c4 {
   padding: 8px;
   border-bottom: 1px solid #dcdcdc;
+}
+
+.c3 {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 3px solid;
+  font-weight: bold;
 }
 
 .c1 {
   padding: 8px;
   text-align: left;
-  border-bottom: 3px solid #dcdcdc;
+  border-bottom: 3px solid;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .c2 {
@@ -5009,71 +4748,34 @@ exports[`Story of <Table /> Table 1`] = `
   align-items: center;
 }
 
-.c3 {
-  margin-left: 5px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <table
   className="c0"
 >
-  <thead
-    className=""
-  >
-    <tr
-      className=""
-    >
+  <thead>
+    <tr>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Order date
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Region
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
-        className="c1"
+        className="c3"
+        onClick={[Function]}
       >
         <div
           className="c2"
@@ -5082,7 +4784,8 @@ exports[`Story of <Table /> Table 1`] = `
         </div>
       </th>
       <th
-        className="c1"
+        className="c3"
+        onClick={[Function]}
       >
         <div
           className="c2"
@@ -5092,48 +4795,27 @@ exports[`Story of <Table /> Table 1`] = `
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Units
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Unit cost
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
-        className="c1"
+        className="c3"
+        onClick={[Function]}
       >
         <div
           className="c2"
@@ -5143,1703 +4825,382 @@ exports[`Story of <Table /> Table 1`] = `
       </th>
     </tr>
   </thead>
-  <tbody
-    className=""
-  >
-    <tr
-      className=""
-    >
+  <tbody>
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         1/6/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         East
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Jones
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         95
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         1.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         189.05
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         1/23/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Kivell
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Binder
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         50
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         19.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
-        999.50
+        999.5
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         2/9/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Jardine
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         36
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         4.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         179.64
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         2/26/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Gill
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pen
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         27
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         19.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         539.73
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         3/15/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         West
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Sorvino
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         56
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         2.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         167.44
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         4/1/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         East
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Jones
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Binder
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         60
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         4.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
-        299.40
+        299.4
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         4/18/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Andrews
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         75
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         1.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         149.25
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         5/5/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Jardine
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         90
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         4.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
-        449.10
+        449.1
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         5/22/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         West
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Thompson
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         32
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         1.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         63.68
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c4"
       >
         6/8/2018
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         East
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Jones
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         Binder
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         60
       </td>
       <td
-        className="c5"
+        className="c4"
       >
         8.99
       </td>
       <td
-        className="c5"
+        className="c4"
       >
-        539.40
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        6/25/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Morgan
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        90
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        449.10
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/12/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Howard
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        29
-      </td>
-      <td
-        className="c5"
-      >
-        1.99
-      </td>
-      <td
-        className="c5"
-      >
-        57.71
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/29/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Parent
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        81
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,619.19
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        8/15/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        35
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        174.65
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/1/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Smith
-      </td>
-      <td
-        className="c5"
-      >
-        Desk
-      </td>
-      <td
-        className="c5"
-      >
-        2
-      </td>
-      <td
-        className="c5"
-      >
-        125.00
-      </td>
-      <td
-        className="c5"
-      >
-        250.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/18/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        16
-      </td>
-      <td
-        className="c5"
-      >
-        15.99
-      </td>
-      <td
-        className="c5"
-      >
-        255.84
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/5/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Morgan
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        28
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        251.72
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/22/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        64
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        575.36
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        11/8/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Parent
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        15
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        299.85
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        11/25/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Kivell
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        96
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        479.04
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/12/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Smith
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        67
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        86.43
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/29/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Parent
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        74
-      </td>
-      <td
-        className="c5"
-      >
-        15.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,183.26
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        1/15/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        46
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        413.54
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        2/1/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Smith
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        87
-      </td>
-      <td
-        className="c5"
-      >
-        15.00
-      </td>
-      <td
-        className="c5"
-      >
-        1,305.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        2/18/2019
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        4
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        19.96
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        3/7/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Sorvino
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        7
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        139.93
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        3/24/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Jardine
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        50
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        249.50
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        4/10/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Andrews
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        66
-      </td>
-      <td
-        className="c5"
-      >
-        1.99
-      </td>
-      <td
-        className="c5"
-      >
-        131.34
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        4/27/2019
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Howard
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        96
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        479.04
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        5/14/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        53
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        68.37
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        5/31/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        80
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        719.20
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        6/17/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Kivell
-      </td>
-      <td
-        className="c5"
-      >
-        Desk
-      </td>
-      <td
-        className="c5"
-      >
-        5
-      </td>
-      <td
-        className="c5"
-      >
-        125.00
-      </td>
-      <td
-        className="c5"
-      >
-        625.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/4/2019
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        62
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        309.38
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/21/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Morgan
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        55
-      </td>
-      <td
-        className="c5"
-      >
-        12.49
-      </td>
-      <td
-        className="c5"
-      >
-        686.95
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        8/7/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Kivell
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        42
-      </td>
-      <td
-        className="c5"
-      >
-        23.95
-      </td>
-      <td
-        className="c5"
-      >
-        1,005.90
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        8/24/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Sorvino
-      </td>
-      <td
-        className="c5"
-      >
-        Desk
-      </td>
-      <td
-        className="c5"
-      >
-        3
-      </td>
-      <td
-        className="c5"
-      >
-        275.00
-      </td>
-      <td
-        className="c5"
-      >
-        825.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/10/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        7
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        9.03
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/27/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Sorvino
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        76
-      </td>
-      <td
-        className="c5"
-      >
-        1.99
-      </td>
-      <td
-        className="c5"
-      >
-        151.24
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/14/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Thompson
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        57
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,139.43
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/31/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Andrews
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        14
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        18.06
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        11/17/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Jardine
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        11
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        54.89
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/4/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Jardine
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        94
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,879.06
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/21/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Andrews
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        28
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        139.72
+        539.4
       </td>
     </tr>
   </tbody>
 </table>
 `;
 
-exports[`Story of <Table /> Table.Auto 1`] = `
-.c4 {
-  height: 1em;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
+exports[`Story of <Table /> Table 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -6847,7 +5208,7 @@ exports[`Story of <Table /> Table.Auto 1`] = `
   border-collapse: collapse;
 }
 
-.c5 {
+.c3 {
   padding: 8px;
   border-bottom: 1px solid #dcdcdc;
 }
@@ -6855,7 +5216,7 @@ exports[`Story of <Table /> Table.Auto 1`] = `
 .c1 {
   padding: 8px;
   text-align: left;
-  border-bottom: 3px solid #dcdcdc;
+  border-bottom: 3px solid;
   font-weight: bold;
 }
 
@@ -6870,71 +5231,34 @@ exports[`Story of <Table /> Table.Auto 1`] = `
   align-items: center;
 }
 
-.c3 {
-  margin-left: 5px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <table
   className="c0"
 >
-  <thead
-    className=""
-  >
-    <tr
-      className=""
-    >
+  <thead>
+    <tr>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Order date
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Region
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
@@ -6944,6 +5268,7 @@ exports[`Story of <Table /> Table.Auto 1`] = `
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
@@ -6953,48 +5278,27 @@ exports[`Story of <Table /> Table.Auto 1`] = `
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Units
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
         >
           Unit cost
-          <div
-            className="c3"
-          >
-            <span
-              className="c4"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"1em\\" height=\\"1em\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
-                }
-              }
-            />
-          </div>
         </div>
       </th>
       <th
         className="c1"
+        onClick={[Function]}
       >
         <div
           className="c2"
@@ -7004,1684 +5308,355 @@ exports[`Story of <Table /> Table.Auto 1`] = `
       </th>
     </tr>
   </thead>
-  <tbody
-    className=""
-  >
-    <tr
-      className=""
-    >
+  <tbody>
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         1/6/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         East
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Jones
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         95
       </td>
       <td
-        className="c5"
-      >
-        1.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
         189.05
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         1/23/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Kivell
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Binder
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         50
       </td>
       <td
-        className="c5"
-      >
-        19.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
-        999.50
+        999.5
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         2/9/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Jardine
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         36
       </td>
       <td
-        className="c5"
-      >
-        4.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
         179.64
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         2/26/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Gill
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pen
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         27
       </td>
       <td
-        className="c5"
-      >
-        19.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
         539.73
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         3/15/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         West
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Sorvino
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         56
       </td>
       <td
-        className="c5"
-      >
-        2.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
         167.44
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         4/1/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         East
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Jones
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Binder
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         60
       </td>
       <td
-        className="c5"
-      >
-        4.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
-        299.40
+        299.4
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         4/18/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Andrews
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         75
       </td>
       <td
-        className="c5"
-      >
-        1.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
         149.25
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         5/5/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Central
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Jardine
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         90
       </td>
       <td
-        className="c5"
-      >
-        4.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
-        449.10
+        449.1
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         5/22/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         West
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Thompson
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Pencil
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         32
       </td>
       <td
-        className="c5"
-      >
-        1.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
         63.68
       </td>
     </tr>
-    <tr
-      className=""
-    >
+    <tr>
       <td
-        className="c5"
+        className="c3"
       >
         6/8/2018
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         East
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Jones
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         Binder
       </td>
       <td
-        className="c5"
+        className="c3"
       >
         60
       </td>
       <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        539.40
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        6/25/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Morgan
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        90
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        449.10
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/12/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Howard
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        29
-      </td>
-      <td
-        className="c5"
-      >
-        1.99
-      </td>
-      <td
-        className="c5"
-      >
-        57.71
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/29/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Parent
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        81
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,619.19
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        8/15/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        35
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        174.65
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/1/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Smith
-      </td>
-      <td
-        className="c5"
-      >
-        Desk
-      </td>
-      <td
-        className="c5"
-      >
-        2
-      </td>
-      <td
-        className="c5"
-      >
-        125.00
-      </td>
-      <td
-        className="c5"
-      >
-        250.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/18/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        16
-      </td>
-      <td
-        className="c5"
-      >
-        15.99
-      </td>
-      <td
-        className="c5"
-      >
-        255.84
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/5/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Morgan
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        28
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        251.72
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/22/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        64
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        575.36
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        11/8/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Parent
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        15
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        299.85
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        11/25/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Kivell
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        96
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        479.04
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/12/2018
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Smith
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        67
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        86.43
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/29/2018
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Parent
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        74
-      </td>
-      <td
-        className="c5"
-      >
-        15.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,183.26
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        1/15/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        46
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        413.54
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        2/1/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Smith
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        87
-      </td>
-      <td
-        className="c5"
-      >
-        15.00
-      </td>
-      <td
-        className="c5"
-      >
-        1,305.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        2/18/2019
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        4
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        19.96
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        3/7/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Sorvino
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        7
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        139.93
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        3/24/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Jardine
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        50
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        249.50
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        4/10/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Andrews
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        66
-      </td>
-      <td
-        className="c5"
-      >
-        1.99
-      </td>
-      <td
-        className="c5"
-      >
-        131.34
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        4/27/2019
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Howard
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        96
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        479.04
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        5/14/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        53
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        68.37
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        5/31/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        80
-      </td>
-      <td
-        className="c5"
-      >
-        8.99
-      </td>
-      <td
-        className="c5"
-      >
-        719.20
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        6/17/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Kivell
-      </td>
-      <td
-        className="c5"
-      >
-        Desk
-      </td>
-      <td
-        className="c5"
-      >
-        5
-      </td>
-      <td
-        className="c5"
-      >
-        125.00
-      </td>
-      <td
-        className="c5"
-      >
-        625.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/4/2019
-      </td>
-      <td
-        className="c5"
-      >
-        East
-      </td>
-      <td
-        className="c5"
-      >
-        Jones
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        62
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        309.38
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        7/21/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Morgan
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        55
-      </td>
-      <td
-        className="c5"
-      >
-        12.49
-      </td>
-      <td
-        className="c5"
-      >
-        686.95
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        8/7/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Kivell
-      </td>
-      <td
-        className="c5"
-      >
-        Pen Set
-      </td>
-      <td
-        className="c5"
-      >
-        42
-      </td>
-      <td
-        className="c5"
-      >
-        23.95
-      </td>
-      <td
-        className="c5"
-      >
-        1,005.90
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        8/24/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Sorvino
-      </td>
-      <td
-        className="c5"
-      >
-        Desk
-      </td>
-      <td
-        className="c5"
-      >
-        3
-      </td>
-      <td
-        className="c5"
-      >
-        275.00
-      </td>
-      <td
-        className="c5"
-      >
-        825.00
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/10/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Gill
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        7
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        9.03
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        9/27/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Sorvino
-      </td>
-      <td
-        className="c5"
-      >
-        Pen
-      </td>
-      <td
-        className="c5"
-      >
-        76
-      </td>
-      <td
-        className="c5"
-      >
-        1.99
-      </td>
-      <td
-        className="c5"
-      >
-        151.24
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/14/2019
-      </td>
-      <td
-        className="c5"
-      >
-        West
-      </td>
-      <td
-        className="c5"
-      >
-        Thompson
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        57
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,139.43
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        10/31/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Andrews
-      </td>
-      <td
-        className="c5"
-      >
-        Pencil
-      </td>
-      <td
-        className="c5"
-      >
-        14
-      </td>
-      <td
-        className="c5"
-      >
-        1.29
-      </td>
-      <td
-        className="c5"
-      >
-        18.06
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        11/17/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Jardine
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        11
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
-      <td
-        className="c5"
-      >
-        54.89
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/4/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Jardine
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        94
-      </td>
-      <td
-        className="c5"
-      >
-        19.99
-      </td>
-      <td
-        className="c5"
-      >
-        1,879.06
-      </td>
-    </tr>
-    <tr
-      className=""
-    >
-      <td
-        className="c5"
-      >
-        12/21/2019
-      </td>
-      <td
-        className="c5"
-      >
-        Central
-      </td>
-      <td
-        className="c5"
-      >
-        Andrews
-      </td>
-      <td
-        className="c5"
-      >
-        Binder
-      </td>
-      <td
-        className="c5"
-      >
-        28
-      </td>
-      <td
-        className="c5"
-      >
-        4.99
-      </td>
+        className="c3"
+      />
       <td
-        className="c5"
+        className="c3"
       >
-        139.72
+        539.4
       </td>
     </tr>
   </tbody>
