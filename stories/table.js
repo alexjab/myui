@@ -179,7 +179,7 @@ export default [
           { key: 'rep', title: 'Rep' },
           { key: 'item', title: 'Item' },
           { key: 'units', title: 'Units' },
-          { key: 'title', title: 'Unit cost' },
+          { key: 'unitCost', title: 'Unit cost' },
           { key: 'total', title: 'Total' },
         ]}
         rows={[
