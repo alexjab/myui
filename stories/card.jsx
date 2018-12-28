@@ -115,47 +115,119 @@ export default [
           </Padder>
           <Card.Separator />
           <Padder>
-            <Table>
-              <Table.Head>
-                <Table.Row>
-                  <Table.Header isSortable>Order date</Table.Header>
-                  <Table.Header>Item</Table.Header>
-                  <Table.Header isSortable>Units</Table.Header>
-                  <Table.Header isSortable>Unit cost</Table.Header>
-                  <Table.Header>Total</Table.Header>
-                </Table.Row>
-              </Table.Head>
-              <Table.Body>
-                <Table.Row>
-                  <Table.Data>1/6/2018</Table.Data>
-                  <Table.Data>Pencil</Table.Data>
-                  <Table.Data>95</Table.Data>
-                  <Table.Data>1.99</Table.Data>
-                  <Table.Data>189.05</Table.Data>
-                </Table.Row>
-                <Table.Row>
-                  <Table.Data>1/23/2018</Table.Data>
-                  <Table.Data>Binder</Table.Data>
-                  <Table.Data>50</Table.Data>
-                  <Table.Data>19.99</Table.Data>
-                  <Table.Data>999.50</Table.Data>
-                </Table.Row>
-                <Table.Row>
-                  <Table.Data>2/9/2018</Table.Data>
-                  <Table.Data>Pencil</Table.Data>
-                  <Table.Data>36</Table.Data>
-                  <Table.Data>4.99</Table.Data>
-                  <Table.Data>179.64</Table.Data>
-                </Table.Row>
-                <Table.Row>
-                  <Table.Data>2/26/2018</Table.Data>
-                  <Table.Data>Pen</Table.Data>
-                  <Table.Data>27</Table.Data>
-                  <Table.Data>19.99</Table.Data>
-                  <Table.Data>539.73</Table.Data>
-                </Table.Row>
-              </Table.Body>
-            </Table>
+            <Table
+              headers={[
+                { key: 'orderDate', title: 'Order date' },
+                { key: 'region', title: 'Region' },
+                { key: 'rep', title: 'Rep' },
+                { key: 'item', title: 'Item' },
+                { key: 'units', title: 'Units' },
+                { key: 'title', title: 'Unit cost' },
+                { key: 'total', title: 'Total' },
+              ]}
+              rows={[
+                {
+                  id: 0,
+                  orderDate: '1/6/2018',
+                  region: 'East',
+                  rep: 'Jones',
+                  item: 'Pencil',
+                  units: 95,
+                  unitCost: 1.99,
+                  total: 189.05,
+                },
+                {
+                  id: 1,
+                  orderDate: '1/23/2018',
+                  region: 'Central',
+                  rep: 'Kivell',
+                  item: 'Binder',
+                  units: 50,
+                  unitCost: 19.99,
+                  total: 999.5,
+                },
+                {
+                  id: 2,
+                  orderDate: '2/9/2018',
+                  region: 'Central',
+                  rep: 'Jardine',
+                  item: 'Pencil',
+                  units: 36,
+                  unitCost: 4.99,
+                  total: 179.64,
+                },
+                {
+                  id: 3,
+                  orderDate: '2/26/2018',
+                  region: 'Central',
+                  rep: 'Gill',
+                  item: 'Pen',
+                  units: 27,
+                  unitCost: 19.99,
+                  total: 539.73,
+                },
+                {
+                  id: 4,
+                  orderDate: '3/15/2018',
+                  region: 'West',
+                  rep: 'Sorvino',
+                  item: 'Pencil',
+                  units: 56,
+                  unitCost: 2.99,
+                  total: 167.44,
+                },
+                {
+                  id: 5,
+                  orderDate: '4/1/2018',
+                  region: 'East',
+                  rep: 'Jones',
+                  item: 'Binder',
+                  units: 60,
+                  unitCost: 4.99,
+                  total: 299.4,
+                },
+                {
+                  id: 6,
+                  orderDate: '4/18/2018',
+                  region: 'Central',
+                  rep: 'Andrews',
+                  item: 'Pencil',
+                  units: 75,
+                  unitCost: 1.99,
+                  total: 149.25,
+                },
+                {
+                  id: 7,
+                  orderDate: '5/5/2018',
+                  region: 'Central',
+                  rep: 'Jardine',
+                  item: 'Pencil',
+                  units: 90,
+                  unitCost: 4.99,
+                  total: 449.1,
+                },
+                {
+                  id: 8,
+                  orderDate: '5/22/2018',
+                  region: 'West',
+                  rep: 'Thompson',
+                  item: 'Pencil',
+                  units: 32,
+                  unitCost: 1.99,
+                  total: 63.68,
+                },
+                {
+                  id: 9,
+                  orderDate: '6/8/2018',
+                  region: 'East',
+                  rep: 'Jones',
+                  item: 'Binder',
+                  units: 60,
+                  unitCost: 8.99,
+                  total: 539.4,
+                },
+              ]}
+            />
           </Padder>
         </Card>
       </div>
