@@ -1,17 +1,17 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import GlobalStyle from '../../src/components/GlobalStyle'
+import GlobalStyle from '../GlobalStyle'
 
-import coreStories from '../../stories/core'
-import cardStories from '../../stories/card'
-import buttonStories from '../../stories/button'
-import infoGroupStories from '../../stories/infoGroup'
-import inputStories from '../../stories/input'
-import tableStories from '../../stories/table'
-import tabsStories from '../../stories/tabs'
-import tagStories from '../../stories/tag'
-import toolbarStories from '../../stories/toolbar'
+import coreStories from '../../../stories/core'
+import cardStories from '../../../stories/card'
+import buttonStories from '../../../stories/button'
+import infoGroupStories from '../../../stories/infoGroup'
+import inputStories from '../../../stories/input'
+import tableStories from '../../../stories/table'
+import tabsStories from '../../../stories/tabs'
+import tagStories from '../../../stories/tag'
+import toolbarStories from '../../../stories/toolbar'
 
 function createComponentTest(description, stories) {
   return describe(`Story of ${description}`, () => {
