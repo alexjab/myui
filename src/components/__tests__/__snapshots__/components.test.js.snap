@@ -3852,7 +3852,6 @@ Array [
       style={
         Object {
           "display": "inline-flex",
-          "marginTop": 20,
         }
       }
     >

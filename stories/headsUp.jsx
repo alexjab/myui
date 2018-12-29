@@ -16,7 +16,7 @@ export default [
           <HeadsUp>This is an important message</HeadsUp>
         </Padder>
         <Padder padding="20px">
-          <div style={{ display: 'inline-flex', marginTop: 20 }}>
+          <div style={{ display: 'inline-flex' }}>
             <Card>
               <Padder top="5px" bottom="5px" left="20px" right="20px">
                 <HeadsUp>This is an important message</HeadsUp>
