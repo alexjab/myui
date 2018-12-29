@@ -1,6 +1,8 @@
 import React from 'react'
 import feather from 'feather-icons'
 
+export const description = 'Links'
+
 export default [
   {
     name: 'Links',

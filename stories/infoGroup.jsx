@@ -2,6 +2,8 @@ import React from 'react'
 
 import InfoGroup from '../src/components/InfoGroup'
 
+export const description = '<InfoGroup />'
+
 export default [
   {
     name: 'Info group',

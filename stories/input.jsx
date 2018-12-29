@@ -3,6 +3,8 @@ import React from 'react'
 import Input from '../src/components/Input'
 import Button from '../src/components/Button'
 
+export const description = '<Input />'
+
 export default [
   {
     name: 'Input',

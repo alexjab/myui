@@ -3,6 +3,8 @@ import feather from 'feather-icons'
 
 import Tag from '../src/components/Tag'
 
+export const description = '<Tag />'
+
 export default [
   {
     name: 'Default tag',

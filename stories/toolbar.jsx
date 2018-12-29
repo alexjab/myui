@@ -6,6 +6,8 @@ import Icon from '../src/components/Icon'
 import Toolbar from '../src/components/Toolbar'
 import Padder from '../src/components/Padder'
 
+export const description = '<Toolbar />'
+
 export default [
   {
     name: 'Toolbar',

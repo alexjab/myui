@@ -3,6 +3,8 @@ import feather from 'feather-icons'
 
 import Icon from '../src/components/Icon'
 
+export const description = '<Icon />'
+
 export default [
   {
     name: 'Icon',

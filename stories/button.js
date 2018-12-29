@@ -3,6 +3,8 @@ import { action } from '@storybook/addon-actions'
 
 import Button from '../src/components/Button'
 
+export const description = '<Button />'
+
 export default [
   {
     name: 'Default',
