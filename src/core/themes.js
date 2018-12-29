@@ -17,8 +17,10 @@ export const light = {
   colorGreyLightest: colors.greyLightest,
 
   colorWhite: colors.white,
-  colorBlack: colors.black,
   colorDark: colors.dark,
+  colorDarker: colors.darker,
+  colorDarkest: colors.darkest,
+  colorBlack: colors.black,
 }
 
 export const dark = {

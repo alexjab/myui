@@ -3721,6 +3721,235 @@ Array [
 ]
 `;
 
+exports[`Story of <HeadsUp /> Danger 1`] = `
+Array [
+  .c0 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.c1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      This is an important message
+    </div>
+  </div>,
+  .c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c0 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.c3 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      style={
+        Object {
+          "display": "inline-flex",
+        }
+      }
+    >
+      <div
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            className="c3"
+          >
+            This is an important message
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Story of <HeadsUp /> Default 1`] = `
+Array [
+  .c0 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.c1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      This is an important message
+    </div>
+  </div>,
+  .c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c0 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.c3 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginTop": 20,
+        }
+      }
+    >
+      <div
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            className="c3"
+          >
+            This is an important message
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Story of <HeadsUp /> Primary 1`] = `
+Array [
+  .c0 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.c1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      This is an important message
+    </div>
+  </div>,
+  .c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.c0 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.c3 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      style={
+        Object {
+          "display": "inline-flex",
+        }
+      }
+    >
+      <div
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            className="c3"
+          >
+            This is an important message
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
 exports[`Story of <InfoGroup /> Info group 1`] = `
 .c2 {
   font-family: Inter UI,sans-serif;
