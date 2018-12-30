@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Story of <Button /> Danger 1`] = `
+exports[`Story of Button Danger 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -50,7 +50,7 @@ exports[`Story of <Button /> Danger 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Danger inverted 1`] = `
+exports[`Story of Button Danger inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -100,7 +100,7 @@ exports[`Story of <Button /> Danger inverted 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Danger large 1`] = `
+exports[`Story of Button Danger large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -150,7 +150,7 @@ exports[`Story of <Button /> Danger large 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Danger large inverted 1`] = `
+exports[`Story of Button Danger large inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -200,7 +200,7 @@ exports[`Story of <Button /> Danger large inverted 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Danger large outlined 1`] = `
+exports[`Story of Button Danger large outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -250,7 +250,7 @@ exports[`Story of <Button /> Danger large outlined 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Danger outlined 1`] = `
+exports[`Story of Button Danger outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -300,7 +300,7 @@ exports[`Story of <Button /> Danger outlined 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default 1`] = `
+exports[`Story of Button Default 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -350,7 +350,7 @@ exports[`Story of <Button /> Default 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default inverted 1`] = `
+exports[`Story of Button Default inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -400,7 +400,7 @@ exports[`Story of <Button /> Default inverted 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default large with iconLeft 1`] = `
+exports[`Story of Button Default large with iconLeft 1`] = `
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -491,7 +491,7 @@ exports[`Story of <Button /> Default large with iconLeft 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default large with iconRight 1`] = `
+exports[`Story of Button Default large with iconRight 1`] = `
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -583,7 +583,7 @@ exports[`Story of <Button /> Default large with iconRight 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default large with only icon 1`] = `
+exports[`Story of Button Default large with only icon 1`] = `
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -674,7 +674,7 @@ exports[`Story of <Button /> Default large with only icon 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default outlined 1`] = `
+exports[`Story of Button Default outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -724,7 +724,7 @@ exports[`Story of <Button /> Default outlined 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default with both icons 1`] = `
+exports[`Story of Button Default with both icons 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -845,7 +845,7 @@ exports[`Story of <Button /> Default with both icons 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default with iconLeft 1`] = `
+exports[`Story of Button Default with iconLeft 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -936,7 +936,7 @@ exports[`Story of <Button /> Default with iconLeft 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default with iconRight 1`] = `
+exports[`Story of Button Default with iconRight 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -1028,7 +1028,7 @@ exports[`Story of <Button /> Default with iconRight 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Default with only icon 1`] = `
+exports[`Story of Button Default with only icon 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -1119,7 +1119,7 @@ exports[`Story of <Button /> Default with only icon 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Disabled 1`] = `
+exports[`Story of Button Disabled 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1170,7 +1170,7 @@ exports[`Story of <Button /> Disabled 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Disabled inverted 1`] = `
+exports[`Story of Button Disabled inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1221,7 +1221,7 @@ exports[`Story of <Button /> Disabled inverted 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Disabled large 1`] = `
+exports[`Story of Button Disabled large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -1272,7 +1272,7 @@ exports[`Story of <Button /> Disabled large 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Disabled outlined 1`] = `
+exports[`Story of Button Disabled outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1323,7 +1323,7 @@ exports[`Story of <Button /> Disabled outlined 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary 1`] = `
+exports[`Story of Button Primary 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1373,7 +1373,7 @@ exports[`Story of <Button /> Primary 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary inverted 1`] = `
+exports[`Story of Button Primary inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1423,7 +1423,7 @@ exports[`Story of <Button /> Primary inverted 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary inverted disabled 1`] = `
+exports[`Story of Button Primary inverted disabled 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1474,7 +1474,7 @@ exports[`Story of <Button /> Primary inverted disabled 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary large 1`] = `
+exports[`Story of Button Primary large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -1524,7 +1524,7 @@ exports[`Story of <Button /> Primary large 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary large inverted 1`] = `
+exports[`Story of Button Primary large inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -1574,7 +1574,7 @@ exports[`Story of <Button /> Primary large inverted 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary large outlined 1`] = `
+exports[`Story of Button Primary large outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -1624,7 +1624,7 @@ exports[`Story of <Button /> Primary large outlined 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary large with only icon 1`] = `
+exports[`Story of Button Primary large with only icon 1`] = `
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -1715,7 +1715,7 @@ exports[`Story of <Button /> Primary large with only icon 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary outlined 1`] = `
+exports[`Story of Button Primary outlined 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -1765,7 +1765,7 @@ exports[`Story of <Button /> Primary outlined 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary outlined with icon left 1`] = `
+exports[`Story of Button Primary outlined with icon left 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -1856,7 +1856,7 @@ exports[`Story of <Button /> Primary outlined with icon left 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary outlined with icon right 1`] = `
+exports[`Story of Button Primary outlined with icon right 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -1948,7 +1948,7 @@ exports[`Story of <Button /> Primary outlined with icon right 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary with icon 1`] = `
+exports[`Story of Button Primary with icon 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -2040,7 +2040,7 @@ exports[`Story of <Button /> Primary with icon 1`] = `
 </button>
 `;
 
-exports[`Story of <Button /> Primary with only icon 1`] = `
+exports[`Story of Button Primary with only icon 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -2131,7 +2131,7 @@ exports[`Story of <Button /> Primary with only icon 1`] = `
 </button>
 `;
 
-exports[`Story of <Card /> Card 1`] = `
+exports[`Story of Card Card 1`] = `
 .c0 {
   background-color: #ffffff;
   border-radius: 4px;
@@ -2168,7 +2168,7 @@ exports[`Story of <Card /> Card 1`] = `
 </div>
 `;
 
-exports[`Story of <Card /> Card on a dark background 1`] = `
+exports[`Story of Card Card on a dark background 1`] = `
 .c0 {
   background-color: #ffffff;
   border-radius: 4px;
@@ -2232,7 +2232,7 @@ exports[`Story of <Card /> Card on a dark background 1`] = `
 </div>
 `;
 
-exports[`Story of <Card /> Card with separator 1`] = `
+exports[`Story of Card Card with separator 1`] = `
 .c0 {
   background-color: #ffffff;
   border-radius: 4px;
@@ -2287,7 +2287,7 @@ exports[`Story of <Card /> Card with separator 1`] = `
 </div>
 `;
 
-exports[`Story of <Card /> Card with title and table 1`] = `
+exports[`Story of Card Card with title and table 1`] = `
 .c0 {
   background-color: #ffffff;
   border-radius: 4px;
@@ -2343,8 +2343,9 @@ exports[`Story of <Card /> Card with title and table 1`] = `
 }
 
 .c2 {
-  margin-top: 0;
-  margin-bottom: 0;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #222222;
 }
 
 <div
@@ -2363,11 +2364,11 @@ exports[`Story of <Card /> Card with title and table 1`] = `
     <div
       className="c1"
     >
-      <h1
+      <div
         className="c2"
       >
         Card title
-      </h1>
+      </div>
     </div>
     <div
       className="c3"
@@ -2810,7 +2811,7 @@ exports[`Story of <Card /> Card with title and table 1`] = `
 </div>
 `;
 
-exports[`Story of <Core /> Black and white 1`] = `
+exports[`Story of Core Black and white 1`] = `
 Array [
   .c0 {
   font-family: Inter UI,sans-serif;
@@ -3135,7 +3136,7 @@ Array [
 ]
 `;
 
-exports[`Story of <Core /> Colors 1`] = `
+exports[`Story of Core Colors 1`] = `
 Array [
   .c0 {
   font-family: Inter UI,sans-serif;
@@ -3268,7 +3269,7 @@ Array [
 ]
 `;
 
-exports[`Story of <Core /> Greys 1`] = `
+exports[`Story of Core Greys 1`] = `
 Array [
   .c0 {
   font-family: Inter UI,sans-serif;
@@ -3721,7 +3722,73 @@ Array [
 ]
 `;
 
-exports[`Story of <HeadsUp /> Danger 1`] = `
+exports[`Story of Headings Headings 1`] = `
+Array [
+  .c0 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #222222;
+}
+
+<div
+    className="c0"
+  >
+    Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
+  </div>,
+  .c0 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+<div
+    className="c0"
+  >
+    Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
+  </div>,
+  .c0 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+<div
+    className="c0"
+  >
+    Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
+  </div>,
+  .c0 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+<div
+    className="c0"
+  >
+    Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
+  </div>,
+  .c0 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+<div
+    className="c0"
+  >
+    Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
+  </div>,
+  .c0 {
+  font-size: 1.125em;
+  font-weight: 600;
+}
+
+<div
+    className="c0"
+  >
+    Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
+  </div>,
+]
+`;
+
+exports[`Story of HeadsUp Danger 1`] = `
 Array [
   .c0 {
   padding-top: 20px;
@@ -3797,7 +3864,7 @@ Array [
 ]
 `;
 
-exports[`Story of <HeadsUp /> Default 1`] = `
+exports[`Story of HeadsUp Default 1`] = `
 Array [
   .c0 {
   padding-top: 20px;
@@ -3873,7 +3940,7 @@ Array [
 ]
 `;
 
-exports[`Story of <HeadsUp /> Primary 1`] = `
+exports[`Story of HeadsUp Primary 1`] = `
 Array [
   .c0 {
   padding-top: 20px;
@@ -3949,7 +4016,7 @@ Array [
 ]
 `;
 
-exports[`Story of <Icon /> Icon 1`] = `
+exports[`Story of Icon Icon 1`] = `
 Array [
   .c0 {
   height: 20px;
@@ -9582,7 +9649,7 @@ Array [
 ]
 `;
 
-exports[`Story of <Icon /> Icon sizes 1`] = `
+exports[`Story of Icon Icon sizes 1`] = `
 Array [
   .c0 {
   height: 12px;
@@ -9797,7 +9864,7 @@ Array [
 ]
 `;
 
-exports[`Story of <InfoGroup /> Info group 1`] = `
+exports[`Story of InfoGroup Info group 1`] = `
 .c2 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -10029,7 +10096,7 @@ exports[`Story of <InfoGroup /> Info group 1`] = `
 </table>
 `;
 
-exports[`Story of <Input /> Input 1`] = `
+exports[`Story of Input Input 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -10081,7 +10148,7 @@ exports[`Story of <Input /> Input 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input fullwidth 1`] = `
+exports[`Story of Input Input fullwidth 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -10133,7 +10200,7 @@ exports[`Story of <Input /> Input fullwidth 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input fullwidth with icon left 1`] = `
+exports[`Story of Input Input fullwidth with icon left 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -10228,7 +10295,7 @@ exports[`Story of <Input /> Input fullwidth with icon left 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input fullwidth with icon right 1`] = `
+exports[`Story of Input Input fullwidth with icon right 1`] = `
 .c3 {
   height: 14px;
   display: -webkit-inline-box;
@@ -10324,7 +10391,7 @@ exports[`Story of <Input /> Input fullwidth with icon right 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input fullwidth with icons left and right 1`] = `
+exports[`Story of Input Input fullwidth with icons left and right 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -10451,7 +10518,7 @@ exports[`Story of <Input /> Input fullwidth with icons left and right 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input large 1`] = `
+exports[`Story of Input Input large 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 14px;
@@ -10503,7 +10570,7 @@ exports[`Story of <Input /> Input large 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input large fullwidth with icon right 1`] = `
+exports[`Story of Input Input large fullwidth with icon right 1`] = `
 .c3 {
   height: 16px;
   display: -webkit-inline-box;
@@ -10599,7 +10666,7 @@ exports[`Story of <Input /> Input large fullwidth with icon right 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input large with icon left 1`] = `
+exports[`Story of Input Input large with icon left 1`] = `
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -10694,7 +10761,7 @@ exports[`Story of <Input /> Input large with icon left 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input large with icon right 1`] = `
+exports[`Story of Input Input large with icon right 1`] = `
 .c3 {
   height: 16px;
   display: -webkit-inline-box;
@@ -10790,7 +10857,7 @@ exports[`Story of <Input /> Input large with icon right 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input large with icons left and right 1`] = `
+exports[`Story of Input Input large with icons left and right 1`] = `
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -10917,7 +10984,7 @@ exports[`Story of <Input /> Input large with icons left and right 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input with icon left 1`] = `
+exports[`Story of Input Input with icon left 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -11012,7 +11079,7 @@ exports[`Story of <Input /> Input with icon left 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input with icon right 1`] = `
+exports[`Story of Input Input with icon right 1`] = `
 .c3 {
   height: 14px;
   display: -webkit-inline-box;
@@ -11108,7 +11175,7 @@ exports[`Story of <Input /> Input with icon right 1`] = `
 </div>
 `;
 
-exports[`Story of <Input /> Input with icons left and right 1`] = `
+exports[`Story of Input Input with icons left and right 1`] = `
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -11235,7 +11302,21 @@ exports[`Story of <Input /> Input with icons left and right 1`] = `
 </div>
 `;
 
-exports[`Story of <Table /> Table (with sortable fields) 1`] = `
+exports[`Story of Links Links 1`] = `
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   
+  <a
+    href="#"
+  >
+    This is a link.
+  </a>
+   Ut at erat sed massa pulvinar posuere.
+   
+</p>
+`;
+
+exports[`Story of Table Table (with sortable fields) 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -11726,7 +11807,7 @@ exports[`Story of <Table /> Table (with sortable fields) 1`] = `
 </table>
 `;
 
-exports[`Story of <Table /> Table 1`] = `
+exports[`Story of Table Table 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -12209,7 +12290,7 @@ exports[`Story of <Table /> Table 1`] = `
 </table>
 `;
 
-exports[`Story of <Tabs /> Select tab 1`] = `
+exports[`Story of Tabs Select tab 1`] = `
 Array [
   .c1 {
   padding-left: 15px;
@@ -12337,7 +12418,7 @@ Array [
 ]
 `;
 
-exports[`Story of <Tabs /> Tabs 1`] = `
+exports[`Story of Tabs Tabs 1`] = `
 .c1 {
   padding-left: 15px;
   padding-right: 15px;
@@ -12414,7 +12495,7 @@ exports[`Story of <Tabs /> Tabs 1`] = `
 </div>
 `;
 
-exports[`Story of <Tabs /> Tabs with default tab 1`] = `
+exports[`Story of Tabs Tabs with default tab 1`] = `
 .c3 {
   padding-left: 15px;
   padding-right: 15px;
@@ -12491,7 +12572,7 @@ exports[`Story of <Tabs /> Tabs with default tab 1`] = `
 </div>
 `;
 
-exports[`Story of <Tag /> Default tag 1`] = `
+exports[`Story of Tag Default tag 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -12516,7 +12597,7 @@ exports[`Story of <Tag /> Default tag 1`] = `
 </div>
 `;
 
-exports[`Story of <Tag /> Primary tag 1`] = `
+exports[`Story of Tag Primary tag 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
@@ -12541,7 +12622,7 @@ exports[`Story of <Tag /> Primary tag 1`] = `
 </div>
 `;
 
-exports[`Story of <Toolbar /> Toolbar 1`] = `
+exports[`Story of Toolbar Toolbar 1`] = `
 .c1 {
   height: 20px;
   display: -webkit-inline-box;
@@ -12594,21 +12675,7 @@ exports[`Story of <Toolbar /> Toolbar 1`] = `
 </div>
 `;
 
-exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
-.c7 {
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-}
-
-.c2 {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-
+exports[`Story of Toolbar Toolbar with border and padding 1`] = `
 .c5 {
   height: 14px;
   display: -webkit-inline-box;
@@ -12677,6 +12744,20 @@ exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
 .c3:active {
   background-color: #dcdcdc;
   color: #555555;
+}
+
+.c7 {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 .c0 {
@@ -12830,14 +12911,7 @@ exports[`Story of <Toolbar /> Toolbar with border and padding 1`] = `
 </div>
 `;
 
-exports[`Story of <Toolbar /> Toolbar with expanded column and fixed column 1`] = `
-.c2 {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-
+exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
 .c5 {
   height: 14px;
   display: -webkit-inline-box;
@@ -12906,6 +12980,13 @@ exports[`Story of <Toolbar /> Toolbar with expanded column and fixed column 1`] 
 .c3:active {
   background-color: #dcdcdc;
   color: #555555;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 .c6 {
@@ -13030,18 +13111,4 @@ exports[`Story of <Toolbar /> Toolbar with expanded column and fixed column 1`] 
     </div>
   </div>
 </div>
-`;
-
-exports[`Story of Links Links 1`] = `
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   
-  <a
-    href="#"
-  >
-    This is a link.
-  </a>
-   Ut at erat sed massa pulvinar posuere.
-   
-</p>
 `;
