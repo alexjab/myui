@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions'
 import Tabs from '../src/components/Tabs'
 import Button from '../src/components/Button'
 
-export const description = '<Tabs />'
+export const description = 'Tabs'
 
 class TabsWithSelectButton extends React.Component {
   render() {

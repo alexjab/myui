@@ -1,21 +1,8 @@
 import React from 'react'
-import { storiesOf } from '@storybook/react'
+import { configure, storiesOf } from '@storybook/react'
 
 import ThemeProvider from '../src/components/ThemeProvider'
 import GlobalStyle from '../src/components/GlobalStyle'
-
-import buttonStories from './button'
-import cardStories from './card'
-import coreStories from './core'
-import headsUpStories from './headsUp'
-import iconStories from './icon'
-import infoGroupStories from './infoGroup'
-import inputStories from './input'
-import linksStories from './links'
-import tableStories from './table'
-import tabsStories from './tabs'
-import tagStories from './tag'
-import toolbarStories from './toolbar'
 
 const GlobalDecorator = storyFn => (
   <ThemeProvider>
@@ -35,15 +22,8 @@ function createStoriesOf(nameOfStory, stories) {
   }
 }
 
-createStoriesOf('Core', coreStories)
-createStoriesOf('Card', cardStories)
-createStoriesOf('Button', buttonStories)
-createStoriesOf('HeadsUp', headsUpStories)
-createStoriesOf('Icon', iconStories)
-createStoriesOf('InfoGroup', infoGroupStories)
-createStoriesOf('Input', inputStories)
-createStoriesOf('Links', linksStories)
-createStoriesOf('Table', tableStories)
-createStoriesOf('Tabs', tabsStories)
-createStoriesOf('Tag', tagStories)
-createStoriesOf('Toolbar', toolbarStories)
+const req = require.context('./', false, /\.stories\.jsx?$/)
+req.keys().forEach(filename => {
+  const { default: stories, description } = req(filename)
+  createStoriesOf(description, stories)
+})

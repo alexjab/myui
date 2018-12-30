@@ -5,7 +5,7 @@ import Padder from '../src/components/Padder'
 import Table from '../src/components/Table'
 import { H1 } from '../src/components/Heading'
 
-export const description = '<Card />'
+export const description = 'Card'
 
 export default [
   {

@@ -4,6 +4,7 @@ import styled from 'styled-components'
 export const H1 = styled.h1`
   margin-top: 0;
   margin-bottom: 0;
+  ${({ theme }) => theme.colorGreyDarker}
 `
 
 export const H2 = styled.h2`

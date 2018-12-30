@@ -2,7 +2,7 @@ import React from 'react'
 
 import Table from '../src/components/Table'
 
-export const description = '<Table />'
+export const description = 'Table'
 
 class SortableTable extends React.Component {
   state = {

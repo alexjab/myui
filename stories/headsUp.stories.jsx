@@ -5,7 +5,7 @@ import Card from '../src/components/Card'
 import HeadsUp from '../src/components/HeadsUp'
 import Padder from '../src/components/Padder'
 
-export const description = '<HeadsUp />'
+export const description = 'HeadsUp'
 
 export default [
   {

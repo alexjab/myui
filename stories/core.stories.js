@@ -3,7 +3,7 @@ import React from 'react'
 import * as colors from '../src/core/colors'
 import Color from '../src/components/Color'
 
-export const description = '<Core />'
+export const description = 'Core'
 
 export default [
   {

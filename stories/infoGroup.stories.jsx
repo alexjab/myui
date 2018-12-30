@@ -2,7 +2,7 @@ import React from 'react'
 
 import InfoGroup from '../src/components/InfoGroup'
 
-export const description = '<InfoGroup />'
+export const description = 'InfoGroup'
 
 export default [
   {
