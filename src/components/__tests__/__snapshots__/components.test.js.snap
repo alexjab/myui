@@ -2343,6 +2343,8 @@ exports[`Story of Card Card with title and table 1`] = `
 }
 
 .c2 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 2.5em;
   font-weight: 600;
   color: #222222;
@@ -2364,11 +2366,11 @@ exports[`Story of Card Card with title and table 1`] = `
     <div
       className="c1"
     >
-      <div
+      <h1
         className="c2"
       >
         Card title
-      </div>
+      </h1>
     </div>
     <div
       className="c3"
@@ -3725,66 +3727,83 @@ Array [
 exports[`Story of Headings Headings 1`] = `
 Array [
   .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 2.5em;
   font-weight: 600;
   color: #222222;
 }
 
-<div
+<h1
     className="c0"
   >
     Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
-  </div>,
+  </h1>,
   .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 2em;
   font-weight: 600;
+  color: #222222;
 }
 
-<div
+<h2
     className="c0"
   >
     Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
-  </div>,
+  </h2>,
   .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.75em;
   font-weight: 600;
+  color: #222222;
 }
 
-<div
+<h3
     className="c0"
   >
     Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
-  </div>,
+  </h3>,
   .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.5em;
   font-weight: 600;
+  color: #222222;
 }
 
-<div
+<h4
     className="c0"
   >
     Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
-  </div>,
+  </h4>,
   .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.25em;
   font-weight: 600;
+  color: #222222;
 }
 
-<div
+<h5
     className="c0"
   >
     Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
-  </div>,
+  </h5>,
   .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.125em;
   font-weight: 600;
+  color: #222222;
 }
 
-<div
+<h6
     className="c0"
   >
     Voix ambiguë d'un cœur qui au zéphir préfère les jattes de kiwi.
-  </div>,
+  </h6>,
 ]
 `;
 
