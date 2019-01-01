@@ -9883,7 +9883,7 @@ Array [
 ]
 `;
 
-exports[`Story of InfoGroup Info group 1`] = `
+exports[`Story of InfoTable InfoTable 1`] = `
 .c2 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;

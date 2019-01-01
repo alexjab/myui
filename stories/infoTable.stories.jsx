@@ -1,15 +1,15 @@
 import React from 'react'
 
-import InfoGroup from '../src/components/InfoGroup'
+import InfoTable from '../src/components/InfoTable'
 
-export const description = 'InfoGroup'
+export const description = 'InfoTable'
 
 export default [
   {
-    name: 'Info group',
+    name: 'InfoTable',
     element: (
-      <InfoGroup>
-        <InfoGroup.Section
+      <InfoTable>
+        <InfoTable.Section
           title="User Account Details"
           fields={[
             { label: 'Name', data: 'Brody Senger' },
@@ -23,7 +23,7 @@ export default [
             { label: 'Email', data: 'Brody45@yahoo.com' },
           ]}
         />
-        <InfoGroup.Section
+        <InfoTable.Section
           title="Company Details"
           fields={[
             { label: 'Company Name', data: 'Christiansen and Sons' },
@@ -37,7 +37,7 @@ export default [
             { label: 'BS Noun', data: 'e-commerce' },
           ]}
         />
-      </InfoGroup>
+      </InfoTable>
     ),
   },
 ]

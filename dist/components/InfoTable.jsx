@@ -49,14 +49,14 @@ KeyCell.defaultProps = {
   isLarge: false,
   theme: light,
 }
-const InfoGroup = styled.table`
+const InfoTable = styled.table`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
 
   border-spacing: 8px 16px;
 `
-InfoGroup.defaultProps = {
+InfoTable.defaultProps = {
   fields: [],
   isLarge: false,
   theme: light,
@@ -72,7 +72,7 @@ const GroupHead = styled.thead`
   }
 `
 
-InfoGroup.Section = ({ fields, title }) =>
+InfoTable.Section = ({ fields, title }) =>
   React.createElement(
     React.Fragment,
     null,
@@ -97,4 +97,4 @@ InfoGroup.Section = ({ fields, title }) =>
     )
   )
 
-export default InfoGroup
+export default InfoTable

@@ -18,7 +18,7 @@ KeyCell.defaultProps = {
   theme: lightTheme,
 }
 
-const InfoGroup = styled.table`
+const InfoTable = styled.table`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
@@ -26,7 +26,7 @@ const InfoGroup = styled.table`
   border-spacing: 8px 16px;
 `
 
-InfoGroup.defaultProps = {
+InfoTable.defaultProps = {
   fields: [],
   isLarge: false,
   theme: lightTheme,
@@ -43,7 +43,7 @@ const GroupHead = styled.thead`
   }
 `
 
-InfoGroup.Section = ({ fields, title }) => (
+InfoTable.Section = ({ fields, title }) => (
   <>
     <GroupHead>
       <tr>
@@ -61,4 +61,4 @@ InfoGroup.Section = ({ fields, title }) => (
   </>
 )
 
-export default InfoGroup
+export default InfoTable
