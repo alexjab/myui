@@ -1,18 +1,20 @@
-import 'react';
-import styled from 'styled-components';
+import 'react'
+import styled from 'styled-components'
 
-const primary = '#1a73e8';
-const danger = '#e34160';
-const white = '#ffffff';
-const dark = '#555555';
-const black = '#000000';
-const greyLightest = '#f5f5f5';
-const greyLighter = '#dcdcdc';
-const greyLight = '#d3d3d3';
-const grey = '#c0c0c0';
-const greyDark = '#a9a9a9';
-const greyDarker = '#808080';
-const greyDarkest = '#696969';
+const primary = '#1a73e8'
+const danger = '#e34160'
+const white = '#ffffff'
+const dark = '#555555'
+const darker = '#383838'
+const darkest = '#222222'
+const black = '#000000'
+const greyLightest = '#f5f5f5'
+const greyLighter = '#dcdcdc'
+const greyLight = '#d3d3d3'
+const grey = '#c0c0c0'
+const greyDark = '#a9a9a9'
+const greyDarker = '#808080'
+const greyDarkest = '#696969'
 
 const light = {
   fontFamily: 'Inter UI, sans-serif',
@@ -28,41 +30,29 @@ const light = {
   colorGreyLighter: greyLighter,
   colorGreyLightest: greyLightest,
   colorWhite: white,
+  colorDark: dark,
+  colorDarker: darker,
+  colorDarkest: darkest,
   colorBlack: black,
-  colorDark: dark
-};
+}
 
 const Toolbar = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: ${({
-  horizontalLayout
-}) => horizontalLayout};
-  align-items: ${({
-  verticalLayout
-}) => verticalLayout};
+  justify-content: ${({ horizontalLayout }) => horizontalLayout};
+  align-items: ${({ verticalLayout }) => verticalLayout};
 
-  flex: ${({
-  isExpanded
-}) => isExpanded ? '1' : null};
+  flex: ${({ isExpanded }) => (isExpanded ? '1' : null)};
 
-  border-top: ${({
-  hasBorderTop,
-  theme
-}) => hasBorderTop ? `1px solid ${theme.colorGreyLight}` : null};
-  border-right: ${({
-  hasBorderRight,
-  theme
-}) => hasBorderRight ? `1px solid ${theme.colorGreyLight}` : null};
-  border-bottom: ${({
-  hasBorderBottom,
-  theme
-}) => hasBorderBottom ? `1px solid ${theme.colorGreyLight}` : null};
-  border-left: ${({
-  hasBorderLeft,
-  theme
-}) => hasBorderLeft ? `1px solid ${theme.colorGreyLight}` : null};
-`;
+  border-top: ${({ hasBorderTop, theme }) =>
+    hasBorderTop ? `1px solid ${theme.colorGreyLight}` : null};
+  border-right: ${({ hasBorderRight, theme }) =>
+    hasBorderRight ? `1px solid ${theme.colorGreyLight}` : null};
+  border-bottom: ${({ hasBorderBottom, theme }) =>
+    hasBorderBottom ? `1px solid ${theme.colorGreyLight}` : null};
+  border-left: ${({ hasBorderLeft, theme }) =>
+    hasBorderLeft ? `1px solid ${theme.colorGreyLight}` : null};
+`
 Toolbar.defaultProps = {
   hasBorderTop: false,
   hasBorderRight: false,
@@ -71,7 +61,7 @@ Toolbar.defaultProps = {
   horizontalLayout: 'flex-start',
   isExpanded: false,
   theme: light,
-  verticalLayout: 'stretch'
-};
+  verticalLayout: 'stretch',
+}
 
-export default Toolbar;
+export default Toolbar

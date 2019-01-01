@@ -1,19 +1,20 @@
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
+import React from 'react'
+import { ThemeProvider } from 'styled-components'
 
-const primary = '#1a73e8';
-const danger = '#e34160';
-const white = '#ffffff';
-const dark = '#555555';
-const darkest = '#222222';
-const black = '#000000';
-const greyLightest = '#f5f5f5';
-const greyLighter = '#dcdcdc';
-const greyLight = '#d3d3d3';
-const grey = '#c0c0c0';
-const greyDark = '#a9a9a9';
-const greyDarker = '#808080';
-const greyDarkest = '#696969';
+const primary = '#1a73e8'
+const danger = '#e34160'
+const white = '#ffffff'
+const dark = '#555555'
+const darker = '#383838'
+const darkest = '#222222'
+const black = '#000000'
+const greyLightest = '#f5f5f5'
+const greyLighter = '#dcdcdc'
+const greyLight = '#d3d3d3'
+const grey = '#c0c0c0'
+const greyDark = '#a9a9a9'
+const greyDarker = '#808080'
+const greyDarkest = '#696969'
 
 const light = {
   fontFamily: 'Inter UI, sans-serif',
@@ -29,9 +30,11 @@ const light = {
   colorGreyLighter: greyLighter,
   colorGreyLightest: greyLightest,
   colorWhite: white,
+  colorDark: dark,
+  colorDarker: darker,
+  colorDarkest: darkest,
   colorBlack: black,
-  colorDark: dark
-};
+}
 const dark$1 = {
   fontFamily: 'Inter UI, sans-serif',
   fontSize: '12px',
@@ -48,18 +51,20 @@ const dark$1 = {
   colorGreyLightest: greyLightest,
   colorWhite: white,
   colorBlack: black,
-  colorDark: dark
-};
+  colorDark: dark,
+}
 
-const ThemeProvider$1 = ({
-  children,
-  isDark
-}) => React.createElement(ThemeProvider, {
-  theme: isDark ? dark$1 : light
-}, React.createElement(React.Fragment, null, children));
+const ThemeProvider$1 = ({ children, isDark }) =>
+  React.createElement(
+    ThemeProvider,
+    {
+      theme: isDark ? dark$1 : light,
+    },
+    React.createElement(React.Fragment, null, children)
+  )
 
 ThemeProvider$1.defaultProps = {
-  isDark: false
-};
+  isDark: false,
+}
 
-export default ThemeProvider$1;
+export default ThemeProvider$1
