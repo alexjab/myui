@@ -12,6 +12,10 @@ exports[`Story of Button Danger 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -62,6 +66,10 @@ exports[`Story of Button Danger inverted 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -112,6 +120,10 @@ exports[`Story of Button Danger large 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -162,6 +174,10 @@ exports[`Story of Button Danger large inverted 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -212,6 +228,10 @@ exports[`Story of Button Danger large outlined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -262,6 +282,10 @@ exports[`Story of Button Danger outlined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -312,6 +336,10 @@ exports[`Story of Button Default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -350,6 +378,62 @@ exports[`Story of Button Default 1`] = `
 </button>
 `;
 
+exports[`Story of Button Default fullwidth 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0:not(:first-child) {
+  margin-left: 5px;
+}
+
+.c0[disabled] {
+  cursor: not-allowed;
+}
+
+.c0:hover {
+  background-color: #f5f5f5;
+}
+
+.c0:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+<button
+  className="c0"
+  isFullwidth={true}
+  onClick={[Function]}
+>
+  Confirm changes
+</button>
+`;
+
 exports[`Story of Button Default inverted 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
@@ -362,6 +446,10 @@ exports[`Story of Button Default inverted 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -441,6 +529,10 @@ exports[`Story of Button Default large with iconLeft 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -532,6 +624,10 @@ exports[`Story of Button Default large with iconRight 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -624,6 +720,10 @@ exports[`Story of Button Default large with only icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 40px;
@@ -686,6 +786,10 @@ exports[`Story of Button Default outlined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -782,6 +886,10 @@ exports[`Story of Button Default with both icons 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -886,6 +994,10 @@ exports[`Story of Button Default with iconLeft 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -977,6 +1089,10 @@ exports[`Story of Button Default with iconRight 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1069,6 +1185,10 @@ exports[`Story of Button Default with only icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
   height: 32px;
@@ -1131,6 +1251,10 @@ exports[`Story of Button Disabled 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1182,6 +1306,10 @@ exports[`Story of Button Disabled inverted 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1233,6 +1361,10 @@ exports[`Story of Button Disabled large 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -1284,6 +1416,10 @@ exports[`Story of Button Disabled outlined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1335,6 +1471,10 @@ exports[`Story of Button Primary 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1385,6 +1525,10 @@ exports[`Story of Button Primary inverted 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1435,6 +1579,10 @@ exports[`Story of Button Primary inverted disabled 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1486,6 +1634,10 @@ exports[`Story of Button Primary large 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -1536,6 +1688,10 @@ exports[`Story of Button Primary large inverted 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -1586,6 +1742,10 @@ exports[`Story of Button Primary large outlined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
@@ -1665,6 +1825,10 @@ exports[`Story of Button Primary large with only icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 40px;
@@ -1727,6 +1891,10 @@ exports[`Story of Button Primary outlined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1806,6 +1974,10 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1897,6 +2069,10 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -1989,6 +2165,10 @@ exports[`Story of Button Primary with icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -2081,6 +2261,10 @@ exports[`Story of Button Primary with only icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
   height: 32px;
@@ -12396,6 +12580,10 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -12735,6 +12923,10 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
@@ -12971,6 +13163,10 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;

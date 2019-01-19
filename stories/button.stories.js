@@ -27,6 +27,14 @@ export default [
     ),
   },
   {
+    name: 'Default fullwidth',
+    element: (
+      <Button isFullwidth onClick={action('onClick')}>
+        Confirm changes
+      </Button>
+    ),
+  },
+  {
     name: 'Default with iconLeft',
     element: (
       <Button iconLeft="arrow-left" onClick={action('onClick')}>
