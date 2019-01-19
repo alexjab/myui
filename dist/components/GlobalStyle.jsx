@@ -40,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${props => props.theme.fontFamily};
     font-size: ${props => props.theme.fontSize};
     background-color: ${props => props.theme.backgroundColor};
+    margin: 0;
   }
 
   a {
