@@ -12,10 +12,14 @@ const GlobalDecorator = storyFn => (
   </ThemeProvider>
 )
 
+const MarginsDecorator = storyFn => (
+  <div style={{ margin: 10 }}>{storyFn()}</div>
+)
+
 function createStoriesOf(nameOfStory, stories) {
-  const storiesOfElement = storiesOf(nameOfStory, module).addDecorator(
-    GlobalDecorator
-  )
+  const storiesOfElement = storiesOf(nameOfStory, module)
+    .addDecorator(GlobalDecorator)
+    .addDecorator(MarginsDecorator)
 
   for (const story of stories) {
     storiesOfElement.add(story.name, () => story.element)
