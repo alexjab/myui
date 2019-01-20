@@ -179,6 +179,7 @@ class Input extends React.Component {
       isFullwidth,
       isLarge,
       theme,
+      onChangeValue,
       ...props
     } = this.props
     const { isFocused } = this.state

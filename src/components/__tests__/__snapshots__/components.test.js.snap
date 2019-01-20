@@ -427,7 +427,6 @@ exports[`Story of Button Default fullwidth 1`] = `
 
 <button
   className="c0"
-  isFullwidth={true}
   onClick={[Function]}
 >
   Confirm changes
