@@ -12828,6 +12828,33 @@ exports[`Story of Tag Primary tag 1`] = `
 </div>
 `;
 
+exports[`Story of Textarea Default 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #ededed;
+  border-radius: 4px;
+  resize: none;
+}
+
+<textarea
+  className="c0"
+  cols={50}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  placeholder="This is a textarea"
+  rows={7}
+  value=""
+/>
+`;
+
 exports[`Story of Toolbar Toolbar 1`] = `
 .c1 {
   height: 20px;
