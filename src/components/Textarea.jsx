@@ -9,6 +9,15 @@ const StyledTextarea = styled.textarea`
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
 
+  ${({ isFullwidth, isLarge }) => {
+    if (!isFullwidth) {
+      return null
+    }
+    const padding = isLarge ? '24px' : '20px'
+
+    return `width: calc(100% - ${padding})`
+  }};
+
   padding-left: ${({ isLarge }) => (isLarge ? '12px' : '10px')};
   padding-right: ${({ isLarge }) => (isLarge ? '12px' : '10px')};
   padding-top: ${({ isLarge }) => (isLarge ? '10px' : '6px')};
@@ -44,35 +53,6 @@ const StyledTextarea = styled.textarea`
 
   resize: none;
 `
-
-// const StyledInput = styled.input`
-//   font-family: ${props => props.theme.fontFamily};
-//   font-size: ${({ isLarge, theme }) =>
-//     isLarge ? theme.largeFontSize : theme.fontSize};
-
-//   position: relative;
-//   width: 100%;
-//   border: none;
-//   outline: none;
-//   background: none;
-
-//   height: ${({ isLarge }) => {
-//     return isLarge ? '36px' : '28px'
-//   }};
-
-//   margin-left: ${({ iconLeft, isLarge }) => {
-//     if (isLarge) {
-//       return iconLeft ? 0 : '10px'
-//     }
-//     return iconLeft ? 0 : '8px'
-//   }};
-//   margin-right: ${({ iconRight, isLarge }) => {
-//     if (isLarge) {
-//       return iconRight ? 0 : '10px'
-//     }
-//     return iconRight ? 0 : '8px'
-//   }};
-// `
 
 class Textarea extends React.Component {
   static defaultProps = {
