@@ -39,9 +39,12 @@ const light = {
 const H1 = styled.h1`
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 2.5em;
   font-weight: 600;
   color: ${({ theme }) => theme.colorDarkest};
+
+  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
 `
 H1.defaultProps = {
   theme: light,
@@ -49,9 +52,12 @@ H1.defaultProps = {
 const H2 = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 2em;
   font-weight: 600;
   color: ${({ theme }) => theme.colorDarkest};
+
+  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
 `
 H2.defaultProps = {
   theme: light,
@@ -59,9 +65,12 @@ H2.defaultProps = {
 const H3 = styled.h3`
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 1.75em;
   font-weight: 600;
   color: ${({ theme }) => theme.colorDarkest};
+
+  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
 `
 H3.defaultProps = {
   theme: light,
@@ -69,9 +78,12 @@ H3.defaultProps = {
 const H4 = styled.h4`
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 1.5em;
   font-weight: 600;
   color: ${({ theme }) => theme.colorDarkest};
+
+  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
 `
 H4.defaultProps = {
   theme: light,
@@ -79,9 +91,12 @@ H4.defaultProps = {
 const H5 = styled.h5`
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 1.25em;
   font-weight: 600;
   color: ${({ theme }) => theme.colorDarkest};
+
+  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
 `
 H5.defaultProps = {
   theme: light,
@@ -89,9 +104,12 @@ H5.defaultProps = {
 const H6 = styled.h6`
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 1.125em;
   font-weight: 600;
   color: ${({ theme }) => theme.colorDarkest};
+
+  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
 `
 H6.defaultProps = {
   theme: light,

@@ -4491,6 +4491,7 @@ const BaseButton = ({
   iconLeft,
   iconRight,
   isDanger,
+  isFullwidth,
   isInverted,
   isLarge,
   isOutlined,

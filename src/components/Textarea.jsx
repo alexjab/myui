@@ -9,14 +9,8 @@ const StyledTextarea = styled.textarea`
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
 
-  ${({ isFullwidth, isLarge }) => {
-    if (!isFullwidth) {
-      return null
-    }
-    const padding = isLarge ? '24px' : '20px'
-
-    return `width: calc(100% - ${padding})`
-  }};
+  box-sizing: border-box;
+  ${({ isFullwidth }) => (isFullwidth ? 'width: 100%' : null)};
 
   padding-left: ${({ isLarge }) => (isLarge ? '12px' : '10px')};
   padding-right: ${({ isLarge }) => (isLarge ? '12px' : '10px')};
