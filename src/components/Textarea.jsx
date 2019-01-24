@@ -10,7 +10,7 @@ const StyledTextarea = styled.textarea`
     isLarge ? theme.largeFontSize : theme.fontSize};
 
   box-sizing: border-box;
-  ${({ isFullwidth }) => (isFullwidth ? 'width: 100%' : null)};
+  ${({ isFullWidth }) => (isFullWidth ? 'width: 100%' : null)};
 
   padding-left: ${({ isLarge }) => (isLarge ? '12px' : '10px')};
   padding-right: ${({ isLarge }) => (isLarge ? '12px' : '10px')};
@@ -122,7 +122,7 @@ class Textarea extends React.Component {
   }
 
   render() {
-    const { isFullwidth, onChangeValue, theme, ...props } = this.props
+    const { isFullWidth, onChangeValue, theme, ...props } = this.props
     const { isFocused } = this.state
     const value = this.state.value || this.props.value || ''
 
@@ -131,7 +131,7 @@ class Textarea extends React.Component {
         theme={theme}
         value={value}
         isFocused={isFocused}
-        isFullwidth={isFullwidth}
+        isFullWidth={isFullWidth}
         onFocus={this.handleFocus}
         onBlur={this.handleBlur}
         onChange={this.handleChange}

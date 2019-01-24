@@ -12,7 +12,7 @@ export default [
   },
   {
     name: 'Input fullwidth',
-    element: <Input isFullwidth placeholder="This is an input" />,
+    element: <Input isFullWidth placeholder="This is an input" />,
   },
   {
     name: 'Input large',
@@ -63,7 +63,7 @@ export default [
     name: 'Input fullwidth with icon left',
     element: (
       <Input
-        isFullwidth
+        isFullWidth
         placeholder="This is an input"
         iconLeft="alert-triangle"
       />
@@ -72,14 +72,14 @@ export default [
   {
     name: 'Input fullwidth with icon right',
     element: (
-      <Input isFullwidth placeholder="This is an input" iconRight="search" />
+      <Input isFullWidth placeholder="This is an input" iconRight="search" />
     ),
   },
   {
     name: 'Input large fullwidth with icon right',
     element: (
       <Input
-        isFullwidth
+        isFullWidth
         isLarge
         placeholder="This is an input"
         iconRight="search"
@@ -90,7 +90,7 @@ export default [
     name: 'Input fullwidth with icons left and right',
     element: (
       <Input
-        isFullwidth
+        isFullWidth
         placeholder="This is an input"
         iconLeft="activity"
         iconRight="refresh-cw"

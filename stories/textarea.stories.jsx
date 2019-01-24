@@ -11,6 +11,6 @@ export default [
   },
   {
     name: 'Fullwidth',
-    element: <Textarea placeholder="This is a textarea" isFullwidth />,
+    element: <Textarea placeholder="This is a textarea" isFullWidth />,
   },
 ]

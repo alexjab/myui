@@ -33,8 +33,8 @@ const Container = styled.div`
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
 
-  display: ${({ isFullwidth, theme }) =>
-    isFullwidth ? 'flex' : 'inline-flex'};
+  display: ${({ isFullWidth, theme }) =>
+    isFullWidth ? 'flex' : 'inline-flex'};
   justify-content: flex-start;
   align-items: center;
 
@@ -176,7 +176,7 @@ class Input extends React.Component {
     const {
       iconLeft,
       iconRight,
-      isFullwidth,
+      isFullWidth,
       isLarge,
       theme,
       onChangeValue,
@@ -189,7 +189,7 @@ class Input extends React.Component {
       <Container
         iconLeft={iconLeft}
         iconRight={iconRight}
-        isFullwidth={isFullwidth}
+        isFullWidth={isFullWidth}
         isLarge={isLarge}
         theme={theme}
         value={value}
