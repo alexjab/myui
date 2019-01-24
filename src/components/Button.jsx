@@ -20,7 +20,7 @@ const BaseButton = ({
   iconLeft,
   iconRight,
   isDanger,
-  isFullwidth,
+  isFullWidth,
   isInverted,
   isLarge,
   isOutlined,
@@ -56,7 +56,7 @@ const Button = styled(BaseButton)`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  ${({ isFullwidth }) => isFullwidth && 'width: 100%;'}
+  ${({ isFullWidth }) => isFullWidth && 'width: 100%;'}
 
   padding-left: ${({ children, isLarge }) => {
     if (isLarge) {

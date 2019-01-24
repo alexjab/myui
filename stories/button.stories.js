@@ -29,7 +29,7 @@ export default [
   {
     name: 'Default fullwidth',
     element: (
-      <Button isFullwidth onClick={action('onClick')}>
+      <Button isFullWidth onClick={action('onClick')}>
         Confirm changes
       </Button>
     ),
