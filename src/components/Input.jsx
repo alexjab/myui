@@ -12,17 +12,17 @@ const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  padding-left: ${({ iconLeft, isLarge }) => {
+  padding-left: ${({ hasIconLeft, isLarge }) => {
     if (isLarge) {
-      return iconLeft ? '10px' : '8px'
+      return hasIconLeft ? '10px' : '8px'
     }
-    return iconLeft ? '6px' : '4px'
+    return hasIconLeft ? '6px' : '4px'
   }};
-  padding-right: ${({ iconRight, isLarge }) => {
+  padding-right: ${({ hasIconRight, isLarge }) => {
     if (isLarge) {
-      return iconRight ? '10px' : '8px'
+      return hasIconRight ? '10px' : '8px'
     }
-    return iconRight ? '6px' : '4px'
+    return hasIconRight ? '6px' : '4px'
   }};
 `
 
@@ -83,17 +83,17 @@ const StyledInput = styled.input`
     return isLarge ? '36px' : '28px'
   }};
 
-  margin-left: ${({ iconLeft, isLarge }) => {
+  margin-left: ${({ hasIconLeft, isLarge }) => {
     if (isLarge) {
-      return iconLeft ? 0 : '10px'
+      return hasIconLeft ? 0 : '10px'
     }
-    return iconLeft ? 0 : '8px'
+    return hasIconLeft ? 0 : '8px'
   }};
-  margin-right: ${({ iconRight, isLarge }) => {
+  margin-right: ${({ hasIconRight, isLarge }) => {
     if (isLarge) {
-      return iconRight ? 0 : '10px'
+      return hasIconRight ? 0 : '10px'
     }
-    return iconRight ? 0 : '8px'
+    return hasIconRight ? 0 : '8px'
   }};
 `
 
@@ -185,8 +185,8 @@ class Input extends React.Component {
 
     return (
       <Container
-        iconLeft={iconLeft}
-        iconRight={iconRight}
+        hasIconLeft={!!IconLeft}
+        hasIconRight={!!IconRight}
         isFullWidth={isFullWidth}
         isLarge={isLarge}
         theme={theme}
@@ -195,9 +195,9 @@ class Input extends React.Component {
         onFocus={this.handleFocus}
         onBlur={this.handleBlur}
       >
-        {iconLeft ? (
+        {IconLeft ? (
           <IconContainer
-            iconLeft={iconLeft}
+            hasIconLeft={!!IconLeft}
             isLarge={isLarge}
             onMouseDown={this.handleMouseDown}
           >
@@ -207,16 +207,16 @@ class Input extends React.Component {
         <StyledInput
           {...props}
           ref={this.setInputRef}
-          iconLeft={iconLeft}
-          iconRight={iconRight}
+          hasIconLeft={!!IconLeft}
+          hasIconRight={!!IconRight}
           isLarge={isLarge}
           theme={theme}
           value={value}
           onChange={this.handleChange}
         />
-        {iconRight ? (
+        {IconRight ? (
           <IconContainer
-            iconRight={iconRight}
+            hasIconRight={!!IconRight}
             onMouseDown={this.handleMouseDown}
             isLarge={isLarge}
           >
