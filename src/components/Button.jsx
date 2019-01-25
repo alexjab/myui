@@ -4,8 +4,6 @@ import { lighten } from 'polished'
 
 import { light as lightTheme } from '../core/themes'
 
-import Icon from './Icon.jsx'
-
 const ButtonIcon = styled.span`
   display: inline-flex;
   justify-content: center;
@@ -17,8 +15,8 @@ const ButtonIcon = styled.span`
 
 const BaseButton = ({
   children,
-  iconLeft,
-  iconRight,
+  iconLeft: IconLeft,
+  iconRight: IconRight,
   isDanger,
   isFullWidth,
   isInverted,
@@ -28,20 +26,20 @@ const BaseButton = ({
   theme,
   ...props
 }) => {
-  let paddingIconLeft = iconLeft && children ? (isLarge ? '18px' : '14px') : 0
-  let paddingIconRight = iconRight && children ? (isLarge ? '18px' : '14px') : 0
+  let paddingIconLeft = IconLeft && children ? (isLarge ? '18px' : '14px') : 0
+  let paddingIconRight = IconRight && children ? (isLarge ? '18px' : '14px') : 0
 
   return (
     <button {...props}>
-      {iconLeft ? (
+      {IconLeft ? (
         <ButtonIcon paddingRight={paddingIconLeft}>
-          <Icon name={iconLeft} size={isLarge ? '16px' : '14px'} />
+          <IconLeft size={isLarge ? '16px' : '14px'} />
         </ButtonIcon>
       ) : null}
       {children}
-      {iconRight ? (
+      {IconRight ? (
         <ButtonIcon paddingLeft={paddingIconRight} size="16px">
-          <Icon name={iconRight} size={isLarge ? '16px' : '14px'} />
+          <IconRight size={isLarge ? '16px' : '14px'} />
         </ButtonIcon>
       ) : null}
     </button>

@@ -4,8 +4,14 @@ import commonJS from 'rollup-plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
 import globby from 'globby'
 
+const srcDirs = ['components', 'core']
+
+if (process.env.BUILD_WITH_ICONS) {
+  srcDirs.push('icons')
+}
+
 export default globby
-  .sync(['./src/{components,core}/*.{jsx,js}', '!**/*.test*'])
+  .sync([`./src/{${srcDirs}}/*.{jsx,js}`, '!**/*.test*'])
   .map(inputFile => ({
     input: inputFile,
     external: ['react', 'react-dom', 'styled-components'],

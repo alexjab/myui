@@ -3,6 +3,11 @@ import React from 'react'
 import Input from '../src/components/Input'
 import Button from '../src/components/Button'
 
+import AlertTriangleIcon from '../src/icons/AlertTriangle'
+import SearchIcon from '../src/icons/Search'
+import ActivityIcon from '../src/icons/Activity'
+import RefreshCwIcon from '../src/icons/RefreshCw'
+
 export const description = 'Input'
 
 export default [
@@ -20,32 +25,38 @@ export default [
   },
   {
     name: 'Input with icon left',
-    element: <Input placeholder="This is an input" iconLeft="alert-triangle" />,
+    element: (
+      <Input placeholder="This is an input" iconLeft={AlertTriangleIcon} />
+    ),
   },
   {
     name: 'Input with icon right',
-    element: <Input placeholder="This is an input" iconRight="search" />,
+    element: <Input placeholder="This is an input" iconRight={SearchIcon} />,
   },
   {
     name: 'Input with icons left and right',
     element: (
       <Input
         placeholder="This is an input"
-        iconLeft="activity"
-        iconRight="refresh-cw"
+        iconLeft={ActivityIcon}
+        iconRight={RefreshCwIcon}
       />
     ),
   },
   {
     name: 'Input large with icon left',
     element: (
-      <Input isLarge placeholder="This is an input" iconLeft="alert-triangle" />
+      <Input
+        isLarge
+        placeholder="This is an input"
+        iconLeft={AlertTriangleIcon}
+      />
     ),
   },
   {
     name: 'Input large with icon right',
     element: (
-      <Input isLarge placeholder="This is an input" iconRight="search" />
+      <Input isLarge placeholder="This is an input" iconRight={SearchIcon} />
     ),
   },
   {
@@ -54,8 +65,8 @@ export default [
       <Input
         isLarge
         placeholder="This is an input"
-        iconLeft="activity"
-        iconRight="refresh-cw"
+        iconLeft={ActivityIcon}
+        iconRight={RefreshCwIcon}
       />
     ),
   },
@@ -65,14 +76,18 @@ export default [
       <Input
         isFullWidth
         placeholder="This is an input"
-        iconLeft="alert-triangle"
+        iconLeft={AlertTriangleIcon}
       />
     ),
   },
   {
     name: 'Input fullwidth with icon right',
     element: (
-      <Input isFullWidth placeholder="This is an input" iconRight="search" />
+      <Input
+        isFullWidth
+        placeholder="This is an input"
+        iconRight={SearchIcon}
+      />
     ),
   },
   {
@@ -82,7 +97,7 @@ export default [
         isFullWidth
         isLarge
         placeholder="This is an input"
-        iconRight="search"
+        iconRight={SearchIcon}
       />
     ),
   },
@@ -92,8 +107,8 @@ export default [
       <Input
         isFullWidth
         placeholder="This is an input"
-        iconLeft="activity"
-        iconRight="refresh-cw"
+        iconLeft={ActivityIcon}
+        iconRight={RefreshCwIcon}
       />
     ),
   },

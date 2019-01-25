@@ -1,0 +1,1 @@
+const x="max-width: NaN",i="min-width: 600px",t="min-width: 900px",d="max-width: 1200px",h="max-width: 1800px";export{x as phoneOnly,i as tabletPortraitUp,t as tabletLandscapeUp,d as desktopUp,h as bigDesktopUp};

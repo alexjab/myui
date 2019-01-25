@@ -2,6 +2,13 @@ import React from 'react'
 import { action } from '@storybook/addon-actions'
 
 import Button from '../src/components/Button'
+import ArrowLeftIcon from '../src/icons/ArrowLeft'
+import ArrowRightIcon from '../src/icons/ArrowRight'
+import ChevronLeftIcon from '../src/icons/ChevronLeft'
+import ChevronRightIcon from '../src/icons/ChevronRight'
+import ChevronDownIcon from '../src/icons/ChevronDown'
+import RefreshCwIcon from '../src/icons/RefreshCw'
+import LayersIcon from '../src/icons/Layers'
 
 export const description = 'Button'
 
@@ -37,7 +44,7 @@ export default [
   {
     name: 'Default with iconLeft',
     element: (
-      <Button iconLeft="arrow-left" onClick={action('onClick')}>
+      <Button iconLeft={ArrowLeftIcon} onClick={action('onClick')}>
         Go back
       </Button>
     ),
@@ -45,7 +52,7 @@ export default [
   {
     name: 'Default with iconRight',
     element: (
-      <Button iconRight="arrow-right" onClick={action('onClick')}>
+      <Button iconRight={ArrowRightIcon} onClick={action('onClick')}>
         Go forward
       </Button>
     ),
@@ -54,8 +61,8 @@ export default [
     name: 'Default with both icons',
     element: (
       <Button
-        iconLeft="arrow-left"
-        iconRight="arrow-right"
+        iconLeft={ArrowLeftIcon}
+        iconRight={ArrowRightIcon}
         onClick={action('onClick')}
       >
         Go back
@@ -65,7 +72,7 @@ export default [
   {
     name: 'Default large with iconLeft',
     element: (
-      <Button isLarge iconLeft="arrow-left" onClick={action('onClick')}>
+      <Button isLarge iconLeft={ArrowLeftIcon} onClick={action('onClick')}>
         Go back
       </Button>
     ),
@@ -73,19 +80,25 @@ export default [
   {
     name: 'Default large with iconRight',
     element: (
-      <Button isLarge iconRight="arrow-right" onClick={action('onClick')}>
+      <Button isLarge iconRight={ArrowRightIcon} onClick={action('onClick')}>
         Go forward
       </Button>
     ),
   },
   {
     name: 'Default with only icon',
-    element: <Button iconRight="chevron-right" onClick={action('onClick')} />,
+    element: (
+      <Button iconRight={ChevronRightIcon} onClick={action('onClick')} />
+    ),
   },
   {
     name: 'Default large with only icon',
     element: (
-      <Button isLarge iconRight="chevron-right" onClick={action('onClick')} />
+      <Button
+        isLarge
+        iconRight={ChevronRightIcon}
+        onClick={action('onClick')}
+      />
     ),
   },
   {
@@ -99,7 +112,7 @@ export default [
   {
     name: 'Primary with icon',
     element: (
-      <Button isPrimary iconRight="refresh-cw" onClick={action('onClick')}>
+      <Button isPrimary iconRight={RefreshCwIcon} onClick={action('onClick')}>
         Refresh
       </Button>
     ),
@@ -107,7 +120,11 @@ export default [
   {
     name: 'Primary with only icon',
     element: (
-      <Button isPrimary iconRight="chevron-right" onClick={action('onClick')} />
+      <Button
+        isPrimary
+        iconRight={ChevronRightIcon}
+        onClick={action('onClick')}
+      />
     ),
   },
   {
@@ -116,7 +133,7 @@ export default [
       <Button
         isLarge
         isPrimary
-        iconRight="chevron-right"
+        iconRight={ChevronRightIcon}
         onClick={action('onClick')}
       />
     ),
@@ -168,7 +185,7 @@ export default [
         isPrimary
         isOutlined
         onClick={action('onClick')}
-        iconRight="chevron-down"
+        iconRight={ChevronDownIcon}
       >
         Confirm changes
       </Button>
@@ -181,7 +198,7 @@ export default [
         isPrimary
         isOutlined
         onClick={action('onClick')}
-        iconLeft="layers"
+        iconLeft={LayersIcon}
       >
         Confirm changes
       </Button>

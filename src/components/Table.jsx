@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 import { light as lightTheme } from '../core/themes'
 
-import Icon from './Icon.jsx'
+import ArrowUpIcon from '../icons/ArrowUp.jsx'
+import ArrowDownIcon from '../icons/ArrowDown.jsx'
 
 const BaseTable = styled.table`
   font-family: ${props => props.theme.fontFamily};
@@ -63,10 +64,11 @@ class TableHeader extends React.Component {
 
           {isSortable && sortOrder ? (
             <TableHeaderIcon>
-              <Icon
-                name={`arrow-${sortOrder === 'asc' ? 'up' : 'down'}`}
-                size="1em"
-              />
+              {sortOrder === 'asc' ? (
+                <ArrowUpIcon size="1em" />
+              ) : (
+                <ArrowDownIcon size="1em" />
+              )}
             </TableHeaderIcon>
           ) : null}
         </TableHeaderLevel>

@@ -4,8 +4,6 @@ import { darken, transparentize } from 'polished'
 
 import { light as lightTheme } from '../core/themes'
 
-import Icon from './Icon.jsx'
-
 const IconContainer = styled.div`
   height: ${({ isLarge }) => {
     return isLarge ? '38px' : '30px'
@@ -174,8 +172,8 @@ class Input extends React.Component {
 
   render() {
     const {
-      iconLeft,
-      iconRight,
+      iconLeft: IconLeft,
+      iconRight: IconRight,
       isFullWidth,
       isLarge,
       theme,
@@ -203,7 +201,7 @@ class Input extends React.Component {
             isLarge={isLarge}
             onMouseDown={this.handleMouseDown}
           >
-            <Icon name={iconLeft} size={isLarge ? '16px' : '14px'} />
+            <IconLeft size={isLarge ? '16px' : '14px'} />
           </IconContainer>
         ) : null}
         <StyledInput
@@ -222,8 +220,7 @@ class Input extends React.Component {
             onMouseDown={this.handleMouseDown}
             isLarge={isLarge}
           >
-            <Icon
-              name={iconRight}
+            <IconRight
               size={isLarge ? '16px' : '14px'}
               onMouseDown={this.handleMouseDown}
             />
