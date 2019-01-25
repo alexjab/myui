@@ -1,118 +1,55 @@
-import 'react'
-import styled from 'styled-components'
-
-const primary = '#1a73e8'
-const danger = '#e34160'
-const white = '#ffffff'
-const dark = '#555555'
-const darker = '#383838'
-const darkest = '#222222'
-const black = '#000000'
-const greyLightest = '#f5f5f5'
-const greyLighter = '#dcdcdc'
-const greyLight = '#d3d3d3'
-const grey = '#c0c0c0'
-const greyDark = '#a9a9a9'
-const greyDarker = '#808080'
-const greyDarkest = '#696969'
-
-const light = {
-  fontFamily: 'Inter UI, sans-serif',
-  fontSize: '12px',
-  largeFontSize: '14px',
-  colorPrimary: primary,
-  colorDanger: danger,
-  colorGreyDarkest: greyDarkest,
-  colorGreyDarker: greyDarker,
-  colorGreyDark: greyDark,
-  colorGrey: grey,
-  colorGreyLight: greyLight,
-  colorGreyLighter: greyLighter,
-  colorGreyLightest: greyLightest,
-  colorWhite: white,
-  colorDark: dark,
-  colorDarker: darker,
-  colorDarkest: darkest,
-  colorBlack: black,
-}
-
-const H1 = styled.h1`
+import"react";import o from"styled-components";const e={fontFamily:"Inter UI, sans-serif",fontSize:"12px",largeFontSize:"14px",colorPrimary:"#1a73e8",colorDanger:"#e34160",colorGreyDarkest:"#696969",colorGreyDarker:"#808080",colorGreyDark:"#a9a9a9",colorGrey:"#c0c0c0",colorGreyLight:"#d3d3d3",colorGreyLighter:"#dcdcdc",colorGreyLightest:"#f5f5f5",colorWhite:"#ffffff",colorDark:"#555555",colorDarker:"#383838",colorDarkest:"#222222",colorBlack:"#000000"},t=o.h1`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 2.5em;
   font-weight: 600;
-  color: ${({ theme }) => theme.colorDarkest};
+  color: ${({theme:o})=>o.colorDarkest};
 
-  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
-`
-H1.defaultProps = {
-  theme: light,
-}
-const H2 = styled.h2`
+  ${({isInline:o})=>o?"display: inline;":null}
+`;t.defaultProps={theme:e};const r=o.h2`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 2em;
   font-weight: 600;
-  color: ${({ theme }) => theme.colorDarkest};
+  color: ${({theme:o})=>o.colorDarkest};
 
-  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
-`
-H2.defaultProps = {
-  theme: light,
-}
-const H3 = styled.h3`
+  ${({isInline:o})=>o?"display: inline;":null}
+`;r.defaultProps={theme:e};const n=o.h3`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.75em;
   font-weight: 600;
-  color: ${({ theme }) => theme.colorDarkest};
+  color: ${({theme:o})=>o.colorDarkest};
 
-  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
-`
-H3.defaultProps = {
-  theme: light,
-}
-const H4 = styled.h4`
+  ${({isInline:o})=>o?"display: inline;":null}
+`;n.defaultProps={theme:e};const l=o.h4`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.5em;
   font-weight: 600;
-  color: ${({ theme }) => theme.colorDarkest};
+  color: ${({theme:o})=>o.colorDarkest};
 
-  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
-`
-H4.defaultProps = {
-  theme: light,
-}
-const H5 = styled.h5`
+  ${({isInline:o})=>o?"display: inline;":null}
+`;l.defaultProps={theme:e};const i=o.h5`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.25em;
   font-weight: 600;
-  color: ${({ theme }) => theme.colorDarkest};
+  color: ${({theme:o})=>o.colorDarkest};
 
-  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
-`
-H5.defaultProps = {
-  theme: light,
-}
-const H6 = styled.h6`
+  ${({isInline:o})=>o?"display: inline;":null}
+`;i.defaultProps={theme:e};const a=o.h6`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.125em;
   font-weight: 600;
-  color: ${({ theme }) => theme.colorDarkest};
+  color: ${({theme:o})=>o.colorDarkest};
 
-  ${({ isInline }) => (isInline ? 'display: inline;' : null)}
-`
-H6.defaultProps = {
-  theme: light,
-}
-
-export { H1, H2, H3, H4, H5, H6 }
+  ${({isInline:o})=>o?"display: inline;":null}
+`;a.defaultProps={theme:e};export{t as H1,r as H2,n as H3,l as H4,i as H5,a as H6};

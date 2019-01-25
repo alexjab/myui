@@ -1,16 +1,6 @@
-import 'react'
-import styled from 'styled-components'
-
-const Padder = styled.div`
-  padding-top: ${({ padding, top }) => (top !== undefined ? top : padding)};
-  padding-right: ${({ padding, right }) =>
-    right !== undefined ? right : padding};
-  padding-bottom: ${({ padding, bottom }) =>
-    bottom !== undefined ? bottom : padding};
-  padding-left: ${({ padding, left }) => (left !== undefined ? left : padding)};
-`
-Padder.defaultProps = {
-  padding: '0px',
-}
-
-export default Padder
+import"react";import d from"styled-components";const t=d.div`
+  padding-top: ${({padding:d,top:t})=>void 0!==t?t:d};
+  padding-right: ${({padding:d,right:t})=>void 0!==t?t:d};
+  padding-bottom: ${({padding:d,bottom:t})=>void 0!==t?t:d};
+  padding-left: ${({padding:d,left:t})=>void 0!==t?t:d};
+`;t.defaultProps={padding:"0px"};export default t;

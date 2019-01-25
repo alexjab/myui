@@ -1,48 +1,10 @@
-import React from 'react'
-import styled from 'styled-components'
+import e from"react";import r from"styled-components";const o={fontFamily:"Inter UI, sans-serif",fontSize:"12px",largeFontSize:"14px",colorPrimary:"#1a73e8",colorDanger:"#e34160",colorGreyDarkest:"#696969",colorGreyDarker:"#808080",colorGreyDark:"#a9a9a9",colorGrey:"#c0c0c0",colorGreyLight:"#d3d3d3",colorGreyLighter:"#dcdcdc",colorGreyLightest:"#f5f5f5",colorWhite:"#ffffff",colorDark:"#555555",colorDarker:"#383838",colorDarkest:"#222222",colorBlack:"#000000"},t=r.div`
+  font-family: ${e=>e.theme.fontFamily};
+  font-size: ${e=>e.theme.fontSize};
 
-const primary = '#1a73e8'
-const danger = '#e34160'
-const white = '#ffffff'
-const dark = '#555555'
-const darker = '#383838'
-const darkest = '#222222'
-const black = '#000000'
-const greyLightest = '#f5f5f5'
-const greyLighter = '#dcdcdc'
-const greyLight = '#d3d3d3'
-const grey = '#c0c0c0'
-const greyDark = '#a9a9a9'
-const greyDarker = '#808080'
-const greyDarkest = '#696969'
-
-const light = {
-  fontFamily: 'Inter UI, sans-serif',
-  fontSize: '12px',
-  largeFontSize: '14px',
-  colorPrimary: primary,
-  colorDanger: danger,
-  colorGreyDarkest: greyDarkest,
-  colorGreyDarker: greyDarker,
-  colorGreyDark: greyDark,
-  colorGrey: grey,
-  colorGreyLight: greyLight,
-  colorGreyLighter: greyLighter,
-  colorGreyLightest: greyLightest,
-  colorWhite: white,
-  colorDark: dark,
-  colorDarker: darker,
-  colorDarkest: darkest,
-  colorBlack: black,
-}
-
-const Container = styled.div`
-  font-family: ${props => props.theme.fontFamily};
-  font-size: ${props => props.theme.fontSize};
-
-  border-top: 1px solid ${({ theme }) => theme.colorGreyLighter};
-  border-bottom: 1px solid ${({ theme }) => theme.colorGreyLighter};
-  border-left: 1px solid ${({ theme }) => theme.colorGreyLighter};
+  border-top: 1px solid ${({theme:e})=>e.colorGreyLighter};
+  border-bottom: 1px solid ${({theme:e})=>e.colorGreyLighter};
+  border-left: 1px solid ${({theme:e})=>e.colorGreyLighter};
   padding: 10px;
   display: inline-flex;
   flex-direction: column;
@@ -53,56 +15,21 @@ const Container = styled.div`
   }
 
   &:last-child {
-    border-right: 1px solid ${({ theme }) => theme.colorGreyLighter};
+    border-right: 1px solid ${({theme:e})=>e.colorGreyLighter};
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
-`
-const ColorBlock = styled.div`
+`,l=r.div`
   width: 150px;
   height: 150px;
-  background-color: ${props => props.color};
-`
-const Label = styled.div`
+  background-color: ${e=>e.color};
+`,c=r.div`
   margin-top: 5px;
-  color: ${({ theme }) => theme.colorGreyDarkest};
+  color: ${({theme:e})=>e.colorGreyDarkest};
   text-transform: uppercase;
-`
-const Name = styled.div`
+`,i=r.div`
   margin-top: 5px;
   color: black;
   text-transform: uppercase;
   font-weight: 500;
-`
-
-const Color = ({ color, name, theme }) => {
-  return React.createElement(
-    Container,
-    {
-      theme: theme,
-    },
-    React.createElement(ColorBlock, {
-      color: color,
-    }),
-    React.createElement(
-      Label,
-      {
-        theme: theme,
-      },
-      color.toUpperCase()
-    ),
-    React.createElement(
-      Name,
-      {
-        theme: theme,
-      },
-      name || 'Unnamed color'
-    )
-  )
-}
-
-Color.defaultProps = {
-  theme: light,
-}
-
-export default Color
+`,a=({color:r,name:o,theme:a})=>e.createElement(t,{theme:a},e.createElement(l,{color:r}),e.createElement(c,{theme:a},r.toUpperCase()),e.createElement(i,{theme:a},o||"Unnamed color"));a.defaultProps={theme:o};export default a;

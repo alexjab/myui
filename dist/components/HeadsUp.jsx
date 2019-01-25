@@ -1,19 +1,5 @@
-import styled from 'styled-components'
-
-const HeadsUp = styled.div`
+import r from"styled-components";export default r.div`
   font-weight: 600;
-  color: ${({ isDanger, isPrimary, theme }) => {
-    if (isPrimary) {
-      return theme.colorPrimary
-    }
-
-    if (isDanger) {
-      return theme.colorDanger
-    }
-
-    return theme.colorDarker
-  }};
+  color: ${({isDanger:r,isPrimary:o,theme:e})=>o?e.colorPrimary:r?e.colorDanger:e.colorDarker};
   text-transform: uppercase;
-`
-
-export default HeadsUp
+`;

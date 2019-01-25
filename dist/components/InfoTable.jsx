@@ -1,68 +1,16 @@
-import React from 'react'
-import styled from 'styled-components'
+import e from"react";import t from"styled-components";const r={fontFamily:"Inter UI, sans-serif",fontSize:"12px",largeFontSize:"14px",colorPrimary:"#1a73e8",colorDanger:"#e34160",colorGreyDarkest:"#696969",colorGreyDarker:"#808080",colorGreyDark:"#a9a9a9",colorGrey:"#c0c0c0",colorGreyLight:"#d3d3d3",colorGreyLighter:"#dcdcdc",colorGreyLightest:"#f5f5f5",colorWhite:"#ffffff",colorDark:"#555555",colorDarker:"#383838",colorDarkest:"#222222",colorBlack:"#000000"},o=t.td`
+  font-family: ${e=>e.theme.fontFamily};
+  font-size: ${({isLarge:e,theme:t})=>e?t.largeFontSize:t.fontSize};
 
-const primary = '#1a73e8'
-const danger = '#e34160'
-const white = '#ffffff'
-const dark = '#555555'
-const darker = '#383838'
-const darkest = '#222222'
-const black = '#000000'
-const greyLightest = '#f5f5f5'
-const greyLighter = '#dcdcdc'
-const greyLight = '#d3d3d3'
-const grey = '#c0c0c0'
-const greyDark = '#a9a9a9'
-const greyDarker = '#808080'
-const greyDarkest = '#696969'
-
-const light = {
-  fontFamily: 'Inter UI, sans-serif',
-  fontSize: '12px',
-  largeFontSize: '14px',
-  colorPrimary: primary,
-  colorDanger: danger,
-  colorGreyDarkest: greyDarkest,
-  colorGreyDarker: greyDarker,
-  colorGreyDark: greyDark,
-  colorGrey: grey,
-  colorGreyLight: greyLight,
-  colorGreyLighter: greyLighter,
-  colorGreyLightest: greyLightest,
-  colorWhite: white,
-  colorDark: dark,
-  colorDarker: darker,
-  colorDarkest: darkest,
-  colorBlack: black,
-}
-
-const KeyCell = styled.td`
-  font-family: ${props => props.theme.fontFamily};
-  font-size: ${({ isLarge, theme }) =>
-    isLarge ? theme.largeFontSize : theme.fontSize};
-
-  color: ${({ theme }) => theme.colorGreyDark};
+  color: ${({theme:e})=>e.colorGreyDark};
   font-weight: bold;
   padding-right: 20px;
-`
-KeyCell.defaultProps = {
-  isLarge: false,
-  theme: light,
-}
-const InfoTable = styled.table`
-  font-family: ${props => props.theme.fontFamily};
-  font-size: ${({ isLarge, theme }) =>
-    isLarge ? theme.largeFontSize : theme.fontSize};
+`;o.defaultProps={isLarge:!1,theme:r};const l=t.table`
+  font-family: ${e=>e.theme.fontFamily};
+  font-size: ${({isLarge:e,theme:t})=>e?t.largeFontSize:t.fontSize};
 
   border-spacing: 8px 16px;
-`
-InfoTable.defaultProps = {
-  fields: [],
-  isLarge: false,
-  theme: light,
-  title: '',
-}
-const GroupHead = styled.thead`
+`;l.defaultProps={fields:[],isLarge:!1,theme:r,title:""};const a=t.thead`
   & th {
     text-align: left;
   }
@@ -70,31 +18,4 @@ const GroupHead = styled.thead`
   &:not(:first-child) th {
     padding-top: 20px;
   }
-`
-
-InfoTable.Section = ({ fields, title }) =>
-  React.createElement(
-    React.Fragment,
-    null,
-    React.createElement(
-      GroupHead,
-      null,
-      React.createElement('tr', null, React.createElement('th', null, title))
-    ),
-    React.createElement(
-      'tbody',
-      null,
-      fields.map((field, index) =>
-        React.createElement(
-          'tr',
-          {
-            key: index,
-          },
-          React.createElement(KeyCell, null, field.label),
-          React.createElement('td', null, field.data)
-        )
-      )
-    )
-  )
-
-export default InfoTable
+`;l.Section=(({fields:t,title:r})=>e.createElement(e.Fragment,null,e.createElement(a,null,e.createElement("tr",null,e.createElement("th",null,r))),e.createElement("tbody",null,t.map((t,r)=>e.createElement("tr",{key:r},e.createElement(o,null,t.label),e.createElement("td",null,t.data))))));export default l;
