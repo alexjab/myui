@@ -4230,6 +4230,46 @@ Array [
 ]
 `;
 
+exports[`Story of Hr Hr 1`] = `
+Array [
+  .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #222222;
+}
+
+<h1
+    className="c0"
+  >
+    Title #1
+  </h1>,
+  .c0 {
+  border-top: 1px solid #c0c0c0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 600;
+  color: #222222;
+}
+
+<h2
+    className="c0"
+  >
+    Title #2
+  </h2>,
+]
+`;
+
 exports[`Story of InfoTable InfoTable 1`] = `
 .c2 {
   font-family: Inter UI,sans-serif;
