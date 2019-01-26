@@ -12,6 +12,7 @@ export default [
       <>
         <Color name="primary" color={colors.primary} />
         <Color name="danger" color={colors.danger} />
+        <Color name="success" color={colors.success} />
       </>
     ),
   },

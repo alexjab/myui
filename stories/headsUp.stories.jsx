@@ -65,4 +65,23 @@ export default [
       </>
     ),
   },
+  {
+    name: 'Success',
+    element: (
+      <>
+        <Padder padding="20px">
+          <HeadsUp isSuccess>This is an important message</HeadsUp>
+        </Padder>
+        <Padder padding="20px">
+          <div style={{ display: 'inline-flex' }}>
+            <Card>
+              <Padder top="5px" bottom="5px" left="20px" right="20px">
+                <HeadsUp isSuccess>This is an important message</HeadsUp>
+              </Padder>
+            </Card>
+          </div>
+        </Padder>
+      </>
+    ),
+  },
 ]

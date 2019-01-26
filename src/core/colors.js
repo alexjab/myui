@@ -1,5 +1,6 @@
 export const primary = '#1a73e8'
 export const danger = '#e34160'
+export const success = '#34d47a'
 
 export const white = '#ffffff'
 export const dark = '#555555'

@@ -7,6 +7,7 @@ export const light = {
 
   colorPrimary: colors.primary,
   colorDanger: colors.danger,
+  colorSuccess: colors.success,
 
   colorGreyDarkest: colors.greyDarkest,
   colorGreyDarker: colors.greyDarker,
@@ -31,6 +32,7 @@ export const dark = {
 
   colorPrimary: colors.primary,
   colorDanger: colors.danger,
+  colorSuccess: colors.success,
 
   colorGreyDarkest: colors.greyDarkest,
   colorGreyDarker: colors.greyDarker,
