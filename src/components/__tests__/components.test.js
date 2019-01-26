@@ -26,7 +26,7 @@ globby
     [
       '../../../stories/*.{js,jsx}',
       '!../../../stories/index.js',
-      '!../../../stories/icons.stories.js',
+      '!../../../stories/icon.stories.js',
     ],
     {
       cwd: './src/components/__tests__',
