@@ -22,9 +22,16 @@ function createComponentTest(description, stories) {
 }
 
 globby
-  .sync(['../../../stories/*.{js,jsx}', '!../../../stories/index.js'], {
-    cwd: './src/components/__tests__',
-  })
+  .sync(
+    [
+      '../../../stories/*.{js,jsx}',
+      '!../../../stories/index.js',
+      '!../../../stories/icons.stories.js',
+    ],
+    {
+      cwd: './src/components/__tests__',
+    }
+  )
   .forEach(storiesPath => {
     const { default: stories, description } = require(storiesPath)
     createComponentTest(description, stories)

@@ -488,18 +488,6 @@ exports[`Story of Button Default inverted 1`] = `
 `;
 
 exports[`Story of Button Default large with iconLeft 1`] = `
-.c2 {
-  height: 16px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -562,6 +550,18 @@ exports[`Story of Button Default large with iconLeft 1`] = `
   color: #555555;
 }
 
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -583,18 +583,6 @@ exports[`Story of Button Default large with iconLeft 1`] = `
 `;
 
 exports[`Story of Button Default large with iconRight 1`] = `
-.c2 {
-  height: 16px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -657,6 +645,18 @@ exports[`Story of Button Default large with iconRight 1`] = `
   color: #555555;
 }
 
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -679,18 +679,6 @@ exports[`Story of Button Default large with iconRight 1`] = `
 `;
 
 exports[`Story of Button Default large with only icon 1`] = `
-.c2 {
-  height: 16px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -751,6 +739,18 @@ exports[`Story of Button Default large with only icon 1`] = `
 .c0:active {
   background-color: #dcdcdc;
   color: #555555;
+}
+
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <button
@@ -828,18 +828,6 @@ exports[`Story of Button Default outlined 1`] = `
 `;
 
 exports[`Story of Button Default with both icons 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -919,6 +907,30 @@ exports[`Story of Button Default with both icons 1`] = `
   color: #555555;
 }
 
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -941,7 +953,7 @@ exports[`Story of Button Default with both icons 1`] = `
     size="16px"
   >
     <span
-      className="c2"
+      className="c4"
       dangerouslySetInnerHTML={
         Object {
           "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
@@ -953,18 +965,6 @@ exports[`Story of Button Default with both icons 1`] = `
 `;
 
 exports[`Story of Button Default with iconLeft 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1027,6 +1027,18 @@ exports[`Story of Button Default with iconLeft 1`] = `
   color: #555555;
 }
 
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -1048,18 +1060,6 @@ exports[`Story of Button Default with iconLeft 1`] = `
 `;
 
 exports[`Story of Button Default with iconRight 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1122,6 +1122,18 @@ exports[`Story of Button Default with iconRight 1`] = `
   color: #555555;
 }
 
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -1144,18 +1156,6 @@ exports[`Story of Button Default with iconRight 1`] = `
 `;
 
 exports[`Story of Button Default with only icon 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1216,6 +1216,18 @@ exports[`Story of Button Default with only icon 1`] = `
 .c0:active {
   background-color: #dcdcdc;
   color: #555555;
+}
+
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <button
@@ -1784,18 +1796,6 @@ exports[`Story of Button Primary large outlined 1`] = `
 `;
 
 exports[`Story of Button Primary large with only icon 1`] = `
-.c2 {
-  height: 16px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1856,6 +1856,18 @@ exports[`Story of Button Primary large with only icon 1`] = `
 .c0:active {
   background-color: #488fed;
   color: #ffffff;
+}
+
+.c2 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <button
@@ -1933,18 +1945,6 @@ exports[`Story of Button Primary outlined 1`] = `
 `;
 
 exports[`Story of Button Primary outlined with icon left 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2007,6 +2007,18 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
   color: #1a73e8;
 }
 
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -2028,18 +2040,6 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
 `;
 
 exports[`Story of Button Primary outlined with icon right 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2102,6 +2102,18 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
   color: #1a73e8;
 }
 
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -2124,18 +2136,6 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
 `;
 
 exports[`Story of Button Primary with icon 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2198,6 +2198,18 @@ exports[`Story of Button Primary with icon 1`] = `
   color: #ffffff;
 }
 
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <button
   className="c0"
   onClick={[Function]}
@@ -2220,18 +2232,6 @@ exports[`Story of Button Primary with icon 1`] = `
 `;
 
 exports[`Story of Button Primary with only icon 1`] = `
-.c2 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2292,6 +2292,18 @@ exports[`Story of Button Primary with only icon 1`] = `
 .c0:active {
   background-color: #488fed;
   color: #ffffff;
+}
+
+.c2 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <button
@@ -4218,7 +4230,222 @@ Array [
 ]
 `;
 
-exports[`Story of Icon Icon 1`] = `
+exports[`Story of Icons Icon sizes 1`] = `
+Array [
+  .c0 {
+  height: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"12px\\" height=\\"12px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="12px"
+  />,
+  .c0 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="14px"
+  />,
+  .c0 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="16px"
+  />,
+  .c0 {
+  height: 18px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"18px\\" height=\\"18px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="18px"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="20px"
+  />,
+  .c0 {
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24px\\" height=\\"24px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="24px"
+  />,
+  .c0 {
+  height: 28px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"28px\\" height=\\"28px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="28px"
+  />,
+  .c0 {
+  height: 32px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"32px\\" height=\\"32px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="32px"
+  />,
+  .c0 {
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"40px\\" height=\\"40px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="40px"
+  />,
+  .c0 {
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"50px\\" height=\\"50px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
+      }
+    }
+    title="50px"
+  />,
+]
+`;
+
+exports[`Story of Icons Icons 1`] = `
 Array [
   .c0 {
   height: 20px;
@@ -4488,6 +4715,27 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
+      }
+    }
+    title="arrow-down"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down-circle\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"10\\"></circle><polyline points=\\"8 12 12 16 16 12\\"></polyline><line x1=\\"12\\" y1=\\"8\\" x2=\\"12\\" y2=\\"16\\"></line></svg>",
       }
     }
@@ -4551,10 +4799,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><polyline points=\\"19 12 12 19 5 12\\"></polyline></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
       }
     }
-    title="arrow-down"
+    title="arrow-left"
   />,
   .c0 {
   height: 20px;
@@ -4593,10 +4841,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-left\\"><line x1=\\"19\\" y1=\\"12\\" x2=\\"5\\" y2=\\"12\\"></line><polyline points=\\"12 19 5 12 12 5\\"></polyline></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
       }
     }
-    title="arrow-left"
+    title="arrow-right"
   />,
   .c0 {
   height: 20px;
@@ -4635,10 +4883,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-up\\"><line x1=\\"12\\" y1=\\"19\\" x2=\\"12\\" y2=\\"5\\"></line><polyline points=\\"5 12 12 5 19 12\\"></polyline></svg>",
       }
     }
-    title="arrow-right"
+    title="arrow-up"
   />,
   .c0 {
   height: 20px;
@@ -4719,27 +4967,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-up\\"><line x1=\\"12\\" y1=\\"19\\" x2=\\"12\\" y2=\\"5\\"></line><polyline points=\\"5 12 12 5 19 12\\"></polyline></svg>",
-      }
-    }
-    title="arrow-up"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-at-sign\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"4\\"></circle><path d=\\"M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94\\"></path></svg>",
       }
     }
@@ -4782,27 +5009,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-bar-chart-2\\"><line x1=\\"18\\" y1=\\"20\\" x2=\\"18\\" y2=\\"10\\"></line><line x1=\\"12\\" y1=\\"20\\" x2=\\"12\\" y2=\\"4\\"></line><line x1=\\"6\\" y1=\\"20\\" x2=\\"6\\" y2=\\"14\\"></line></svg>",
-      }
-    }
-    title="bar-chart-2"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-bar-chart\\"><line x1=\\"12\\" y1=\\"20\\" x2=\\"12\\" y2=\\"10\\"></line><line x1=\\"18\\" y1=\\"20\\" x2=\\"18\\" y2=\\"4\\"></line><line x1=\\"6\\" y1=\\"20\\" x2=\\"6\\" y2=\\"16\\"></line></svg>",
       }
     }
@@ -4824,10 +5030,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-battery-charging\\"><path d=\\"M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19\\"></path><line x1=\\"23\\" y1=\\"13\\" x2=\\"23\\" y2=\\"11\\"></line><polyline points=\\"11 6 7 12 13 12 9 18\\"></polyline></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-bar-chart-2\\"><line x1=\\"18\\" y1=\\"20\\" x2=\\"18\\" y2=\\"10\\"></line><line x1=\\"12\\" y1=\\"20\\" x2=\\"12\\" y2=\\"4\\"></line><line x1=\\"6\\" y1=\\"20\\" x2=\\"6\\" y2=\\"14\\"></line></svg>",
       }
     }
-    title="battery-charging"
+    title="bar-chart-2"
   />,
   .c0 {
   height: 20px;
@@ -4866,10 +5072,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-bell-off\\"><path d=\\"M8.56 2.9A7 7 0 0 1 19 9v4m-2 4H2a3 3 0 0 0 3-3V9a7 7 0 0 1 .78-3.22M13.73 21a2 2 0 0 1-3.46 0\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-battery-charging\\"><path d=\\"M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19\\"></path><line x1=\\"23\\" y1=\\"13\\" x2=\\"23\\" y2=\\"11\\"></line><polyline points=\\"11 6 7 12 13 12 9 18\\"></polyline></svg>",
       }
     }
-    title="bell-off"
+    title="battery-charging"
   />,
   .c0 {
   height: 20px;
@@ -4891,6 +5097,27 @@ Array [
       }
     }
     title="bell"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-bell-off\\"><path d=\\"M8.56 2.9A7 7 0 0 1 19 9v4m-2 4H2a3 3 0 0 0 3-3V9a7 7 0 0 1 .78-3.22M13.73 21a2 2 0 0 1-3.46 0\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+      }
+    }
+    title="bell-off"
   />,
   .c0 {
   height: 20px;
@@ -4950,10 +5177,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-book-open\\"><path d=\\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\\"></path><path d=\\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-book\\"><path d=\\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\\"></path><path d=\\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\\"></path></svg>",
       }
     }
-    title="book-open"
+    title="book"
   />,
   .c0 {
   height: 20px;
@@ -4971,10 +5198,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-book\\"><path d=\\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\\"></path><path d=\\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-book-open\\"><path d=\\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\\"></path><path d=\\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\\"></path></svg>",
       }
     }
-    title="book"
+    title="book-open"
   />,
   .c0 {
   height: 20px;
@@ -5076,27 +5303,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-camera-off\\"><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line><path d=\\"M21 21H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3m3-3h6l2 3h4a2 2 0 0 1 2 2v9.34m-7.72-2.06a4 4 0 1 1-5.56-5.56\\"></path></svg>",
-      }
-    }
-    title="camera-off"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-camera\\"><path d=\\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\\"></path><circle cx=\\"12\\" cy=\\"13\\" r=\\"4\\"></circle></svg>",
       }
     }
@@ -5118,10 +5324,52 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-camera-off\\"><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line><path d=\\"M21 21H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3m3-3h6l2 3h4a2 2 0 0 1 2 2v9.34m-7.72-2.06a4 4 0 1 1-5.56-5.56\\"></path></svg>",
+      }
+    }
+    title="camera-off"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-cast\\"><path d=\\"M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6\\"></path><line x1=\\"2\\" y1=\\"20\\" x2=\\"2\\" y2=\\"20\\"></line></svg>",
       }
     }
     title="cast"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-check\\"><polyline points=\\"20 6 9 17 4 12\\"></polyline></svg>",
+      }
+    }
+    title="check"
   />,
   .c0 {
   height: 20px;
@@ -5164,27 +5412,6 @@ Array [
       }
     }
     title="check-square"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-check\\"><polyline points=\\"20 6 9 17 4 12\\"></polyline></svg>",
-      }
-    }
-    title="check"
   />,
   .c0 {
   height: 20px;
@@ -5454,6 +5681,27 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-cloud\\"><path d=\\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\\"></path></svg>",
+      }
+    }
+    title="cloud"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-cloud-drizzle\\"><line x1=\\"8\\" y1=\\"19\\" x2=\\"8\\" y2=\\"21\\"></line><line x1=\\"8\\" y1=\\"13\\" x2=\\"8\\" y2=\\"15\\"></line><line x1=\\"16\\" y1=\\"19\\" x2=\\"16\\" y2=\\"21\\"></line><line x1=\\"16\\" y1=\\"13\\" x2=\\"16\\" y2=\\"15\\"></line><line x1=\\"12\\" y1=\\"21\\" x2=\\"12\\" y2=\\"23\\"></line><line x1=\\"12\\" y1=\\"15\\" x2=\\"12\\" y2=\\"17\\"></line><path d=\\"M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25\\"></path></svg>",
       }
     }
@@ -5542,27 +5790,6 @@ Array [
       }
     }
     title="cloud-snow"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-cloud\\"><path d=\\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\\"></path></svg>",
-      }
-    }
-    title="cloud"
   />,
   .c0 {
   height: 20px;
@@ -6042,27 +6269,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-download-cloud\\"><polyline points=\\"8 17 12 21 16 17\\"></polyline><line x1=\\"12\\" y1=\\"12\\" x2=\\"12\\" y2=\\"21\\"></line><path d=\\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\\"></path></svg>",
-      }
-    }
-    title="download-cloud"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-download\\"><path d=\\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\\"></path><polyline points=\\"7 10 12 15 17 10\\"></polyline><line x1=\\"12\\" y1=\\"15\\" x2=\\"12\\" y2=\\"3\\"></line></svg>",
       }
     }
@@ -6084,10 +6290,52 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-download-cloud\\"><polyline points=\\"8 17 12 21 16 17\\"></polyline><line x1=\\"12\\" y1=\\"12\\" x2=\\"12\\" y2=\\"21\\"></line><path d=\\"M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29\\"></path></svg>",
+      }
+    }
+    title="download-cloud"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-droplet\\"><path d=\\"M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z\\"></path></svg>",
       }
     }
     title="droplet"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-edit\\"><path d=\\"M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34\\"></path><polygon points=\\"18 2 22 6 12 16 8 16 8 12 18 2\\"></polygon></svg>",
+      }
+    }
+    title="edit"
   />,
   .c0 {
   height: 20px;
@@ -6147,27 +6395,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-edit\\"><path d=\\"M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34\\"></path><polygon points=\\"18 2 22 6 12 16 8 16 8 12 18 2\\"></polygon></svg>",
-      }
-    }
-    title="edit"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-external-link\\"><path d=\\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\\"></path><polyline points=\\"15 3 21 3 21 9\\"></polyline><line x1=\\"10\\" y1=\\"14\\" x2=\\"21\\" y2=\\"3\\"></line></svg>",
       }
     }
@@ -6189,10 +6416,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-eye-off\\"><path d=\\"M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-eye\\"><path d=\\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\\"></path><circle cx=\\"12\\" cy=\\"12\\" r=\\"3\\"></circle></svg>",
       }
     }
-    title="eye-off"
+    title="eye"
   />,
   .c0 {
   height: 20px;
@@ -6210,10 +6437,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-eye\\"><path d=\\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\\"></path><circle cx=\\"12\\" cy=\\"12\\" r=\\"3\\"></circle></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-eye-off\\"><path d=\\"M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
       }
     }
-    title="eye"
+    title="eye-off"
   />,
   .c0 {
   height: 20px;
@@ -6294,6 +6521,27 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-file\\"><path d=\\"M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z\\"></path><polyline points=\\"13 2 13 9 20 9\\"></polyline></svg>",
+      }
+    }
+    title="file"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-file-minus\\"><path d=\\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\\"></path><polyline points=\\"14 2 14 8 20 8\\"></polyline><line x1=\\"9\\" y1=\\"15\\" x2=\\"15\\" y2=\\"15\\"></line></svg>",
       }
     }
@@ -6340,27 +6588,6 @@ Array [
       }
     }
     title="file-text"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-file\\"><path d=\\"M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z\\"></path><polyline points=\\"13 2 13 9 20 9\\"></polyline></svg>",
-      }
-    }
-    title="file"
   />,
   .c0 {
   height: 20px;
@@ -6441,6 +6668,27 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-folder\\"><path d=\\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\\"></path></svg>",
+      }
+    }
+    title="folder"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-folder-minus\\"><path d=\\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\\"></path><line x1=\\"9\\" y1=\\"14\\" x2=\\"15\\" y2=\\"14\\"></line></svg>",
       }
     }
@@ -6466,27 +6714,6 @@ Array [
       }
     }
     title="folder-plus"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-folder\\"><path d=\\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\\"></path></svg>",
-      }
-    }
-    title="folder"
   />,
   .c0 {
   height: 20px;
@@ -6987,10 +7214,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-link-2\\"><path d=\\"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3\\"></path><line x1=\\"8\\" y1=\\"12\\" x2=\\"16\\" y2=\\"12\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-link\\"><path d=\\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\\"></path><path d=\\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\\"></path></svg>",
       }
     }
-    title="link-2"
+    title="link"
   />,
   .c0 {
   height: 20px;
@@ -7008,10 +7235,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-link\\"><path d=\\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\\"></path><path d=\\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-link-2\\"><path d=\\"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3\\"></path><line x1=\\"8\\" y1=\\"12\\" x2=\\"16\\" y2=\\"12\\"></line></svg>",
       }
     }
-    title="link"
+    title="link-2"
   />,
   .c0 {
   height: 20px;
@@ -7176,27 +7403,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-map-pin\\"><path d=\\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\\"></path><circle cx=\\"12\\" cy=\\"10\\" r=\\"3\\"></circle></svg>",
-      }
-    }
-    title="map-pin"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-map\\"><polygon points=\\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\\"></polygon><line x1=\\"8\\" y1=\\"2\\" x2=\\"8\\" y2=\\"18\\"></line><line x1=\\"16\\" y1=\\"6\\" x2=\\"16\\" y2=\\"22\\"></line></svg>",
       }
     }
@@ -7218,10 +7424,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-maximize-2\\"><polyline points=\\"15 3 21 3 21 9\\"></polyline><polyline points=\\"9 21 3 21 3 15\\"></polyline><line x1=\\"21\\" y1=\\"3\\" x2=\\"14\\" y2=\\"10\\"></line><line x1=\\"3\\" y1=\\"21\\" x2=\\"10\\" y2=\\"14\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-map-pin\\"><path d=\\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\\"></path><circle cx=\\"12\\" cy=\\"10\\" r=\\"3\\"></circle></svg>",
       }
     }
-    title="maximize-2"
+    title="map-pin"
   />,
   .c0 {
   height: 20px;
@@ -7243,6 +7449,27 @@ Array [
       }
     }
     title="maximize"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-maximize-2\\"><polyline points=\\"15 3 21 3 21 9\\"></polyline><polyline points=\\"9 21 3 21 3 15\\"></polyline><line x1=\\"21\\" y1=\\"3\\" x2=\\"14\\" y2=\\"10\\"></line><line x1=\\"3\\" y1=\\"21\\" x2=\\"10\\" y2=\\"14\\"></line></svg>",
+      }
+    }
+    title="maximize-2"
   />,
   .c0 {
   height: 20px;
@@ -7323,6 +7550,27 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-mic\\"><path d=\\"M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z\\"></path><path d=\\"M19 10v2a7 7 0 0 1-14 0v-2\\"></path><line x1=\\"12\\" y1=\\"19\\" x2=\\"12\\" y2=\\"23\\"></line><line x1=\\"8\\" y1=\\"23\\" x2=\\"16\\" y2=\\"23\\"></line></svg>",
+      }
+    }
+    title="mic"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-mic-off\\"><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line><path d=\\"M9 9v3a3 3 0 0 0 5.12 2.12M15 9.34V4a3 3 0 0 0-5.94-.6\\"></path><path d=\\"M17 16.95A7 7 0 0 1 5 12v-2m14 0v2a7 7 0 0 1-.11 1.23\\"></path><line x1=\\"12\\" y1=\\"19\\" x2=\\"12\\" y2=\\"23\\"></line><line x1=\\"8\\" y1=\\"23\\" x2=\\"16\\" y2=\\"23\\"></line></svg>",
       }
     }
@@ -7344,10 +7592,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-mic\\"><path d=\\"M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z\\"></path><path d=\\"M19 10v2a7 7 0 0 1-14 0v-2\\"></path><line x1=\\"12\\" y1=\\"19\\" x2=\\"12\\" y2=\\"23\\"></line><line x1=\\"8\\" y1=\\"23\\" x2=\\"16\\" y2=\\"23\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-minimize\\"><path d=\\"M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3\\"></path></svg>",
       }
     }
-    title="mic"
+    title="minimize"
   />,
   .c0 {
   height: 20px;
@@ -7386,10 +7634,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-minimize\\"><path d=\\"M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-minus\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line></svg>",
       }
     }
-    title="minimize"
+    title="minus"
   />,
   .c0 {
   height: 20px;
@@ -7432,27 +7680,6 @@ Array [
       }
     }
     title="minus-square"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-minus\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line></svg>",
-      }
-    }
-    title="minus"
   />,
   .c0 {
   height: 20px;
@@ -7596,10 +7823,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-navigation-2\\"><polygon points=\\"12 2 19 21 12 17 5 21 12 2\\"></polygon></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-navigation\\"><polygon points=\\"3 11 22 2 13 21 11 13 3 11\\"></polygon></svg>",
       }
     }
-    title="navigation-2"
+    title="navigation"
   />,
   .c0 {
   height: 20px;
@@ -7617,10 +7844,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-navigation\\"><polygon points=\\"3 11 22 2 13 21 11 13 3 11\\"></polygon></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-navigation-2\\"><polygon points=\\"12 2 19 21 12 17 5 21 12 2\\"></polygon></svg>",
       }
     }
-    title="navigation"
+    title="navigation-2"
   />,
   .c0 {
   height: 20px;
@@ -7701,27 +7928,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-pause-circle\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"10\\"></circle><line x1=\\"10\\" y1=\\"15\\" x2=\\"10\\" y2=\\"9\\"></line><line x1=\\"14\\" y1=\\"15\\" x2=\\"14\\" y2=\\"9\\"></line></svg>",
-      }
-    }
-    title="pause-circle"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-pause\\"><rect x=\\"6\\" y=\\"4\\" width=\\"4\\" height=\\"16\\"></rect><rect x=\\"14\\" y=\\"4\\" width=\\"4\\" height=\\"16\\"></rect></svg>",
       }
     }
@@ -7743,10 +7949,52 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-pause-circle\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"10\\"></circle><line x1=\\"10\\" y1=\\"15\\" x2=\\"10\\" y2=\\"9\\"></line><line x1=\\"14\\" y1=\\"15\\" x2=\\"14\\" y2=\\"9\\"></line></svg>",
+      }
+    }
+    title="pause-circle"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-percent\\"><line x1=\\"19\\" y1=\\"5\\" x2=\\"5\\" y2=\\"19\\"></line><circle cx=\\"6.5\\" cy=\\"6.5\\" r=\\"2.5\\"></circle><circle cx=\\"17.5\\" cy=\\"17.5\\" r=\\"2.5\\"></circle></svg>",
       }
     }
     title="percent"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-phone\\"><path d=\\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\\"></path></svg>",
+      }
+    }
+    title="phone"
   />,
   .c0 {
   height: 20px;
@@ -7890,10 +8138,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-phone\\"><path d=\\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-pie-chart\\"><path d=\\"M21.21 15.89A10 10 0 1 1 8 2.83\\"></path><path d=\\"M22 12A10 10 0 0 0 12 2v10z\\"></path></svg>",
       }
     }
-    title="phone"
+    title="pie-chart"
   />,
   .c0 {
   height: 20px;
@@ -7911,10 +8159,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-pie-chart\\"><path d=\\"M21.21 15.89A10 10 0 1 1 8 2.83\\"></path><path d=\\"M22 12A10 10 0 0 0 12 2v10z\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-play\\"><polygon points=\\"5 3 19 12 5 21 5 3\\"></polygon></svg>",
       }
     }
-    title="pie-chart"
+    title="play"
   />,
   .c0 {
   height: 20px;
@@ -7953,10 +8201,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-play\\"><polygon points=\\"5 3 19 12 5 21 5 3\\"></polygon></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-plus\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line></svg>",
       }
     }
-    title="play"
+    title="plus"
   />,
   .c0 {
   height: 20px;
@@ -7999,27 +8247,6 @@ Array [
       }
     }
     title="plus-square"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-plus\\"><line x1=\\"12\\" y1=\\"5\\" x2=\\"12\\" y2=\\"19\\"></line><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line></svg>",
-      }
-    }
-    title="plus"
   />,
   .c0 {
   height: 20px;
@@ -8394,27 +8621,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-share-2\\"><circle cx=\\"18\\" cy=\\"5\\" r=\\"3\\"></circle><circle cx=\\"6\\" cy=\\"12\\" r=\\"3\\"></circle><circle cx=\\"18\\" cy=\\"19\\" r=\\"3\\"></circle><line x1=\\"8.59\\" y1=\\"13.51\\" x2=\\"15.42\\" y2=\\"17.49\\"></line><line x1=\\"15.41\\" y1=\\"6.51\\" x2=\\"8.59\\" y2=\\"10.49\\"></line></svg>",
-      }
-    }
-    title="share-2"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-share\\"><path d=\\"M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8\\"></path><polyline points=\\"16 6 12 2 8 6\\"></polyline><line x1=\\"12\\" y1=\\"2\\" x2=\\"12\\" y2=\\"15\\"></line></svg>",
       }
     }
@@ -8436,10 +8642,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-shield-off\\"><path d=\\"M19.69 14a6.9 6.9 0 0 0 .31-2V5l-8-3-3.16 1.18\\"></path><path d=\\"M4.73 4.73L4 5v7c0 6 8 10 8 10a20.29 20.29 0 0 0 5.62-4.38\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-share-2\\"><circle cx=\\"18\\" cy=\\"5\\" r=\\"3\\"></circle><circle cx=\\"6\\" cy=\\"12\\" r=\\"3\\"></circle><circle cx=\\"18\\" cy=\\"19\\" r=\\"3\\"></circle><line x1=\\"8.59\\" y1=\\"13.51\\" x2=\\"15.42\\" y2=\\"17.49\\"></line><line x1=\\"15.41\\" y1=\\"6.51\\" x2=\\"8.59\\" y2=\\"10.49\\"></line></svg>",
       }
     }
-    title="shield-off"
+    title="share-2"
   />,
   .c0 {
   height: 20px;
@@ -8461,6 +8667,27 @@ Array [
       }
     }
     title="shield"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-shield-off\\"><path d=\\"M19.69 14a6.9 6.9 0 0 0 .31-2V5l-8-3-3.16 1.18\\"></path><path d=\\"M4.73 4.73L4 5v7c0 6 8 10 8 10a20.29 20.29 0 0 0 5.62-4.38\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+      }
+    }
+    title="shield-off"
   />,
   .c0 {
   height: 20px;
@@ -9024,10 +9251,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-trash-2\\"><polyline points=\\"3 6 5 6 21 6\\"></polyline><path d=\\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\\"></path><line x1=\\"10\\" y1=\\"11\\" x2=\\"10\\" y2=\\"17\\"></line><line x1=\\"14\\" y1=\\"11\\" x2=\\"14\\" y2=\\"17\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-trash\\"><polyline points=\\"3 6 5 6 21 6\\"></polyline><path d=\\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\\"></path></svg>",
       }
     }
-    title="trash-2"
+    title="trash"
   />,
   .c0 {
   height: 20px;
@@ -9045,10 +9272,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-trash\\"><polyline points=\\"3 6 5 6 21 6\\"></polyline><path d=\\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\\"></path></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-trash-2\\"><polyline points=\\"3 6 5 6 21 6\\"></polyline><path d=\\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\\"></path><line x1=\\"10\\" y1=\\"11\\" x2=\\"10\\" y2=\\"17\\"></line><line x1=\\"14\\" y1=\\"11\\" x2=\\"14\\" y2=\\"17\\"></line></svg>",
       }
     }
-    title="trash"
+    title="trash-2"
   />,
   .c0 {
   height: 20px;
@@ -9297,6 +9524,27 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-upload\\"><path d=\\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\\"></path><polyline points=\\"17 8 12 3 7 8\\"></polyline><line x1=\\"12\\" y1=\\"3\\" x2=\\"12\\" y2=\\"15\\"></line></svg>",
+      }
+    }
+    title="upload"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-upload-cloud\\"><polyline points=\\"16 16 12 12 8 16\\"></polyline><line x1=\\"12\\" y1=\\"12\\" x2=\\"12\\" y2=\\"21\\"></line><path d=\\"M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3\\"></path><polyline points=\\"16 16 12 12 8 16\\"></polyline></svg>",
       }
     }
@@ -9318,10 +9566,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-upload\\"><path d=\\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\\"></path><polyline points=\\"17 8 12 3 7 8\\"></polyline><line x1=\\"12\\" y1=\\"3\\" x2=\\"12\\" y2=\\"15\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-user\\"><path d=\\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\\"></path><circle cx=\\"12\\" cy=\\"7\\" r=\\"4\\"></circle></svg>",
       }
     }
-    title="upload"
+    title="user"
   />,
   .c0 {
   height: 20px;
@@ -9423,52 +9671,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-user\\"><path d=\\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\\"></path><circle cx=\\"12\\" cy=\\"7\\" r=\\"4\\"></circle></svg>",
-      }
-    }
-    title="user"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-users\\"><path d=\\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\\"></path><circle cx=\\"9\\" cy=\\"7\\" r=\\"4\\"></circle><path d=\\"M23 21v-2a4 4 0 0 0-3-3.87\\"></path><path d=\\"M16 3.13a4 4 0 0 1 0 7.75\\"></path></svg>",
       }
     }
     title="users"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-video-off\\"><path d=\\"M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2m5.66 0H14a2 2 0 0 1 2 2v3.34l1 1L23 7v10\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
-      }
-    }
-    title="video-off"
   />,
   .c0 {
   height: 20px;
@@ -9507,10 +9713,52 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-video-off\\"><path d=\\"M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2m5.66 0H14a2 2 0 0 1 2 2v3.34l1 1L23 7v10\\"></path><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+      }
+    }
+    title="video-off"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-voicemail\\"><circle cx=\\"5.5\\" cy=\\"11.5\\" r=\\"4.5\\"></circle><circle cx=\\"18.5\\" cy=\\"11.5\\" r=\\"4.5\\"></circle><line x1=\\"5.5\\" y1=\\"16\\" x2=\\"18.5\\" y2=\\"16\\"></line></svg>",
       }
     }
     title="voicemail"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-volume\\"><polygon points=\\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\\"></polygon></svg>",
+      }
+    }
+    title="volume"
   />,
   .c0 {
   height: 20px;
@@ -9591,52 +9839,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-volume\\"><polygon points=\\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\\"></polygon></svg>",
-      }
-    }
-    title="volume"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-watch\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"7\\"></circle><polyline points=\\"12 9 12 12 13.5 13.5\\"></polyline><path d=\\"M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83\\"></path></svg>",
       }
     }
     title="watch"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-wifi-off\\"><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line><path d=\\"M16.72 11.06A10.94 10.94 0 0 1 19 12.55\\"></path><path d=\\"M5 12.55a10.94 10.94 0 0 1 5.17-2.39\\"></path><path d=\\"M10.71 5.05A16 16 0 0 1 22.58 9\\"></path><path d=\\"M1.42 9a15.91 15.91 0 0 1 4.7-2.88\\"></path><path d=\\"M8.53 16.11a6 6 0 0 1 6.95 0\\"></path><line x1=\\"12\\" y1=\\"20\\" x2=\\"12\\" y2=\\"20\\"></line></svg>",
-      }
-    }
-    title="wifi-off"
   />,
   .c0 {
   height: 20px;
@@ -9675,10 +9881,52 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-wifi-off\\"><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line><path d=\\"M16.72 11.06A10.94 10.94 0 0 1 19 12.55\\"></path><path d=\\"M5 12.55a10.94 10.94 0 0 1 5.17-2.39\\"></path><path d=\\"M10.71 5.05A16 16 0 0 1 22.58 9\\"></path><path d=\\"M1.42 9a15.91 15.91 0 0 1 4.7-2.88\\"></path><path d=\\"M8.53 16.11a6 6 0 0 1 6.95 0\\"></path><line x1=\\"12\\" y1=\\"20\\" x2=\\"12\\" y2=\\"20\\"></line></svg>",
+      }
+    }
+    title="wifi-off"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-wind\\"><path d=\\"M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2\\"></path></svg>",
       }
     }
     title="wind"
+  />,
+  .c0 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+    className="c0"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-x\\"><line x1=\\"18\\" y1=\\"6\\" x2=\\"6\\" y2=\\"18\\"></line><line x1=\\"6\\" y1=\\"6\\" x2=\\"18\\" y2=\\"18\\"></line></svg>",
+      }
+    }
+    title="x"
   />,
   .c0 {
   height: 20px;
@@ -9738,27 +9986,6 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-x\\"><line x1=\\"18\\" y1=\\"6\\" x2=\\"6\\" y2=\\"18\\"></line><line x1=\\"6\\" y1=\\"6\\" x2=\\"18\\" y2=\\"18\\"></line></svg>",
-      }
-    }
-    title="x"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-youtube\\"><path d=\\"M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z\\"></path><polygon points=\\"9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02\\"></polygon></svg>",
       }
     }
@@ -9780,10 +10007,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-zap-off\\"><polyline points=\\"12.41 6.75 13 2 10.57 4.92\\"></polyline><polyline points=\\"18.57 12.91 21 10 15.66 10\\"></polyline><polyline points=\\"8 8 3 14 12 14 11 22 16 16\\"></polyline><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-zap\\"><polygon points=\\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\\"></polygon></svg>",
       }
     }
-    title="zap-off"
+    title="zap"
   />,
   .c0 {
   height: 20px;
@@ -9801,10 +10028,10 @@ Array [
     className="c0"
     dangerouslySetInnerHTML={
       Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-zap\\"><polygon points=\\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\\"></polygon></svg>",
+        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-zap-off\\"><polyline points=\\"12.41 6.75 13 2 10.57 4.92\\"></polyline><polyline points=\\"18.57 12.91 21 10 15.66 10\\"></polyline><polyline points=\\"8 8 3 14 12 14 11 22 16 16\\"></polyline><line x1=\\"1\\" y1=\\"1\\" x2=\\"23\\" y2=\\"23\\"></line></svg>",
       }
     }
-    title="zap"
+    title="zap-off"
   />,
   .c0 {
   height: 20px;
@@ -9847,221 +10074,6 @@ Array [
       }
     }
     title="zoom-out"
-  />,
-]
-`;
-
-exports[`Story of Icon Icon sizes 1`] = `
-Array [
-  .c0 {
-  height: 12px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"12px\\" height=\\"12px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="12px"
-  />,
-  .c0 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="14px"
-  />,
-  .c0 {
-  height: 16px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="16px"
-  />,
-  .c0 {
-  height: 18px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"18px\\" height=\\"18px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="18px"
-  />,
-  .c0 {
-  height: 20px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="20px"
-  />,
-  .c0 {
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24px\\" height=\\"24px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="24px"
-  />,
-  .c0 {
-  height: 28px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"28px\\" height=\\"28px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="28px"
-  />,
-  .c0 {
-  height: 32px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"32px\\" height=\\"32px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="32px"
-  />,
-  .c0 {
-  height: 40px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"40px\\" height=\\"40px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="40px"
-  />,
-  .c0 {
-  height: 50px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<span
-    className="c0"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"50px\\" height=\\"50px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-layers\\"><polygon points=\\"12 2 2 7 12 12 22 7 12 2\\"></polygon><polyline points=\\"2 17 12 22 22 17\\"></polyline><polyline points=\\"2 12 12 17 22 12\\"></polyline></svg>",
-      }
-    }
-    title="50px"
   />,
 ]
 `;
@@ -10594,6 +10606,18 @@ exports[`Story of Input Input fullwidth with icon right 1`] = `
 `;
 
 exports[`Story of Input Input fullwidth with icons left and right 1`] = `
+.c5 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -10708,7 +10732,7 @@ exports[`Story of Input Input fullwidth with icons left and right 1`] = `
     onMouseDown={[Function]}
   >
     <span
-      className="c2"
+      className="c5"
       dangerouslySetInnerHTML={
         Object {
           "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
@@ -11060,6 +11084,18 @@ exports[`Story of Input Input large with icon right 1`] = `
 `;
 
 exports[`Story of Input Input large with icons left and right 1`] = `
+.c5 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c2 {
   height: 16px;
   display: -webkit-inline-box;
@@ -11174,7 +11210,7 @@ exports[`Story of Input Input large with icons left and right 1`] = `
     onMouseDown={[Function]}
   >
     <span
-      className="c2"
+      className="c5"
       dangerouslySetInnerHTML={
         Object {
           "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
@@ -11378,6 +11414,18 @@ exports[`Story of Input Input with icon right 1`] = `
 `;
 
 exports[`Story of Input Input with icons left and right 1`] = `
+.c5 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c2 {
   height: 14px;
   display: -webkit-inline-box;
@@ -11492,7 +11540,7 @@ exports[`Story of Input Input with icons left and right 1`] = `
     onMouseDown={[Function]}
   >
     <span
-      className="c2"
+      className="c5"
       dangerouslySetInnerHTML={
         Object {
           "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-refresh-cw\\"><polyline points=\\"23 4 23 10 17 10\\"></polyline><polyline points=\\"1 20 1 14 7 14\\"></polyline><path d=\\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\\"></path></svg>",
@@ -12832,6 +12880,7 @@ exports[`Story of Textarea Default 1`] = `
 .c0 {
   font-family: Inter UI,sans-serif;
   font-size: 12px;
+  box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 6px;
@@ -12855,7 +12904,46 @@ exports[`Story of Textarea Default 1`] = `
 />
 `;
 
+exports[`Story of Textarea Fullwidth 1`] = `
+.c0 {
+  font-family: Inter UI,sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #ededed;
+  border-radius: 4px;
+  resize: none;
+}
+
+<textarea
+  className="c0"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  placeholder="This is a textarea"
+  value=""
+/>
+`;
+
 exports[`Story of Toolbar Toolbar 1`] = `
+.c2 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c1 {
   height: 20px;
   display: -webkit-inline-box;
@@ -12898,7 +12986,7 @@ exports[`Story of Toolbar Toolbar 1`] = `
     }
   />
   <span
-    className="c1"
+    className="c2"
     dangerouslySetInnerHTML={
       Object {
         "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-down-circle\\"><circle cx=\\"12\\" cy=\\"12\\" r=\\"10\\"></circle><polyline points=\\"8 12 12 16 16 12\\"></polyline><line x1=\\"12\\" y1=\\"8\\" x2=\\"12\\" y2=\\"16\\"></line></svg>",
@@ -12909,18 +12997,6 @@ exports[`Story of Toolbar Toolbar 1`] = `
 `;
 
 exports[`Story of Toolbar Toolbar with border and padding 1`] = `
-.c5 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -12981,6 +13057,30 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
 .c3:active {
   background-color: #dcdcdc;
   color: #555555;
+}
+
+.c5 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c7 {
@@ -13132,7 +13232,7 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
             className="c4"
           >
             <span
-              className="c5"
+              className="c9"
               dangerouslySetInnerHTML={
                 Object {
                   "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
@@ -13149,18 +13249,6 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
 `;
 
 exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
-.c5 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -13221,6 +13309,30 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
 .c3:active {
   background-color: #dcdcdc;
   color: #555555;
+}
+
+.c5 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c2 {
@@ -13338,7 +13450,7 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
             className="c4"
           >
             <span
-              className="c5"
+              className="c7"
               dangerouslySetInnerHTML={
                 Object {
                   "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-arrow-right\\"><line x1=\\"5\\" y1=\\"12\\" x2=\\"19\\" y2=\\"12\\"></line><polyline points=\\"12 5 19 12 12 19\\"></polyline></svg>",
