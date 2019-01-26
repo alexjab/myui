@@ -14,6 +14,7 @@ const HeadsUp = styled.div`
     return theme.colorDarker
   }};
   text-transform: uppercase;
+  text-align: center;
 `
 
 export default HeadsUp
