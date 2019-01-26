@@ -5,7 +5,7 @@ import e from"react";import r from"styled-components";function t(){return(t=Obje
 
   padding-left: ${({paddingLeft:e})=>e||0};
   padding-right: ${({paddingRight:e})=>e||0};
-`,M=r(({children:r,iconLeft:t,iconRight:a,isDanger:n,isFullWidth:o,isInverted:i,isLarge:f,isOutlined:l,isPrimary:s,theme:d,...u})=>{let c=t&&r?f?"18px":"14px":0,g=a&&r?f?"18px":"14px":0;return e.createElement("button",u,t?e.createElement(C,{paddingRight:c},e.createElement(t,{size:f?"16px":"14px"})):null,r,a?e.createElement(C,{paddingLeft:g,size:"16px"},e.createElement(a,{size:f?"16px":"14px"})):null)})`
+`,M=r(({children:r,iconLeft:t,iconRight:a,isDanger:n,isFullWidth:o,isInverted:i,isLarge:f,isOutlined:l,isPrimary:s,theme:d,...u})=>{let c=t&&r?f?"9px":"5px":0,g=a&&r?f?"9px":"5px":0;return e.createElement("button",u,t?e.createElement(C,{paddingRight:c},e.createElement(t,{size:f?"16px":"14px"})):null,r,a?e.createElement(C,{paddingLeft:g,size:"16px"},e.createElement(a,{size:f?"16px":"14px"})):null)})`
   font-family: ${e=>e.theme.fontFamily};
   font-size: ${({isLarge:e,theme:r})=>e?r.largeFontSize:r.fontSize};
 

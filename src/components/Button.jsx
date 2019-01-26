@@ -26,8 +26,8 @@ const BaseButton = ({
   theme,
   ...props
 }) => {
-  let paddingIconLeft = IconLeft && children ? (isLarge ? '18px' : '14px') : 0
-  let paddingIconRight = IconRight && children ? (isLarge ? '18px' : '14px') : 0
+  let paddingIconLeft = IconLeft && children ? (isLarge ? '9px' : '5px') : 0
+  let paddingIconRight = IconRight && children ? (isLarge ? '9px' : '5px') : 0
 
   return (
     <button {...props}>

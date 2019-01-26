@@ -502,7 +502,7 @@ exports[`Story of Button Default large with iconLeft 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 18px;
+  padding-right: 9px;
 }
 
 .c0 {
@@ -596,7 +596,7 @@ exports[`Story of Button Default large with iconRight 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 18px;
+  padding-left: 9px;
   padding-right: 0;
 }
 
@@ -842,7 +842,7 @@ exports[`Story of Button Default with both icons 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 14px;
+  padding-right: 5px;
 }
 
 .c3 {
@@ -858,7 +858,7 @@ exports[`Story of Button Default with both icons 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 14px;
+  padding-left: 5px;
   padding-right: 0;
 }
 
@@ -979,7 +979,7 @@ exports[`Story of Button Default with iconLeft 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 14px;
+  padding-right: 5px;
 }
 
 .c0 {
@@ -1073,7 +1073,7 @@ exports[`Story of Button Default with iconRight 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 14px;
+  padding-left: 5px;
   padding-right: 0;
 }
 
@@ -1959,7 +1959,7 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 14px;
+  padding-right: 5px;
 }
 
 .c0 {
@@ -2053,7 +2053,7 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 14px;
+  padding-left: 5px;
   padding-right: 0;
 }
 
@@ -2149,7 +2149,7 @@ exports[`Story of Button Primary with icon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 14px;
+  padding-left: 5px;
   padding-right: 0;
 }
 
@@ -4247,8 +4247,8 @@ Array [
   </h1>,
   .c0 {
   border-top: 1px solid #c0c0c0;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 <div
@@ -7203,7 +7203,7 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 14px;
+  padding-right: 5px;
 }
 
 .c3 {
@@ -7455,7 +7455,7 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-left: 0;
-  padding-right: 14px;
+  padding-right: 5px;
 }
 
 .c3 {
