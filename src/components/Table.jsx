@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 import { light as lightTheme } from '../core/themes'
 
-import ArrowUpIcon from '../icons/ArrowUp.jsx'
-import ArrowDownIcon from '../icons/ArrowDown.jsx'
+import ArrowUpIcon from '../icons/ArrowUp'
+import ArrowDownIcon from '../icons/ArrowDown'
 
 const BaseTable = styled.table`
   font-family: ${props => props.theme.fontFamily};

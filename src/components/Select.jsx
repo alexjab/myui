@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import ChevronDownIcon from '../icons/ChevronDown.jsx'
-import ChevronUpIcon from '../icons/ChevronUp.jsx'
+import ChevronDownIcon from '../icons/ChevronDown'
+import ChevronUpIcon from '../icons/ChevronUp'
 
 const Container = styled.div`
   width: 100%;

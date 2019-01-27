@@ -26,7 +26,9 @@ export default globby
       },
     },
     plugins: [
-      resolve(),
+      resolve({
+        extensions: ['.mjs', '.js', '.jsx', '.json'],
+      }),
       babel({
         exclude: 'node_modules/**',
       }),
