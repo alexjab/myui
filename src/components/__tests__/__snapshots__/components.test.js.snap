@@ -5976,7 +5976,6 @@ exports[`Story of Select Default 1`] = `
   >
     <span
       className="c2"
-      onBlur={[Function]}
       value="Select one item"
     >
       Select one item
@@ -6062,7 +6061,6 @@ exports[`Story of Select With constraint width 1`] = `
     >
       <span
         className="c2"
-        onBlur={[Function]}
         value="Select one item"
       >
         Select one item
@@ -6076,6 +6074,84 @@ exports[`Story of Select With constraint width 1`] = `
         }
       />
     </div>
+  </div>
+</div>
+`;
+
+exports[`Story of Select With default value 1`] = `
+.c0 {
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: calc(100% - 28px);
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  border: 1px solid undefined;
+  border-radius: 4px;
+}
+
+.c2 {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  onClick={[Function]}
+  tabIndex="0"
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+      value="Step #2"
+    >
+      Step #2
+    </span>
+    <span
+      className="c3"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-down\\"><polyline points=\\"6 9 12 15 18 9\\"></polyline></svg>",
+        }
+      }
+    />
   </div>
 </div>
 `;

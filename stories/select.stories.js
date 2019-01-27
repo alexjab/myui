@@ -39,6 +39,19 @@ export default [
     ),
   },
   {
+    name: 'With default value',
+    element: (
+      <Select
+        defaultValue="step-2"
+        options={OPTIONS}
+        onChangeValue={action('onChangeValue')}
+        onChange={action('onChange')}
+      >
+        Select one item
+      </Select>
+    ),
+  },
+  {
     name: 'With constraint width',
     element: (
       <div style={{ width: '250px' }}>

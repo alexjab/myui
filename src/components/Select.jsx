@@ -73,10 +73,24 @@ const Option = styled.div`
 `
 
 export default class Select extends React.Component {
-  state = {
-    isOptionsVisible: false,
-    selectedValue: null,
-    selectedLabel: null,
+  constructor(props) {
+    super(props)
+
+    const { defaultValue, options } = props
+
+    this.state = {
+      isOptionsVisible: false,
+      selectedValue: defaultValue || null,
+      selectedLabel: null,
+    }
+
+    if (defaultValue) {
+      const option = options.find(option => option.value === defaultValue)
+
+      if (option) {
+        this.state.selectedLabel = option.label
+      }
+    }
   }
 
   onOptionClick = event => {
@@ -88,21 +102,29 @@ export default class Select extends React.Component {
       },
     } = event
 
+    let previousValue
+
     this.setState(
-      {
-        selectedValue: value,
-        selectedLabel: label,
-        isOptionsVisible: false,
+      ({ selectedValue }) => {
+        previousValue = selectedValue
+
+        return {
+          selectedValue: value,
+          selectedLabel: label,
+          isOptionsVisible: false,
+        }
       },
       () => {
-        const { onChange, onChangeValue } = this.props
-        const { selectedValue: value, selectedLabel: label } = this.state
+        if (previousValue !== value) {
+          const { onChange, onChangeValue } = this.props
+          const { selectedValue: value, selectedLabel: label } = this.state
 
-        if (onChange) {
-          onChange({ value, label })
-        }
-        if (onChangeValue) {
-          onChangeValue(value)
+          if (onChange) {
+            onChange({ value, label })
+          }
+          if (onChangeValue) {
+            onChangeValue(value)
+          }
         }
       }
     )
