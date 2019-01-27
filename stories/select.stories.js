@@ -16,7 +16,8 @@ const OPTIONS = [
   },
   {
     value: 'step-3',
-    label: 'Step #3',
+    label:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at tellus pellentesque, pulvinar dui et, pulvinar felis. Nunc ullamcorper ullamcorper aliquam. Maecenas luctus tincidunt dignissim.',
   },
   {
     value: 'step-4',
@@ -35,6 +36,20 @@ export default [
       >
         Select one item
       </Select>
+    ),
+  },
+  {
+    name: 'With constraint width',
+    element: (
+      <div style={{ width: '250px' }}>
+        <Select
+          options={OPTIONS}
+          onChangeValue={action('onChangeValue')}
+          onChange={action('onChange')}
+        >
+          Select one item
+        </Select>
+      </div>
     ),
   },
 ]

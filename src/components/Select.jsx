@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Button from './Button'
-import ChevronDownIcon from '../icons/ChevronDown'
+import ChevronDownIcon from '../icons/ChevronDown.jsx'
+import ChevronUpIcon from '../icons/ChevronUp.jsx'
 
 const Container = styled.div`
   width: 100%;
   outline: none;
+  cursor: pointer;
 `
 
-const InputContainer = styled.div`
+const ValueContainer = styled.div`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${({ theme }) => theme.fontSize};
 
@@ -26,10 +27,20 @@ const InputContainer = styled.div`
   border-radius: 4px;
 `
 
-const Input = styled.div`
-  height: 30px;
-  border: none;
+const Value = styled.span`
   width: 100%;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+`
+
+const StyledChevronUpIcon = styled(ChevronUpIcon)`
+  color: ${({ theme }) => theme.colorGrey};
+`
+
+const StyledChevronDownIcon = styled(ChevronDownIcon)`
+  color: ${({ theme }) => theme.colorGrey};
 `
 
 const Options = styled.div`
@@ -38,13 +49,19 @@ const Options = styled.div`
   border: 1px solid ${({ theme }) => theme.colorGreyLight};
   border-top: none;
   margin-top: -5px;
+  width: 100%;
 `
 
 const Option = styled.div`
   padding: 10px 5px;
-  cursor: pointer;
   ${({ isSelected, theme }) =>
     isSelected ? `background-color: ${theme.colorGreyLighter}` : null};
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  user-select: none;
 
   &:first-child {
     margin-top: 5px;
@@ -63,6 +80,8 @@ export default class Select extends React.Component {
   }
 
   onOptionClick = event => {
+    event.stopPropagation()
+
     const {
       target: {
         dataset: { value, label },
@@ -89,16 +108,9 @@ export default class Select extends React.Component {
     )
   }
 
-  onContainerFocus = event => {
-    // event.preventDefault()
-    event.stopPropagation()
-
-    this.setState(({ isOptionsVisible }) => ({
-      isOptionsVisible: !isOptionsVisible,
-    }))
-  }
-
   onContainerClick = event => {
+    event.target.focus()
+
     this.setState(({ isOptionsVisible }) => ({
       isOptionsVisible: !isOptionsVisible,
     }))
@@ -117,9 +129,10 @@ export default class Select extends React.Component {
 
     return (
       <Options>
-        {options.map(option => {
+        {options.map((option, index) => {
           return (
             <Option
+              key={index}
               data-value={option.value}
               data-label={option.label}
               onClick={this.onOptionClick}
@@ -133,25 +146,30 @@ export default class Select extends React.Component {
     )
   }
 
+  renderIcon(isOptionsVisible) {
+    return isOptionsVisible ? (
+      <StyledChevronUpIcon />
+    ) : (
+      <StyledChevronDownIcon />
+    )
+  }
+
   render() {
     const { children, options } = this.props
-    const { isOptionsVisible, selectedLabel } = this.state
+    const { isOptionsVisible, selectedValue, selectedLabel } = this.state
 
     return (
       <Container
         tabIndex="0"
         onClick={this.onContainerClick}
-        onFocus={this.onContainerFocus}
         onBlur={this.onContainerBlur}
       >
-        <InputContainer>
-          <Input
-            value={selectedLabel === null ? children : selectedLabel}
-            onFocus={this.onButtonClick}
-            onBlur={this.onContainerBlur}
-          />
-          <ChevronDownIcon />
-        </InputContainer>
+        <ValueContainer>
+          <Value value={selectedLabel === null ? children : selectedLabel}>
+            {selectedValue === null ? children : selectedLabel}
+          </Value>
+          {this.renderIcon(isOptionsVisible)}
+        </ValueContainer>
         {this.renderOptions(isOptionsVisible ? options : null)}
       </Container>
     )
