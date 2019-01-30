@@ -7,7 +7,8 @@ import { light as lightTheme } from '../core/themes'
 const Card = styled.div`
   background-color: ${({ theme }) => theme.colorWhite};
   border-radius: 4px;
-  box-shadow: 0 2px 15px ${({ theme }) => transparentize(0.8, theme.colorBlack)};
+  box-shadow: 0 2px 5px ${({ theme }) => transparentize(0.9, theme.colorBlack)};
+  border: 1px solid gainsboro;
 `
 
 Card.defaultProps = {
