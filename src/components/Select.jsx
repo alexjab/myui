@@ -8,6 +8,7 @@ const Container = styled.div`
   width: 100%;
   outline: none;
   cursor: pointer;
+  position: relative;
 `
 
 const ValueContainer = styled.div`
@@ -44,6 +45,8 @@ const StyledChevronDownIcon = styled(ChevronDownIcon)`
 `
 
 const Options = styled.div`
+  position: absolute;
+  z-index: 99;
   display: flex;
   flex-direction: column;
   border: 1px solid ${({ theme }) => theme.colorGreyLight};
@@ -53,6 +56,7 @@ const Options = styled.div`
 `
 
 const Option = styled.div`
+  background-color: white;
   padding: 10px 5px;
   ${({ isSelected, theme }) =>
     isSelected ? `background-color: ${theme.colorGreyLighter}` : null};
@@ -102,6 +106,28 @@ export default class Select extends React.Component {
       },
     } = event
 
+    if (this.props.value) {
+      this.setState(
+        {
+          isOptionsVisible: false,
+        },
+        () => {
+          if (this.props.value !== value) {
+            const { onChange, onChangeValue } = this.props
+
+            if (onChange) {
+              onChange({ value, label })
+            }
+            if (onChangeValue) {
+              onChangeValue(value)
+            }
+          }
+        }
+      )
+
+      return
+    }
+
     let previousValue
 
     this.setState(
@@ -147,6 +173,7 @@ export default class Select extends React.Component {
   renderOptions = options => {
     if (!options) return null
 
+    const { value } = this.props
     const { selectedValue } = this.state
 
     return (
@@ -158,7 +185,9 @@ export default class Select extends React.Component {
               data-value={option.value}
               data-label={option.label}
               onClick={this.onOptionClick}
-              isSelected={option.value === selectedValue}
+              isSelected={
+                value ? option.value === value : option.value === selectedValue
+              }
             >
               {option.label}
             </Option>
@@ -177,9 +206,20 @@ export default class Select extends React.Component {
   }
 
   render() {
-    const { children, options } = this.props
+    const { children, options, value } = this.props
     const { isOptionsVisible, selectedValue, selectedLabel } = this.state
 
+    let label = ''
+
+    if (value) {
+      const option = options.find(option => option.value === value)
+
+      if (option) {
+        label = option.label
+      }
+    } else {
+      label = selectedValue === null ? children : selectedLabel
+    }
     return (
       <Container
         tabIndex="0"
@@ -188,7 +228,7 @@ export default class Select extends React.Component {
       >
         <ValueContainer>
           <Value value={selectedLabel === null ? children : selectedLabel}>
-            {selectedValue === null ? children : selectedLabel}
+            {label}
           </Value>
           {this.renderIcon(isOptionsVisible)}
         </ValueContainer>

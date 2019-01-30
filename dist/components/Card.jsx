@@ -2,7 +2,7 @@ import"react";import e from"styled-components";function r(){return(r=Object.assi
   background-color: ${({theme:e})=>e.colorWhite};
   border-radius: 4px;
   box-shadow: 0 2px 5px ${({theme:e})=>I(.9,e.colorBlack)};
-  border: 1px solid gainsboro
+  border: 1px solid gainsboro;
 `;F.defaultProps={theme:x},F.Separator=e.div`
   border-top: 1px solid ${({theme:e})=>e.colorGreyLighter};
 `,F.Separator.defaultProps={theme:x};export default F;

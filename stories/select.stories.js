@@ -25,6 +25,24 @@ const OPTIONS = [
   },
 ]
 
+class ControlledSelect extends React.Component {
+  state = {
+    selected: 'step-2',
+  }
+
+  render() {
+    return (
+      <Select
+        value={this.state.selected}
+        options={OPTIONS}
+        onChangeValue={value => this.setState({ selected: value })}
+      >
+        Select one item
+      </Select>
+    )
+  }
+}
+
 export default [
   {
     name: 'Default',
@@ -52,6 +70,10 @@ export default [
     ),
   },
   {
+    name: 'Controlled Select',
+    element: <ControlledSelect />,
+  },
+  {
     name: 'With constraint width',
     element: (
       <div style={{ width: '250px' }}>
@@ -62,6 +84,18 @@ export default [
         >
           Select one item
         </Select>
+        <div
+          style={{
+            width: '250px',
+            height: '100px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            border: '1px solid deepskyblue',
+          }}
+        >
+          Foobar
+        </div>
       </div>
     ),
   },
