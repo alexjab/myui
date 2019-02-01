@@ -1,6 +1,6 @@
 {
   "name": "myui",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "private": true,
   "dependencies": {
     "polished": "2.3.0"

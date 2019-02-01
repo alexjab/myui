@@ -9,11 +9,18 @@ const Container = styled.div`
   outline: none;
   cursor: pointer;
   position: relative;
+
+  ${({ disabled }) => (disabled ? 'cursor: not-allowed;' : null)}
 `
 
 const ValueContainer = styled.div`
   font-family: ${props => props.theme.fontFamily};
   font-size: ${({ theme }) => theme.fontSize};
+
+  background-color: ${({ disabled, theme }) =>
+    disabled ? theme.colorGreyLightest : theme.colorWhite};
+  color: ${({ disabled, theme }) =>
+    disabled ? theme.colorGreyDark : theme.colorBlack};
 
   display: flex;
   align-items: center;
@@ -157,7 +164,9 @@ export default class Select extends React.Component {
   }
 
   onContainerClick = event => {
-    event.target.focus()
+    if (this.props.disabled) {
+      return
+    }
 
     this.setState(({ isOptionsVisible }) => ({
       isOptionsVisible: !isOptionsVisible,
@@ -206,7 +215,15 @@ export default class Select extends React.Component {
   }
 
   render() {
-    const { children, options, value } = this.props
+    const {
+      children,
+      options,
+      value,
+      disabled,
+      onChangeValue,
+      onChange,
+      ...props
+    } = this.props
     const { isOptionsVisible, selectedValue, selectedLabel } = this.state
 
     let label = ''
@@ -222,11 +239,13 @@ export default class Select extends React.Component {
     }
     return (
       <Container
+        {...props}
         tabIndex="0"
         onClick={this.onContainerClick}
         onBlur={this.onContainerBlur}
+        disabled={disabled}
       >
-        <ValueContainer>
+        <ValueContainer disabled={disabled}>
           <Value value={selectedLabel === null ? children : selectedLabel}>
             {label}
           </Value>

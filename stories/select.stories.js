@@ -45,7 +45,7 @@ class ControlledSelect extends React.Component {
 
 export default [
   {
-    name: 'Default',
+    name: 'Default (fullwidth)',
     element: (
       <Select
         options={OPTIONS}
@@ -96,6 +96,21 @@ export default [
         >
           Foobar
         </div>
+      </div>
+    ),
+  },
+  {
+    name: 'Disabled',
+    element: (
+      <div style={{ width: '250px' }}>
+        <Select
+          options={OPTIONS}
+          onChangeValue={action('onChangeValue')}
+          onChange={action('onChange')}
+          disabled={true}
+        >
+          Select one item
+        </Select>
       </div>
     ),
   },
