@@ -144,7 +144,7 @@ class Table extends React.Component {
                   onSort={this.onSort}
                   sortOrder={sortBy === header.key ? sortOrder : null}
                 >
-                  {header.title}
+                  {header.title || header.key}
                 </TableHeader>
               ))}
             </tr>
