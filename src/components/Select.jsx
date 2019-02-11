@@ -58,8 +58,8 @@ const Options = styled.div`
   flex-direction: column;
   border: 1px solid ${({ theme }) => theme.colorGreyLight};
   border-top: none;
-  margin-top: -5px;
   width: 100%;
+  box-shadow: 0 2px 5px ${({ theme }) => theme.colorGrey};
 `
 
 const Option = styled.div`
@@ -73,10 +73,6 @@ const Option = styled.div`
   text-overflow: ellipsis;
 
   user-select: none;
-
-  &:first-child {
-    margin-top: 5px;
-  }
 
   &:hover {
     background-color: ${({ theme }) => theme.colorGreyLightest};
