@@ -1,7 +1,7 @@
 import * as colors from './colors'
 
 export const light = {
-  fontFamily: 'Inter UI, sans-serif',
+  fontFamily: 'Inter, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
 
@@ -25,7 +25,7 @@ export const light = {
 }
 
 export const dark = {
-  fontFamily: 'Inter UI, sans-serif',
+  fontFamily: 'Inter, sans-serif',
   fontSize: '12px',
   largeFontSize: '14px',
   backgroundColor: colors.darkest,

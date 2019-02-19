@@ -2,7 +2,7 @@
 
 exports[`Story of Button Danger 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -56,7 +56,7 @@ exports[`Story of Button Danger 1`] = `
 
 exports[`Story of Button Danger inverted 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -110,7 +110,7 @@ exports[`Story of Button Danger inverted 1`] = `
 
 exports[`Story of Button Danger large 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -164,7 +164,7 @@ exports[`Story of Button Danger large 1`] = `
 
 exports[`Story of Button Danger large inverted 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -218,7 +218,7 @@ exports[`Story of Button Danger large inverted 1`] = `
 
 exports[`Story of Button Danger large outlined 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -272,7 +272,7 @@ exports[`Story of Button Danger large outlined 1`] = `
 
 exports[`Story of Button Danger outlined 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -326,7 +326,7 @@ exports[`Story of Button Danger outlined 1`] = `
 
 exports[`Story of Button Default 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -380,7 +380,7 @@ exports[`Story of Button Default 1`] = `
 
 exports[`Story of Button Default fullwidth 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -435,7 +435,7 @@ exports[`Story of Button Default fullwidth 1`] = `
 
 exports[`Story of Button Default inverted 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -506,7 +506,7 @@ exports[`Story of Button Default large with iconLeft 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -601,7 +601,7 @@ exports[`Story of Button Default large with iconRight 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -697,7 +697,7 @@ exports[`Story of Button Default large with only icon 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -775,7 +775,7 @@ exports[`Story of Button Default large with only icon 1`] = `
 
 exports[`Story of Button Default outlined 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -863,7 +863,7 @@ exports[`Story of Button Default with both icons 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -983,7 +983,7 @@ exports[`Story of Button Default with iconLeft 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1078,7 +1078,7 @@ exports[`Story of Button Default with iconRight 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1174,7 +1174,7 @@ exports[`Story of Button Default with only icon 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1252,7 +1252,7 @@ exports[`Story of Button Default with only icon 1`] = `
 
 exports[`Story of Button Disabled 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1307,7 +1307,7 @@ exports[`Story of Button Disabled 1`] = `
 
 exports[`Story of Button Disabled inverted 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1362,7 +1362,7 @@ exports[`Story of Button Disabled inverted 1`] = `
 
 exports[`Story of Button Disabled large 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1417,7 +1417,7 @@ exports[`Story of Button Disabled large 1`] = `
 
 exports[`Story of Button Disabled outlined 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1472,7 +1472,7 @@ exports[`Story of Button Disabled outlined 1`] = `
 
 exports[`Story of Button Primary 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1526,7 +1526,7 @@ exports[`Story of Button Primary 1`] = `
 
 exports[`Story of Button Primary inverted 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1580,7 +1580,7 @@ exports[`Story of Button Primary inverted 1`] = `
 
 exports[`Story of Button Primary inverted disabled 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1635,7 +1635,7 @@ exports[`Story of Button Primary inverted disabled 1`] = `
 
 exports[`Story of Button Primary large 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1689,7 +1689,7 @@ exports[`Story of Button Primary large 1`] = `
 
 exports[`Story of Button Primary large inverted 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1743,7 +1743,7 @@ exports[`Story of Button Primary large inverted 1`] = `
 
 exports[`Story of Button Primary large outlined 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1814,7 +1814,7 @@ exports[`Story of Button Primary large with only icon 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1892,7 +1892,7 @@ exports[`Story of Button Primary large with only icon 1`] = `
 
 exports[`Story of Button Primary outlined 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1963,7 +1963,7 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2058,7 +2058,7 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2154,7 +2154,7 @@ exports[`Story of Button Primary with icon 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2250,7 +2250,7 @@ exports[`Story of Button Primary with only icon 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2512,7 +2512,7 @@ exports[`Story of Card Card with title and table 1`] = `
 }
 
 .c5 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   width: 100%;
   border-collapse: collapse;
@@ -3015,7 +3015,7 @@ exports[`Story of Card Card with title and table 1`] = `
 exports[`Story of Core Black and white 1`] = `
 Array [
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3079,7 +3079,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3143,7 +3143,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3207,7 +3207,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3271,7 +3271,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3340,7 +3340,7 @@ Array [
 exports[`Story of Core Colors 1`] = `
 Array [
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3404,7 +3404,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3468,7 +3468,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3537,7 +3537,7 @@ Array [
 exports[`Story of Core Greys 1`] = `
 Array [
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3601,7 +3601,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3665,7 +3665,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3729,7 +3729,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3793,7 +3793,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3857,7 +3857,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -3921,7 +3921,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -4436,7 +4436,7 @@ Array [
 
 exports[`Story of InfoTable InfoTable 1`] = `
 .c2 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   color: #a9a9a9;
   font-weight: bold;
@@ -4444,7 +4444,7 @@ exports[`Story of InfoTable InfoTable 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-spacing: 8px 16px;
 }
@@ -4668,7 +4668,7 @@ exports[`Story of InfoTable InfoTable 1`] = `
 
 exports[`Story of Input Input 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4691,7 +4691,7 @@ exports[`Story of Input Input 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -4720,7 +4720,7 @@ exports[`Story of Input Input 1`] = `
 
 exports[`Story of Input Input fullwidth 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4743,7 +4743,7 @@ exports[`Story of Input Input fullwidth 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -4790,7 +4790,7 @@ exports[`Story of Input Input fullwidth with icon left 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4813,7 +4813,7 @@ exports[`Story of Input Input fullwidth with icon left 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -4885,7 +4885,7 @@ exports[`Story of Input Input fullwidth with icon right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4908,7 +4908,7 @@ exports[`Story of Input Input fullwidth with icon right 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -5011,7 +5011,7 @@ exports[`Story of Input Input fullwidth with icons left and right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5034,7 +5034,7 @@ exports[`Story of Input Input fullwidth with icons left and right 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -5102,7 +5102,7 @@ exports[`Story of Input Input fullwidth with icons left and right 1`] = `
 
 exports[`Story of Input Input large 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5125,7 +5125,7 @@ exports[`Story of Input Input large 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   position: relative;
   width: 100%;
@@ -5172,7 +5172,7 @@ exports[`Story of Input Input large fullwidth with icon right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5195,7 +5195,7 @@ exports[`Story of Input Input large fullwidth with icon right 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   position: relative;
   width: 100%;
@@ -5268,7 +5268,7 @@ exports[`Story of Input Input large with icon left 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5291,7 +5291,7 @@ exports[`Story of Input Input large with icon left 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   position: relative;
   width: 100%;
@@ -5363,7 +5363,7 @@ exports[`Story of Input Input large with icon right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5386,7 +5386,7 @@ exports[`Story of Input Input large with icon right 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   position: relative;
   width: 100%;
@@ -5489,7 +5489,7 @@ exports[`Story of Input Input large with icons left and right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5512,7 +5512,7 @@ exports[`Story of Input Input large with icons left and right 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 14px;
   position: relative;
   width: 100%;
@@ -5598,7 +5598,7 @@ exports[`Story of Input Input with icon left 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5621,7 +5621,7 @@ exports[`Story of Input Input with icon left 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -5693,7 +5693,7 @@ exports[`Story of Input Input with icon right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5716,7 +5716,7 @@ exports[`Story of Input Input with icon right 1`] = `
 }
 
 .c1 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -5819,7 +5819,7 @@ exports[`Story of Input Input with icons left and right 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5842,7 +5842,7 @@ exports[`Story of Input Input with icons left and right 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   position: relative;
   width: 100%;
@@ -6001,7 +6001,7 @@ exports[`Story of Select Controlled Select 1`] = `
 </div>
 `;
 
-exports[`Story of Select Default 1`] = `
+exports[`Story of Select Default (fullwidth) 1`] = `
 .c0 {
   width: 100%;
   outline: none;
@@ -6076,6 +6076,96 @@ exports[`Story of Select Default 1`] = `
         }
       }
     />
+  </div>
+</div>
+`;
+
+exports[`Story of Select Disabled 1`] = `
+.c0 {
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  cursor: not-allowed;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: calc(100% - 28px);
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  border: 1px solid undefined;
+  border-radius: 4px;
+}
+
+.c2 {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 {
+  height: 20px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  style={
+    Object {
+      "width": "250px",
+    }
+  }
+>
+  <div
+    className="c0"
+    disabled={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    <div
+      className="c1"
+      disabled={true}
+    >
+      <span
+        className="c2"
+        value="Select one item"
+      >
+        Select one item
+      </span>
+      <span
+        className="c3"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"20px\\" height=\\"20px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-down\\"><polyline points=\\"6 9 12 15 18 9\\"></polyline></svg>",
+          }
+        }
+      />
+    </div>
   </div>
 </div>
 `;
@@ -6235,6 +6325,7 @@ exports[`Story of Select With default value 1`] = `
 
 <div
   className="c0"
+  defaultValue="step-2"
   onBlur={[Function]}
   onClick={[Function]}
   tabIndex="0"
@@ -6262,7 +6353,7 @@ exports[`Story of Select With default value 1`] = `
 
 exports[`Story of Table Table (with sortable fields) 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   width: 100%;
   border-collapse: collapse;
@@ -6753,7 +6844,7 @@ exports[`Story of Table Table (with sortable fields) 1`] = `
 
 exports[`Story of Table Table 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   width: 100%;
   border-collapse: collapse;
@@ -7268,7 +7359,7 @@ Array [
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-bottom: 1px solid #dcdcdc;
   display: -webkit-box;
@@ -7311,7 +7402,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7399,7 +7490,7 @@ exports[`Story of Tabs Tabs 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-bottom: 1px solid #dcdcdc;
   display: -webkit-box;
@@ -7476,7 +7567,7 @@ exports[`Story of Tabs Tabs with default tab 1`] = `
 }
 
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   border-bottom: 1px solid #dcdcdc;
   display: -webkit-box;
@@ -7522,7 +7613,7 @@ exports[`Story of Tabs Tabs with default tab 1`] = `
 
 exports[`Story of Tag Default tag 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7547,7 +7638,7 @@ exports[`Story of Tag Default tag 1`] = `
 
 exports[`Story of Tag Primary tag 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7572,7 +7663,7 @@ exports[`Story of Tag Primary tag 1`] = `
 
 exports[`Story of Textarea Default 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   box-sizing: border-box;
   padding-left: 10px;
@@ -7600,7 +7691,7 @@ exports[`Story of Textarea Default 1`] = `
 
 exports[`Story of Textarea Fullwidth 1`] = `
 .c0 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   box-sizing: border-box;
   width: 100%;
@@ -7709,7 +7800,7 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7961,7 +8052,7 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
 }
 
 .c3 {
-  font-family: Inter UI,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
