@@ -4,52 +4,46 @@ import"react";import o from"styled-components";const e={fontFamily:"Inter, sans-
 
   font-size: 2.5em;
   font-weight: 600;
-  color: ${({theme:o})=>o.colorDarkest};
 
   ${({isInline:o})=>o?"display: inline;":null}
-`;t.defaultProps={theme:e};const r=o.h2`
+`;t.defaultProps={theme:e};const n=o.h2`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 2em;
   font-weight: 600;
-  color: ${({theme:o})=>o.colorDarkest};
 
   ${({isInline:o})=>o?"display: inline;":null}
-`;r.defaultProps={theme:e};const n=o.h3`
+`;n.defaultProps={theme:e};const i=o.h3`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.75em;
   font-weight: 600;
-  color: ${({theme:o})=>o.colorDarkest};
 
   ${({isInline:o})=>o?"display: inline;":null}
-`;n.defaultProps={theme:e};const l=o.h4`
+`;i.defaultProps={theme:e};const r=o.h4`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.5em;
   font-weight: 600;
-  color: ${({theme:o})=>o.colorDarkest};
 
   ${({isInline:o})=>o?"display: inline;":null}
-`;l.defaultProps={theme:e};const i=o.h5`
+`;r.defaultProps={theme:e};const l=o.h5`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.25em;
   font-weight: 600;
-  color: ${({theme:o})=>o.colorDarkest};
 
   ${({isInline:o})=>o?"display: inline;":null}
-`;i.defaultProps={theme:e};const a=o.h6`
+`;l.defaultProps={theme:e};const a=o.h6`
   margin-top: 0;
   margin-bottom: 0;
 
   font-size: 1.125em;
   font-weight: 600;
-  color: ${({theme:o})=>o.colorDarkest};
 
   ${({isInline:o})=>o?"display: inline;":null}
-`;a.defaultProps={theme:e};export{t as H1,r as H2,n as H3,l as H4,i as H5,a as H6};
+`;a.defaultProps={theme:e};export{t as H1,n as H2,i as H3,r as H4,l as H5,a as H6};
