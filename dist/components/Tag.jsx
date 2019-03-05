@@ -6,8 +6,8 @@ import r from"styled-components";const o={fontFamily:"Inter, sans-serif",fontSiz
   padding: 4px 8px 4px 8px;
   border-radius: 3px;
 
-  background-color: ${({isPrimary:r,theme:o})=>r?o.colorPrimary:o.colorGreyLightest};
-  color: ${({isPrimary:r,theme:o})=>r?o.colorWhite:o.colorDark};
+  background-color: ${({isPrimary:r,isDark:o,theme:e})=>r?e.colorPrimary:o?e.colorDark:e.colorGreyLightest};
+  color: ${({isPrimary:r,isDark:o,theme:e})=>r?e.colorWhite:o?e.colorGreyLightest:e.colorDark};
 
   user-select: none;
 `;e.defaultProps={theme:o};export default e;

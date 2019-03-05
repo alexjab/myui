@@ -11,16 +11,24 @@ const Tag = styled.div`
   padding: 4px 8px 4px 8px;
   border-radius: 3px;
 
-  background-color: ${({ isPrimary, theme }) => {
+  background-color: ${({ isPrimary, isDark, theme }) => {
     if (isPrimary) {
       return theme.colorPrimary
     }
 
+    if (isDark) {
+      return theme.colorDark
+    }
+
     return theme.colorGreyLightest
   }};
-  color: ${({ isPrimary, theme }) => {
+  color: ${({ isPrimary, isDark, theme }) => {
     if (isPrimary) {
       return theme.colorWhite
+    }
+
+    if (isDark) {
+      return theme.colorGreyLightest
     }
 
     return theme.colorDark

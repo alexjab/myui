@@ -14,4 +14,8 @@ export default [
     name: 'Primary tag',
     element: <Tag isPrimary>Primary tag</Tag>,
   },
+  {
+    name: 'Dark tag',
+    element: <Tag isDark>Dark tag</Tag>,
+  },
 ]
