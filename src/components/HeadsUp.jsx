@@ -21,6 +21,7 @@ const HeadsUp = styled.div`
   }};
   text-transform: uppercase;
   text-align: center;
+  display: ${({ isInline }) => (isInline ? 'inline' : 'block')};
 `
 
 HeadsUp.defaultProps = {

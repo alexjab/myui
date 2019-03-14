@@ -3,4 +3,5 @@ import r from"styled-components";const o={fontFamily:"Inter, sans-serif",fontSiz
   color: ${({isDanger:r,isPrimary:o,isSuccess:e,theme:c})=>o?c.colorPrimary:r?c.colorDanger:e?c.colorSuccess:c.colorDarker};
   text-transform: uppercase;
   text-align: center;
+  display: ${({isInline:r})=>r?"inline":"block"};
 `;e.defaultProps={theme:o};export default e;
