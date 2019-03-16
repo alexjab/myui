@@ -27,6 +27,8 @@ const ActionsContainer = styled.div`
 `
 
 const ActionContainer = styled.div`
+  background-color: ${({ theme }) => theme.colorWhite}
+
   &:hover {
     background-color: ${({ theme }) => theme.colorGreyLightest};
   }
@@ -82,7 +84,17 @@ export default class ButtonActions extends React.Component {
   }
 
   render() {
-    const { actions, buttonLabel, isPrimary } = this.props
+    const {
+      actions,
+      buttonLabel,
+      disabled,
+      isPrimary,
+      isDanger,
+      isLarge,
+      isOutlined,
+      isInverted,
+      isFullWidth,
+    } = this.props
     const { isActionsVisible } = this.state
 
     const chevronIcon = isActionsVisible ? ChevronUpIcon : ChevronDownIcon
@@ -91,7 +103,12 @@ export default class ButtonActions extends React.Component {
       <Container onBlur={this.hideActions} tabIndex="0">
         <Button
           isPrimary={isPrimary}
+          isDanger={isDanger}
+          isLarge={isLarge}
+          isFullWidth={isFullWidth}
+          isInverted={isInverted}
           iconRight={chevronIcon}
+          disabled={disabled}
           onClick={this.onButtonClick}
         >
           {buttonLabel}
@@ -99,7 +116,11 @@ export default class ButtonActions extends React.Component {
         {isActionsVisible ? (
           <ActionsContainer>
             {actions.map((action, index) => (
-              <ActionContainer onClick={this.onActionClick} data-index={index}>
+              <ActionContainer
+                key={index}
+                onClick={this.onActionClick}
+                data-index={index}
+              >
                 <Toolbar hasBorderTop={index}>
                   {action.icon ? (
                     <Padder padding="10px">

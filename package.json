@@ -1,6 +1,6 @@
 {
   "name": "@alexjab/myui",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "dependencies": {
     "polished": "2.3.0"
   },
