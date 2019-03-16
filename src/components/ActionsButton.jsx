@@ -10,7 +10,6 @@ import ChevronUpIcon from '../icons/ChevronUp'
 import Padder from './Padder'
 
 const Container = styled.div`
-  position: relative;
   outline: none;
 `
 
