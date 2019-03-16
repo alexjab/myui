@@ -53,11 +53,11 @@ const StyledChevronDownIcon = styled(ChevronDownIcon)`
 
 const Options = styled.div`
   position: absolute;
+  margin-top: 5px;
   z-index: 99;
   display: flex;
   flex-direction: column;
   border: 1px solid ${({ theme }) => theme.colorGreyLight};
-  border-top: none;
   width: 100%;
   box-shadow: 0 2px 5px ${({ theme }) => theme.colorGrey};
 `

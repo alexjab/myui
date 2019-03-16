@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-icons
-core
-components
+/icons
+/core
+/components
 
 # dependencies
 /node_modules
