@@ -1,6 +1,6 @@
 {
   "name": "@alexjab/myui",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "dependencies": {
     "polished": "2.3.0"
   },
@@ -8,6 +8,7 @@
     "start": "react-scripts start",
     "build": "rollup -c",
     "build:full": "BUILD_WITH_ICONS=1 rollup -c",
+    "prepublish": "npm run build:full",
     "generate:icons": "node scripts/generateIcons",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
