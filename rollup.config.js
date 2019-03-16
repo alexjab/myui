@@ -16,7 +16,7 @@ export default globby
     input: inputFile,
     external: ['react', 'react-dom', 'styled-components'],
     output: {
-      file: inputFile.replace('src', 'dist'),
+      file: inputFile.replace('./src/', './'),
       format: 'es',
       name: 'myui',
       globals: {

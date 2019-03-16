@@ -1,6 +1,6 @@
 {
-  "name": "myui",
-  "version": "0.3.11",
+  "name": "@alexjab/myui",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
     "polished": "2.3.0"
@@ -8,6 +8,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "rollup -c",
+    "build:full": "BUILD_WITH_ICONS=1 rollup -c",
     "generate:icons": "node scripts/generateIcons",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -15,7 +16,6 @@
     "lint": "eslint ./src ./stories",
     "prettier": "prettier ./{src,stories}/**/*.{js,jsx} --write"
   },
-  "main": "build/myui.min.js",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -62,5 +62,16 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexjab/myui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexjab/myui/issues"
+  },
+  "homepage": "https://github.com/alexjab/myui#readme"
 }
