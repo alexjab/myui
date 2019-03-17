@@ -30,4 +30,28 @@ export default [
       />
     ),
   },
+  {
+    name: 'Other Button props',
+    element: (
+      <ActionsButton
+        isDanger
+        isLarge
+        isOutlined
+        buttonLabel="My other action"
+        onActionClick={action('onActionClick')}
+        actions={[
+          {
+            icon: EyeIcon,
+            title: 'First action',
+            subtitle: 'This action does something',
+          },
+          {
+            icon: DropletIcon,
+            title: 'Second action',
+            subtitle: 'This action does something different',
+          },
+        ]}
+      />
+    ),
+  },
 ]

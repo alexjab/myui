@@ -5,11 +5,13 @@ import styled from 'styled-components'
 import Stack from './Stack'
 import Button from './Button'
 import Toolbar from './Toolbar'
+import Padder from './Padder'
 import ChevronDownIcon from '../icons/ChevronDown'
 import ChevronUpIcon from '../icons/ChevronUp'
-import Padder from './Padder'
+import CheckIcon from '../icons/Check'
 
 const Container = styled.div`
+  display: inline;
   outline: none;
 `
 
@@ -34,16 +36,19 @@ const ActionContainer = styled.div`
 `
 
 const ActionIcon = styled.div`
-  color: ${({ theme }) => theme.colorGreyDarker};
+  color: ${({ theme, isSelected }) =>
+    isSelected ? theme.colorBlack : theme.colorGreyDarker};
 `
 
 const ActionTitle = styled.div`
-  color: ${({ theme }) => theme.colorGreyDarkest};
+  color: ${({ theme, isSelected }) =>
+    isSelected ? theme.colorBlack : theme.colorGreyDarkest};
   font-weight: bold;
 `
 
 const ActionSubtitle = styled.div`
-  color: ${({ theme }) => theme.colorGreyDarkest};
+  color: ${({ theme, isSelected }) =>
+    isSelected ? theme.colorBlack : theme.colorGreyDarkest};
 `
 
 export default class ButtonActions extends React.Component {
@@ -56,8 +61,13 @@ export default class ButtonActions extends React.Component {
     onActionClick: PropTypes.func,
   }
 
-  state = {
-    isActionsVisible: false,
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      isActionsVisible: false,
+      selectedIndex: props.defaultSelected || 0,
+    }
   }
 
   onButtonClick = () => {
@@ -69,7 +79,7 @@ export default class ButtonActions extends React.Component {
   onActionClick = event => {
     const index = parseInt(event.currentTarget.dataset.index, 10)
 
-    this.setState({ isActionsVisible: false }, () => {
+    this.setState({ isActionsVisible: false, selectedIndex: index }, () => {
       const { onActionClick } = this.props
 
       if (onActionClick) {
@@ -87,6 +97,7 @@ export default class ButtonActions extends React.Component {
       actions,
       buttonLabel,
       disabled,
+      iconLeft,
       isPrimary,
       isDanger,
       isLarge,
@@ -94,18 +105,20 @@ export default class ButtonActions extends React.Component {
       isInverted,
       isFullWidth,
     } = this.props
-    const { isActionsVisible } = this.state
+    const { isActionsVisible, selectedIndex } = this.state
 
     const chevronIcon = isActionsVisible ? ChevronUpIcon : ChevronDownIcon
 
     return (
-      <Container onBlur={this.hideActions} tabIndex="0">
+      <Container tabIndex="0" onBlur={this.hideActions}>
         <Button
           isPrimary={isPrimary}
           isDanger={isDanger}
           isLarge={isLarge}
           isFullWidth={isFullWidth}
           isInverted={isInverted}
+          isOutlined={isOutlined}
+          iconLeft={iconLeft}
           iconRight={chevronIcon}
           disabled={disabled}
           onClick={this.onButtonClick}
@@ -123,13 +136,25 @@ export default class ButtonActions extends React.Component {
                 <Toolbar hasBorderTop={index}>
                   {action.icon ? (
                     <Padder padding="10px">
-                      <ActionIcon>{<action.icon />}</ActionIcon>
+                      <ActionIcon isSelected={selectedIndex === index}>
+                        {<action.icon />}
+                      </ActionIcon>
                     </Padder>
                   ) : null}
                   <Padder top="10px" bottom="10px" right="10px">
                     <Stack>
-                      <ActionTitle>{action.title}</ActionTitle>
-                      <ActionSubtitle>{action.subtitle}</ActionSubtitle>
+                      <ActionTitle isSelected={selectedIndex === index}>
+                        <Toolbar>
+                          {action.title}
+                          &nbsp;{' '}
+                          {selectedIndex === index ? (
+                            <CheckIcon size={16} />
+                          ) : null}
+                        </Toolbar>
+                      </ActionTitle>
+                      <ActionSubtitle isSelected={selectedIndex === index}>
+                        {action.subtitle}
+                      </ActionSubtitle>
                     </Stack>
                   </Padder>
                 </Toolbar>
