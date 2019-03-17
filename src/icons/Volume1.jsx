@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Volume1 = ({ name, size, ...props }) => {
+const Volume1 = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

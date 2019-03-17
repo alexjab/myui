@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Crop = ({ name, size, ...props }) => {
+const Crop = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

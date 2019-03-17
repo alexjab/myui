@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Grid = ({ name, size, ...props }) => {
+const Grid = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

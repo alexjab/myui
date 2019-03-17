@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PieChart = ({ name, size, ...props }) => {
+const PieChart = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const BarChart2 = ({ name, size, ...props }) => {
+const BarChart2 = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

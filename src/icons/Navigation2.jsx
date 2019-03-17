@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Navigation2 = ({ name, size, ...props }) => {
+const Navigation2 = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

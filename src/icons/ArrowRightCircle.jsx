@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ArrowRightCircle = ({ name, size, ...props }) => {
+const ArrowRightCircle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

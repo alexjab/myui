@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Copy = ({ name, size, ...props }) => {
+const Copy = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

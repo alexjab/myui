@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StopCircle = ({ name, size, ...props }) => {
+const StopCircle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Chrome = ({ name, size, ...props }) => {
+const Chrome = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

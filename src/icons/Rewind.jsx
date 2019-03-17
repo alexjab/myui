@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Rewind = ({ name, size, ...props }) => {
+const Rewind = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

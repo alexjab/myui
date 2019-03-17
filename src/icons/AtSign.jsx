@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AtSign = ({ name, size, ...props }) => {
+const AtSign = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

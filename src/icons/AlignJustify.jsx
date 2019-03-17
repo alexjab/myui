@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AlignJustify = ({ name, size, ...props }) => {
+const AlignJustify = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

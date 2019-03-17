@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Voicemail = ({ name, size, ...props }) => {
+const Voicemail = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

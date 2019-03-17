@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Zap = ({ name, size, ...props }) => {
+const Zap = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

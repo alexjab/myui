@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ExternalLink = ({ name, size, ...props }) => {
+const ExternalLink = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

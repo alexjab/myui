@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Briefcase = ({ name, size, ...props }) => {
+const Briefcase = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

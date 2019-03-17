@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Twitter = ({ name, size, ...props }) => {
+const Twitter = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

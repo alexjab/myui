@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Radio = ({ name, size, ...props }) => {
+const Radio = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

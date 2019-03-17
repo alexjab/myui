@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Italic = ({ name, size, ...props }) => {
+const Italic = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

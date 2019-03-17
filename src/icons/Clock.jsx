@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Clock = ({ name, size, ...props }) => {
+const Clock = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

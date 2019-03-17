@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PauseCircle = ({ name, size, ...props }) => {
+const PauseCircle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

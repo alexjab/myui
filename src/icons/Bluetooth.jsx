@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Bluetooth = ({ name, size, ...props }) => {
+const Bluetooth = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

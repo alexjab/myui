@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Bell = ({ name, size, ...props }) => {
+const Bell = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

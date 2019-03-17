@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PlayCircle = ({ name, size, ...props }) => {
+const PlayCircle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

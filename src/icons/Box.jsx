@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Box = ({ name, size, ...props }) => {
+const Box = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

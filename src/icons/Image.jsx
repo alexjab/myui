@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Image = ({ name, size, ...props }) => {
+const Image = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

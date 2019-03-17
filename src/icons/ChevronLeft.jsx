@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ChevronLeft = ({ name, size, ...props }) => {
+const ChevronLeft = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const VideoOff = ({ name, size, ...props }) => {
+const VideoOff = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

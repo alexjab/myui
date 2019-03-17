@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Sidebar = ({ name, size, ...props }) => {
+const Sidebar = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

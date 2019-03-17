@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Feather = ({ name, size, ...props }) => {
+const Feather = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

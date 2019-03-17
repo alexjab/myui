@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const FileText = ({ name, size, ...props }) => {
+const FileText = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

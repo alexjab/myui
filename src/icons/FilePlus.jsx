@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const FilePlus = ({ name, size, ...props }) => {
+const FilePlus = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

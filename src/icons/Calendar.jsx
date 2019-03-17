@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Calendar = ({ name, size, ...props }) => {
+const Calendar = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

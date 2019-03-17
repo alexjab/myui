@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const User = ({ name, size, ...props }) => {
+const User = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Layout = ({ name, size, ...props }) => {
+const Layout = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

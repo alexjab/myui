@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Clipboard = ({ name, size, ...props }) => {
+const Clipboard = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -73,7 +73,7 @@ const Button = styled(BaseButton)`
     margin-left: 5px;
   }
 
-  height: ${({ isLarge, isInverted, isOutlined }) => {
+  height: ${({ isLarge }) => {
     return isLarge ? '40px' : '32px'
   }};
 

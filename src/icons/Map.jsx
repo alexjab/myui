@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Map = ({ name, size, ...props }) => {
+const Map = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

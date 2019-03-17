@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MessageCircle = ({ name, size, ...props }) => {
+const MessageCircle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

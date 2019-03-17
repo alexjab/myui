@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Disc = ({ name, size, ...props }) => {
+const Disc = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

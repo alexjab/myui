@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Upload = ({ name, size, ...props }) => {
+const Upload = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

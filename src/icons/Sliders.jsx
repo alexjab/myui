@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Sliders = ({ name, size, ...props }) => {
+const Sliders = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

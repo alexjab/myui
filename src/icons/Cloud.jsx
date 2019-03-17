@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Cloud = ({ name, size, ...props }) => {
+const Cloud = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

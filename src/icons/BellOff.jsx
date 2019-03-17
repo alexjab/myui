@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const BellOff = ({ name, size, ...props }) => {
+const BellOff = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

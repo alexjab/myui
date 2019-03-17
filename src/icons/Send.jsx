@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Send = ({ name, size, ...props }) => {
+const Send = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

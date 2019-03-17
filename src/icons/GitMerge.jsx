@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const GitMerge = ({ name, size, ...props }) => {
+const GitMerge = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

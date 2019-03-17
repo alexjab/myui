@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const GitBranch = ({ name, size, ...props }) => {
+const GitBranch = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

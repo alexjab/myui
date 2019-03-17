@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ShieldOff = ({ name, size, ...props }) => {
+const ShieldOff = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

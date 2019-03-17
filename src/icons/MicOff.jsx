@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MicOff = ({ name, size, ...props }) => {
+const MicOff = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

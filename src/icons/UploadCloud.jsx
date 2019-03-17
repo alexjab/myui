@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const UploadCloud = ({ name, size, ...props }) => {
+const UploadCloud = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Maximize = ({ name, size, ...props }) => {
+const Maximize = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

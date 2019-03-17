@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const SkipBack = ({ name, size, ...props }) => {
+const SkipBack = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

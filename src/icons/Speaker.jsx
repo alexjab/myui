@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Speaker = ({ name, size, ...props }) => {
+const Speaker = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AlignLeft = ({ name, size, ...props }) => {
+const AlignLeft = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

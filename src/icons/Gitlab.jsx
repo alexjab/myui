@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Gitlab = ({ name, size, ...props }) => {
+const Gitlab = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

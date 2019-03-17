@@ -1,5 +1,4 @@
 import React from 'react'
-import { action } from '@storybook/addon-actions'
 
 import { H1, H2 } from '../src/components/Heading'
 import Hr from '../src/components/Hr'

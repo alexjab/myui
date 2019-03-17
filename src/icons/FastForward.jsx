@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const FastForward = ({ name, size, ...props }) => {
+const FastForward = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

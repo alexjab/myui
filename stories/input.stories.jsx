@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Input from '../src/components/Input'
-import Button from '../src/components/Button'
 
 import AlertTriangleIcon from '../src/icons/AlertTriangle'
 import SearchIcon from '../src/icons/Search'

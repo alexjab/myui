@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Award = ({ name, size, ...props }) => {
+const Award = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

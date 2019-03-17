@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PlusSquare = ({ name, size, ...props }) => {
+const PlusSquare = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

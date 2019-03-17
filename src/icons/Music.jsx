@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Music = ({ name, size, ...props }) => {
+const Music = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

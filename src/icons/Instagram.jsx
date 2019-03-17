@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Instagram = ({ name, size, ...props }) => {
+const Instagram = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ArrowUpLeft = ({ name, size, ...props }) => {
+const ArrowUpLeft = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Printer = ({ name, size, ...props }) => {
+const Printer = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

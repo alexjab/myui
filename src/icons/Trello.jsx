@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Trello = ({ name, size, ...props }) => {
+const Trello = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

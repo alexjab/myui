@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Sunset = ({ name, size, ...props }) => {
+const Sunset = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

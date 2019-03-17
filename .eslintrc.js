@@ -9,7 +9,16 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jest/recommended',
+    'react-app',
   ],
+  rules: {
+    'no-unused-vars': [
+      'error',
+      {
+        ignoreRestSiblings: true,
+      },
+    ],
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

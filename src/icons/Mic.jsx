@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Mic = ({ name, size, ...props }) => {
+const Mic = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

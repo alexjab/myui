@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Lock = ({ name, size, ...props }) => {
+const Lock = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

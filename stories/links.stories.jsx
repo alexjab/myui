@@ -1,5 +1,4 @@
 import React from 'react'
-import feather from 'feather-icons'
 
 export const description = 'Links'
 

@@ -1,9 +1,15 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import { light as lightTheme } from '../core/themes'
 
 class BaseTab extends React.Component {
+  propTypes = {
+    index: PropTypes.number.isRequired,
+    selectTab: PropTypes.func.isRequired,
+  }
+
   selectTab = () => {
     const { index, selectTab } = this.props
 

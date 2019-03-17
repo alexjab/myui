@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ZoomIn = ({ name, size, ...props }) => {
+const ZoomIn = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

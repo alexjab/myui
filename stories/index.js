@@ -1,5 +1,5 @@
 import React from 'react'
-import { configure, storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/react'
 
 import ThemeProvider from '../src/components/ThemeProvider'
 import GlobalStyle from '../src/components/GlobalStyle'

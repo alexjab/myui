@@ -31,8 +31,7 @@ const Container = styled.div`
   font-size: ${({ isLarge, theme }) =>
     isLarge ? theme.largeFontSize : theme.fontSize};
 
-  display: ${({ isFullWidth, theme }) =>
-    isFullWidth ? 'flex' : 'inline-flex'};
+  display: ${({ isFullWidth }) => (isFullWidth ? 'flex' : 'inline-flex')};
   justify-content: flex-start;
   align-items: center;
 

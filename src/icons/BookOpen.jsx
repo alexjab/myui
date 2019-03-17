@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const BookOpen = ({ name, size, ...props }) => {
+const BookOpen = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

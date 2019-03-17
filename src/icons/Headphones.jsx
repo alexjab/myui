@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Headphones = ({ name, size, ...props }) => {
+const Headphones = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Cpu = ({ name, size, ...props }) => {
+const Cpu = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

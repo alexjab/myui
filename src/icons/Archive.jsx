@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Archive = ({ name, size, ...props }) => {
+const Archive = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

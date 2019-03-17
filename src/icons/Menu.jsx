@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Menu = ({ name, size, ...props }) => {
+const Menu = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

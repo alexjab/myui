@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Play = ({ name, size, ...props }) => {
+const Play = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

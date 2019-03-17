@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ShoppingCart = ({ name, size, ...props }) => {
+const ShoppingCart = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

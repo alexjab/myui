@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AlertTriangle = ({ name, size, ...props }) => {
+const AlertTriangle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

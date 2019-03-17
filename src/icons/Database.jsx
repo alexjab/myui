@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Database = ({ name, size, ...props }) => {
+const Database = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

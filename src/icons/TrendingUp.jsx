@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const TrendingUp = ({ name, size, ...props }) => {
+const TrendingUp = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

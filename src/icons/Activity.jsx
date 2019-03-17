@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Activity = ({ name, size, ...props }) => {
+const Activity = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

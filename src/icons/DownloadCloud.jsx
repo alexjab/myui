@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const DownloadCloud = ({ name, size, ...props }) => {
+const DownloadCloud = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

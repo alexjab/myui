@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Trash2 = ({ name, size, ...props }) => {
+const Trash2 = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

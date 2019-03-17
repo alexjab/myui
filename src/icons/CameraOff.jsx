@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const CameraOff = ({ name, size, ...props }) => {
+const CameraOff = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

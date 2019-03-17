@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Airplay = ({ name, size, ...props }) => {
+const Airplay = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

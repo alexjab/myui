@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Folder = ({ name, size, ...props }) => {
+const Folder = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Rss = ({ name, size, ...props }) => {
+const Rss = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

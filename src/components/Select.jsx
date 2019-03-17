@@ -10,7 +10,7 @@ const Container = styled.div`
   cursor: pointer;
   position: relative;
 
-  ${({ disabled }) => (disabled ? 'cursor: not-allowed;' : null)}
+  ${({ disabled }) => (disabled ? 'cursor: not-allowed;' : null)};
 `
 
 const ValueContainer = styled.div`
@@ -159,7 +159,7 @@ export default class Select extends React.Component {
     )
   }
 
-  onContainerClick = event => {
+  onContainerClick = () => {
     if (this.props.disabled) {
       return
     }
@@ -169,10 +169,8 @@ export default class Select extends React.Component {
     }))
   }
 
-  onContainerBlur = event => {
-    this.setState(({ isOptionsVisible }) => ({
-      isOptionsVisible: false,
-    }))
+  onContainerBlur = () => {
+    this.setState({ isOptionsVisible: false })
   }
 
   renderOptions = options => {

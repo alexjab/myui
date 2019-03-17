@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Battery = ({ name, size, ...props }) => {
+const Battery = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

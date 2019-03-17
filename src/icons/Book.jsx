@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Book = ({ name, size, ...props }) => {
+const Book = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

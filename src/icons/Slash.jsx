@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Slash = ({ name, size, ...props }) => {
+const Slash = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

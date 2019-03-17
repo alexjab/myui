@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Share = ({ name, size, ...props }) => {
+const Share = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

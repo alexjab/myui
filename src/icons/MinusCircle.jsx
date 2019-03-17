@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MinusCircle = ({ name, size, ...props }) => {
+const MinusCircle = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

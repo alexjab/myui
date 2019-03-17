@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Codepen = ({ name, size, ...props }) => {
+const Codepen = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

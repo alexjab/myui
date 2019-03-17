@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Octagon = ({ name, size, ...props }) => {
+const Octagon = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

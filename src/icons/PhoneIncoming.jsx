@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PhoneIncoming = ({ name, size, ...props }) => {
+const PhoneIncoming = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

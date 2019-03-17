@@ -1,5 +1,4 @@
 import React from 'react'
-import feather from 'feather-icons'
 
 import Card from '../src/components/Card'
 import HeadsUp from '../src/components/HeadsUp'

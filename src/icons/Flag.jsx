@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Flag = ({ name, size, ...props }) => {
+const Flag = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

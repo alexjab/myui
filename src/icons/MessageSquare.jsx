@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MessageSquare = ({ name, size, ...props }) => {
+const MessageSquare = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

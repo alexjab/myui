@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Minimize2 = ({ name, size, ...props }) => {
+const Minimize2 = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

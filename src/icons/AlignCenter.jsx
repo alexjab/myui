@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AlignCenter = ({ name, size, ...props }) => {
+const AlignCenter = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

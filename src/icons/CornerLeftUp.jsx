@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const CornerLeftUp = ({ name, size, ...props }) => {
+const CornerLeftUp = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

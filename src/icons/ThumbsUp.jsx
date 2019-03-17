@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ThumbsUp = ({ name, size, ...props }) => {
+const ThumbsUp = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

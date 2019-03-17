@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Filter = ({ name, size, ...props }) => {
+const Filter = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

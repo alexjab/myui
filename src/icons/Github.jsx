@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Github = ({ name, size, ...props }) => {
+const Github = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

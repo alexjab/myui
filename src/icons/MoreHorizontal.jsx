@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MoreHorizontal = ({ name, size, ...props }) => {
+const MoreHorizontal = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

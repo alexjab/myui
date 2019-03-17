@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Compass = ({ name, size, ...props }) => {
+const Compass = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

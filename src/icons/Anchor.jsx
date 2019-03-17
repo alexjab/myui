@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Anchor = ({ name, size, ...props }) => {
+const Anchor = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

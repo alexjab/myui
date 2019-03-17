@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Cast = ({ name, size, ...props }) => {
+const Cast = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

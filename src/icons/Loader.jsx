@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Loader = ({ name, size, ...props }) => {
+const Loader = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

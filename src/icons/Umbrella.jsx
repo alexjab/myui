@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Umbrella = ({ name, size, ...props }) => {
+const Umbrella = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

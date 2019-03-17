@@ -19,7 +19,7 @@ for (const iconName of Object.keys(feather.icons)) {
   const component = `import React from 'react'
 import styled from 'styled-components'
 
-const ${componentName} = ({ name, size, ...props }) => {
+const ${componentName} = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

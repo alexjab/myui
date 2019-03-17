@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Hash = ({ name, size, ...props }) => {
+const Hash = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

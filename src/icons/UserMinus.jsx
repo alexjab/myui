@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const UserMinus = ({ name, size, ...props }) => {
+const UserMinus = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

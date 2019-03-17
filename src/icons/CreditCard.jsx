@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const CreditCard = ({ name, size, ...props }) => {
+const CreditCard = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

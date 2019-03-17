@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const RotateCcw = ({ name, size, ...props }) => {
+const RotateCcw = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Crosshair = ({ name, size, ...props }) => {
+const Crosshair = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

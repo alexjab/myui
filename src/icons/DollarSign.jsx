@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const DollarSign = ({ name, size, ...props }) => {
+const DollarSign = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

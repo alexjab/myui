@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Film = ({ name, size, ...props }) => {
+const Film = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

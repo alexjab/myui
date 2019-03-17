@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Globe = ({ name, size, ...props }) => {
+const Globe = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const WifiOff = ({ name, size, ...props }) => {
+const WifiOff = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

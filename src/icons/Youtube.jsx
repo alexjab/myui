@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Youtube = ({ name, size, ...props }) => {
+const Youtube = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

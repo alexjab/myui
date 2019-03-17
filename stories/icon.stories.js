@@ -1,5 +1,4 @@
 import React from 'react'
-import feather from 'feather-icons'
 
 const req = require.context('../src/icons/', false, /\.jsx?$/)
 import LayersIcon from '../src/icons/Layers'

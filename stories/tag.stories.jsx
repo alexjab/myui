@@ -1,5 +1,4 @@
 import React from 'react'
-import feather from 'feather-icons'
 
 import Tag from '../src/components/Tag'
 

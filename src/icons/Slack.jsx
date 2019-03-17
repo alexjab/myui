@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Slack = ({ name, size, ...props }) => {
+const Slack = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{

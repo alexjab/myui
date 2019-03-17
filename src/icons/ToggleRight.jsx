@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ToggleRight = ({ name, size, ...props }) => {
+const ToggleRight = ({ size, ...props }) => {
   return (
     <span
       dangerouslySetInnerHTML={{
