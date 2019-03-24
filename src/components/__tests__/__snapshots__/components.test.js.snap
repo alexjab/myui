@@ -143,7 +143,7 @@ exports[`Story of ActionsButton Primary 1`] = `
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -162,11 +162,11 @@ exports[`Story of ActionsButton Primary 1`] = `
 }
 
 .c1:hover {
-  background-color: #267ae9;
+  background-color: #1a74eb;
 }
 
 .c1:active {
-  background-color: #488fed;
+  background-color: #3d8aee;
   color: #ffffff;
 }
 
@@ -183,7 +183,7 @@ exports[`Story of ActionsButton Primary 1`] = `
 }
 
 .c0 {
-  position: relative;
+  display: inline;
   outline: none;
 }
 
@@ -1149,23 +1149,6 @@ exports[`Story of Button Default outlined 1`] = `
 `;
 
 exports[`Story of Button Default with both icons 1`] = `
-.c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 0;
-  padding-right: 5px;
-}
-
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1181,6 +1164,23 @@ exports[`Story of Button Default with both icons 1`] = `
   align-items: center;
   padding-left: 5px;
   padding-right: 0;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 5px;
 }
 
 .c0 {
@@ -1810,7 +1810,7 @@ exports[`Story of Button Primary 1`] = `
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -1829,11 +1829,11 @@ exports[`Story of Button Primary 1`] = `
 }
 
 .c0:hover {
-  background-color: #267ae9;
+  background-color: #1a74eb;
 }
 
 .c0:active {
-  background-color: #488fed;
+  background-color: #3d8aee;
   color: #ffffff;
 }
 
@@ -1865,7 +1865,7 @@ exports[`Story of Button Primary inverted 1`] = `
   padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
-  color: #1a73e8;
+  color: #146ee4;
   border: 1px solid transparent;
   border-radius: 4px;
   font-weight: 600;
@@ -1883,12 +1883,12 @@ exports[`Story of Button Primary inverted 1`] = `
 }
 
 .c0:hover {
-  background-color: #ebf2fd;
+  background-color: #e1edfc;
 }
 
 .c0:active {
-  background-color: #d3e4fb;
-  color: #1a73e8;
+  background-color: #cadffa;
+  color: #146ee4;
 }
 
 <button
@@ -1973,7 +1973,7 @@ exports[`Story of Button Primary large 1`] = `
   padding-left: 18px;
   padding-right: 18px;
   height: 40px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -1992,11 +1992,11 @@ exports[`Story of Button Primary large 1`] = `
 }
 
 .c0:hover {
-  background-color: #267ae9;
+  background-color: #1a74eb;
 }
 
 .c0:active {
-  background-color: #488fed;
+  background-color: #3d8aee;
   color: #ffffff;
 }
 
@@ -2028,7 +2028,7 @@ exports[`Story of Button Primary large inverted 1`] = `
   padding-right: 18px;
   height: 40px;
   background-color: #ffffff;
-  color: #1a73e8;
+  color: #146ee4;
   border: 1px solid transparent;
   border-radius: 4px;
   font-weight: 600;
@@ -2046,12 +2046,12 @@ exports[`Story of Button Primary large inverted 1`] = `
 }
 
 .c0:hover {
-  background-color: #ebf2fd;
+  background-color: #e1edfc;
 }
 
 .c0:active {
-  background-color: #d3e4fb;
-  color: #1a73e8;
+  background-color: #cadffa;
+  color: #146ee4;
 }
 
 <button
@@ -2082,8 +2082,8 @@ exports[`Story of Button Primary large outlined 1`] = `
   padding-right: 18px;
   height: 40px;
   background-color: #ffffff;
-  color: #1a73e8;
-  border: 1px solid #1a73e8;
+  color: #146ee4;
+  border: 1px solid #146ee4;
   border-radius: 4px;
   font-weight: 600;
   font-size: 14px;
@@ -2100,12 +2100,12 @@ exports[`Story of Button Primary large outlined 1`] = `
 }
 
 .c0:hover {
-  background-color: #f4f8fe;
+  background-color: #eaf3fd;
 }
 
 .c0:active {
-  background-color: #ebf2fd;
-  color: #1a73e8;
+  background-color: #e1edfc;
+  color: #146ee4;
 }
 
 <button
@@ -2152,7 +2152,7 @@ exports[`Story of Button Primary large with only icon 1`] = `
   padding-left: 14px;
   padding-right: 14px;
   height: 40px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2171,11 +2171,11 @@ exports[`Story of Button Primary large with only icon 1`] = `
 }
 
 .c0:hover {
-  background-color: #267ae9;
+  background-color: #1a74eb;
 }
 
 .c0:active {
-  background-color: #488fed;
+  background-color: #3d8aee;
   color: #ffffff;
 }
 
@@ -2231,8 +2231,8 @@ exports[`Story of Button Primary outlined 1`] = `
   padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
-  color: #1a73e8;
-  border: 1px solid #1a73e8;
+  color: #146ee4;
+  border: 1px solid #146ee4;
   border-radius: 4px;
   font-weight: 600;
   font-size: 12px;
@@ -2249,12 +2249,12 @@ exports[`Story of Button Primary outlined 1`] = `
 }
 
 .c0:hover {
-  background-color: #f4f8fe;
+  background-color: #eaf3fd;
 }
 
 .c0:active {
-  background-color: #ebf2fd;
-  color: #1a73e8;
+  background-color: #e1edfc;
+  color: #146ee4;
 }
 
 <button
@@ -2302,8 +2302,8 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
   padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
-  color: #1a73e8;
-  border: 1px solid #1a73e8;
+  color: #146ee4;
+  border: 1px solid #146ee4;
   border-radius: 4px;
   font-weight: 600;
   font-size: 12px;
@@ -2320,12 +2320,12 @@ exports[`Story of Button Primary outlined with icon left 1`] = `
 }
 
 .c0:hover {
-  background-color: #f4f8fe;
+  background-color: #eaf3fd;
 }
 
 .c0:active {
-  background-color: #ebf2fd;
-  color: #1a73e8;
+  background-color: #e1edfc;
+  color: #146ee4;
 }
 
 .c2 {
@@ -2397,8 +2397,8 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
   padding-right: 14px;
   height: 32px;
   background-color: #ffffff;
-  color: #1a73e8;
-  border: 1px solid #1a73e8;
+  color: #146ee4;
+  border: 1px solid #146ee4;
   border-radius: 4px;
   font-weight: 600;
   font-size: 12px;
@@ -2415,12 +2415,12 @@ exports[`Story of Button Primary outlined with icon right 1`] = `
 }
 
 .c0:hover {
-  background-color: #f4f8fe;
+  background-color: #eaf3fd;
 }
 
 .c0:active {
-  background-color: #ebf2fd;
-  color: #1a73e8;
+  background-color: #e1edfc;
+  color: #146ee4;
 }
 
 .c2 {
@@ -2492,7 +2492,7 @@ exports[`Story of Button Primary with icon 1`] = `
   padding-left: 14px;
   padding-right: 14px;
   height: 32px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2511,11 +2511,11 @@ exports[`Story of Button Primary with icon 1`] = `
 }
 
 .c0:hover {
-  background-color: #267ae9;
+  background-color: #1a74eb;
 }
 
 .c0:active {
-  background-color: #488fed;
+  background-color: #3d8aee;
   color: #ffffff;
 }
 
@@ -2588,7 +2588,7 @@ exports[`Story of Button Primary with only icon 1`] = `
   padding-left: 10px;
   padding-right: 10px;
   height: 32px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2607,11 +2607,11 @@ exports[`Story of Button Primary with only icon 1`] = `
 }
 
 .c0:hover {
-  background-color: #267ae9;
+  background-color: #1a74eb;
 }
 
 .c0:active {
-  background-color: #488fed;
+  background-color: #3d8aee;
   color: #ffffff;
 }
 
@@ -2648,18 +2648,18 @@ exports[`Story of Button Primary with only icon 1`] = `
 `;
 
 exports[`Story of Card Card 1`] = `
-.c0 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
 .c1 {
   padding-top: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
+}
+
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
 }
 
 <div
@@ -2686,17 +2686,6 @@ exports[`Story of Card Card 1`] = `
 `;
 
 exports[`Story of Card Card on a dark background 1`] = `
-.c0 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c2 {
-  border-top: 1px solid #dcdcdc;
-}
-
 .c1 {
   padding-top: 12px;
   padding-right: 15px;
@@ -2709,6 +2698,17 @@ exports[`Story of Card Card on a dark background 1`] = `
   padding-right: 15px;
   padding-bottom: 12px;
   padding-left: 15px;
+}
+
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
+.c2 {
+  border-top: 1px solid #dcdcdc;
 }
 
 <div
@@ -2751,17 +2751,6 @@ exports[`Story of Card Card on a dark background 1`] = `
 `;
 
 exports[`Story of Card Card with separator 1`] = `
-.c0 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c2 {
-  border-top: 1px solid #dcdcdc;
-}
-
 .c1 {
   padding-top: 12px;
   padding-right: 15px;
@@ -2774,6 +2763,17 @@ exports[`Story of Card Card with separator 1`] = `
   padding-right: 15px;
   padding-bottom: 12px;
   padding-left: 15px;
+}
+
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
+.c2 {
+  border-top: 1px solid #dcdcdc;
 }
 
 <div
@@ -2807,17 +2807,6 @@ exports[`Story of Card Card with separator 1`] = `
 `;
 
 exports[`Story of Card Card with title and table 1`] = `
-.c0 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c3 {
-  border-top: 1px solid #dcdcdc;
-}
-
 .c1 {
   padding-top: 10px;
   padding-right: 15px;
@@ -2830,6 +2819,17 @@ exports[`Story of Card Card with title and table 1`] = `
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
+}
+
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
+.c3 {
+  border-top: 1px solid #dcdcdc;
 }
 
 .c5 {
@@ -3689,7 +3689,7 @@ Array [
 .c1 {
   width: 150px;
   height: 150px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
 }
 
 .c2 {
@@ -3710,12 +3710,12 @@ Array [
   >
     <div
       className="c1"
-      color="#1a73e8"
+      color="#146ee4"
     />
     <div
       className="c2"
     >
-      #1A73E8
+      #146EE4
     </div>
     <div
       className="c3"
@@ -4398,6 +4398,7 @@ Array [
   color: #e34160;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4409,14 +4410,7 @@ Array [
       This is an important message
     </div>
   </div>,
-  .c1 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c0 {
+  .c0 {
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -4430,11 +4424,19 @@ Array [
   padding-left: 20px;
 }
 
+.c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
 .c3 {
   font-weight: 600;
   color: #e34160;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4479,6 +4481,7 @@ Array [
   color: #383838;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4490,14 +4493,7 @@ Array [
       This is an important message
     </div>
   </div>,
-  .c1 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c0 {
+  .c0 {
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -4511,11 +4507,19 @@ Array [
   padding-left: 20px;
 }
 
+.c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
 .c3 {
   font-weight: 600;
   color: #383838;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4557,9 +4561,10 @@ Array [
 
 .c1 {
   font-weight: 600;
-  color: #1a73e8;
+  color: #146ee4;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4571,14 +4576,7 @@ Array [
       This is an important message
     </div>
   </div>,
-  .c1 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c0 {
+  .c0 {
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -4592,11 +4590,19 @@ Array [
   padding-left: 20px;
 }
 
+.c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
 .c3 {
   font-weight: 600;
-  color: #1a73e8;
+  color: #146ee4;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4641,6 +4647,7 @@ Array [
   color: #34d47a;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -4652,14 +4659,7 @@ Array [
       This is an important message
     </div>
   </div>,
-  .c1 {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border: 1px solid gainsboro;
-}
-
-.c0 {
+  .c0 {
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -4673,11 +4673,19 @@ Array [
   padding-left: 20px;
 }
 
+.c1 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid gainsboro;
+}
+
 .c3 {
   font-weight: 600;
   color: #34d47a;
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 
 <div
@@ -7644,7 +7652,7 @@ Array [
   padding-right: 15px;
   padding-top: 13px;
   padding-bottom: 14px;
-  border-bottom: 3px solid #1a73e8;
+  border-bottom: 3px solid #146ee4;
   height: 1em;
   font-weight: 600;
   cursor: pointer;
@@ -7775,7 +7783,7 @@ exports[`Story of Tabs Tabs 1`] = `
   padding-right: 15px;
   padding-top: 13px;
   padding-bottom: 14px;
-  border-bottom: 3px solid #1a73e8;
+  border-bottom: 3px solid #146ee4;
   height: 1em;
   font-weight: 600;
   cursor: pointer;
@@ -7852,7 +7860,7 @@ exports[`Story of Tabs Tabs with default tab 1`] = `
   padding-right: 15px;
   padding-top: 13px;
   padding-bottom: 14px;
-  border-bottom: 3px solid #1a73e8;
+  border-bottom: 3px solid #146ee4;
   height: 1em;
   font-weight: 600;
   cursor: pointer;
@@ -7983,7 +7991,7 @@ exports[`Story of Tag Primary tag 1`] = `
   display: inline-flex;
   padding: 4px 8px 4px 8px;
   border-radius: 3px;
-  background-color: #1a73e8;
+  background-color: #146ee4;
   color: #ffffff;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -8054,6 +8062,24 @@ exports[`Story of Textarea Fullwidth 1`] = `
 `;
 
 exports[`Story of Toolbar Toolbar 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
 .c1 {
   height: 20px;
   display: -webkit-inline-box;
@@ -8076,24 +8102,6 @@ exports[`Story of Toolbar Toolbar 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
 }
 
 <div
@@ -8181,44 +8189,6 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
   color: #555555;
 }
 
-.c5 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c9 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c7 {
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-}
-
-.c2 {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8295,6 +8265,44 @@ exports[`Story of Toolbar Toolbar with border and padding 1`] = `
   -ms-flex-align: stretch;
   align-items: stretch;
   border-left: 1px solid #d3d3d3;
+}
+
+.c7 {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.c5 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -8433,37 +8441,6 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
   color: #555555;
 }
 
-.c5 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c7 {
-  height: 14px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c2 {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8522,6 +8499,37 @@ exports[`Story of Toolbar Toolbar with expanded column and fixed column 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+.c2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.c5 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div

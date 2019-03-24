@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { light as lightTheme } from '../core/themes'
 
 class BaseTab extends React.Component {
-  propTypes = {
+  static propTypes = {
     index: PropTypes.number.isRequired,
     selectTab: PropTypes.func.isRequired,
   }
