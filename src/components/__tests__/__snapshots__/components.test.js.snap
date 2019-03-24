@@ -1,5 +1,112 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Story of ActionsButton Other Button props 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 9px;
+  padding-right: 0;
+}
+
+.c1 {
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #e34160;
+  border: 1px solid #e34160;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c1:not(:first-child) {
+  margin-left: 5px;
+}
+
+.c1[disabled] {
+  cursor: not-allowed;
+}
+
+.c1:hover {
+  background-color: #fdf3f5;
+}
+
+.c1:active {
+  background-color: #fbe5ea;
+  color: #e34160;
+}
+
+.c3 {
+  height: 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: inline;
+  outline: none;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  tabIndex="0"
+>
+  <button
+    className="c1"
+    onClick={[Function]}
+  >
+    My other action
+    <span
+      className="c2"
+      size="16px"
+    >
+      <span
+        className="c3"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"16px\\" height=\\"16px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-down\\"><polyline points=\\"6 9 12 15 18 9\\"></polyline></svg>",
+          }
+        }
+      />
+    </span>
+  </button>
+</div>
+`;
+
 exports[`Story of ActionsButton Primary 1`] = `
 .c2 {
   display: -webkit-inline-box;
@@ -90,6 +197,113 @@ exports[`Story of ActionsButton Primary 1`] = `
     onClick={[Function]}
   >
     My primary action
+    <span
+      className="c2"
+      size="16px"
+    >
+      <span
+        className="c3"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"14px\\" height=\\"14px\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"feather feather-chevron-down\\"><polyline points=\\"6 9 12 15 18 9\\"></polyline></svg>",
+          }
+        }
+      />
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Story of ActionsButton With saveChoice 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.c1 {
+  font-family: Inter,sans-serif;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #555555;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.c1:not(:first-child) {
+  margin-left: 5px;
+}
+
+.c1[disabled] {
+  cursor: not-allowed;
+}
+
+.c1:hover {
+  background-color: #f5f5f5;
+}
+
+.c1:active {
+  background-color: #dcdcdc;
+  color: #555555;
+}
+
+.c3 {
+  height: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: inline;
+  outline: none;
+}
+
+<div
+  className="c0"
+  onBlur={[Function]}
+  tabIndex="0"
+>
+  <button
+    className="c1"
+    onClick={[Function]}
+  >
+    My generic action
     <span
       className="c2"
       size="16px"
