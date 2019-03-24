@@ -54,4 +54,26 @@ export default [
       />
     ),
   },
+  {
+    name: 'With saveChoice',
+    element: (
+      <ActionsButton
+        buttonLabel="My generic action"
+        onActionClick={action('onActionClick')}
+        saveChoice
+        actions={[
+          {
+            icon: EyeIcon,
+            title: 'First action',
+            subtitle: 'This action does something',
+          },
+          {
+            icon: DropletIcon,
+            title: 'Second action',
+            subtitle: 'This action does something different',
+          },
+        ]}
+      />
+    ),
+  },
 ]

@@ -1,4 +1,4 @@
-export const primary = '#1a73e8'
+export const primary = '#146ee4'
 export const danger = '#e34160'
 export const success = '#34d47a'
 

@@ -15,6 +15,18 @@ const Container = styled.div`
   outline: none;
 `
 
+const getColor = ({ theme, isSelected, saveChoice }) => {
+  if (!saveChoice) {
+    return theme.colorDarker
+  }
+
+  if (isSelected) {
+    return theme.colorGreyBlack
+  }
+
+  return theme.colorGreyDarkest
+}
+
 const ActionsContainer = styled.div`
   position: absolute;
   margin-top: 5px;
@@ -36,19 +48,17 @@ const ActionContainer = styled.div`
 `
 
 const ActionIcon = styled.div`
-  color: ${({ theme, isSelected }) =>
-    isSelected ? theme.colorBlack : theme.colorGreyDarker};
+  color: ${getColor};
 `
 
 const ActionTitle = styled.div`
-  color: ${({ theme, isSelected }) =>
-    isSelected ? theme.colorBlack : theme.colorGreyDarkest};
+  color: ${getColor};
   font-weight: bold;
 `
 
 const ActionSubtitle = styled.div`
-  color: ${({ theme, isSelected }) =>
-    isSelected ? theme.colorBlack : theme.colorGreyDarkest};
+  color: ${getColor};
+  margin-top: 5px;
 `
 
 export default class ButtonActions extends React.Component {
@@ -77,9 +87,17 @@ export default class ButtonActions extends React.Component {
   }
 
   onActionClick = event => {
+    const { saveChoice } = this.props
+
     const index = parseInt(event.currentTarget.dataset.index, 10)
 
-    this.setState({ isActionsVisible: false, selectedIndex: index }, () => {
+    const stateUpdate = { isActionsVisible: false }
+
+    if (saveChoice) {
+      stateUpdate.selectedIndex = index
+    }
+
+    this.setState(stateUpdate, () => {
       const { onActionClick } = this.props
 
       if (onActionClick) {
@@ -104,6 +122,7 @@ export default class ButtonActions extends React.Component {
       isOutlined,
       isInverted,
       isFullWidth,
+      saveChoice,
     } = this.props
     const { isActionsVisible, selectedIndex } = this.state
 
@@ -136,23 +155,32 @@ export default class ButtonActions extends React.Component {
                 <Toolbar hasBorderTop={index}>
                   {action.icon ? (
                     <Padder padding="10px">
-                      <ActionIcon isSelected={selectedIndex === index}>
+                      <ActionIcon
+                        isSelected={selectedIndex === index}
+                        saveChoice={saveChoice}
+                      >
                         {<action.icon />}
                       </ActionIcon>
                     </Padder>
                   ) : null}
                   <Padder top="10px" bottom="10px" right="10px">
                     <Stack>
-                      <ActionTitle isSelected={selectedIndex === index}>
+                      <ActionTitle
+                        isSelected={selectedIndex === index}
+                        saveChoice={saveChoice}
+                      >
                         <Toolbar>
                           {action.title}
                           &nbsp;{' '}
-                          {selectedIndex === index ? (
+                          {saveChoice && selectedIndex === index ? (
                             <CheckIcon size={16} />
                           ) : null}
                         </Toolbar>
                       </ActionTitle>
-                      <ActionSubtitle isSelected={selectedIndex === index}>
+                      <ActionSubtitle
+                        isSelected={selectedIndex === index}
+                        saveChoice={saveChoice}
+                      >
                         {action.subtitle}
                       </ActionSubtitle>
                     </Stack>
