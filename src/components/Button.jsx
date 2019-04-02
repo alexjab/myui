@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { lighten } from 'polished'
 
@@ -301,6 +302,20 @@ const Button = styled(BaseButton)`
 
 Button.defaultProps = {
   theme: lightTheme,
+  disabled: false,
+  isDanger: false,
+}
+
+Button.propTypes = {
+  disabled: PropTypes.bool.isRequired,
+  isDanger: PropTypes.bool,
+  isInverted: PropTypes.bool,
+  isOutlined: PropTypes.bool,
+  isPrimary: PropTypes.bool,
+  iconLeft: PropTypes.element,
+  iconRight: PropTypes.element,
+  isFullWidth: PropTypes.bool,
+  isLarge: PropTypes.bool,
 }
 
 export default Button

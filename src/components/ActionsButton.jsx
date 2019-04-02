@@ -61,14 +61,30 @@ const ActionSubtitle = styled.div`
   margin-top: 5px;
 `
 
-export default class ButtonActions extends React.Component {
+export default class ActionsButton extends React.Component {
   static defaultProps = {
     isPrimary: false,
   }
 
   static propTypes = {
+    actions: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string,
+        subtitle: PropTypes.string,
+        icon: PropTypes.element,
+      })
+    ).isRequired,
     buttonLabel: PropTypes.string.isRequired,
+    disabled: PropTypes.bool,
+    iconLeft: PropTypes.element,
+    isDanger: PropTypes.bool,
+    isFullWidth: PropTypes.bool,
+    isInverted: PropTypes.bool,
+    isLarge: PropTypes.bool,
+    isOutlined: PropTypes.bool,
+    isPrimary: PropTypes.bool,
     onActionClick: PropTypes.func,
+    saveChoice: PropTypes.bool,
   }
 
   constructor(props) {
