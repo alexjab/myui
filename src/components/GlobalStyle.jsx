@@ -4,9 +4,9 @@ import { light as lightTheme } from '../core/themes'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: ${props => props.theme.fontFamily};
-    font-size: ${props => props.theme.fontSize};
-    background-color: ${props => props.theme.backgroundColor};
+    font-family: ${({ theme }) => theme.fontFamily};
+    font-size: ${({ theme }) => theme.fontSize};
+    background-color: ${({ theme }) => theme.backgroundColor};
     margin: 0;
   }
 

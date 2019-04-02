@@ -1,11 +1,12 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
+import { withKnobs, boolean } from '@storybook/addon-knobs'
 
 import ThemeProvider from '../src/components/ThemeProvider'
 import GlobalStyle from '../src/components/GlobalStyle'
 
 const GlobalDecorator = storyFn => (
-  <ThemeProvider>
+  <ThemeProvider isDark={boolean('Dark theme', false)}>
     {storyFn()}
 
     <GlobalStyle />
@@ -18,8 +19,9 @@ const MarginsDecorator = storyFn => (
 
 function createStoriesOf(nameOfStory, stories) {
   const storiesOfElement = storiesOf(nameOfStory, module)
-    .addDecorator(GlobalDecorator)
     .addDecorator(MarginsDecorator)
+    .addDecorator(withKnobs)
+    .addDecorator(GlobalDecorator)
 
   for (const story of stories) {
     storiesOfElement.add(story.name, () => story.element)
